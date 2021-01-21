@@ -1,10 +1,10 @@
-# #100DaysOfCode Log - Round 1 - [Your Name Here]
+# #100DaysOfCode Log - Round 1 - Heiko Blomenkamp
 
-The log of my #100DaysOfCode challenge. Started on [July 17, Monday, 2017].
+The log of my [#100DaysOfCode](https://twitter.com/hashtag/100daysofcode) challenge. Started on January 20, Wednesday, 2021.
 
 ## Log
 
-### R1D1 
-Started a Weather App. Worked on the draft layout of the app, struggled with OpenWeather API http://www.example.com
+### R1D1
+Started markdown version of "Think Java 2e". Learned how to set links and blocks of code. http://blomenk.bplaced.net/thinkjava/ 
 
 ### R1D2
