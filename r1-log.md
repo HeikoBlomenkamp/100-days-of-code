@@ -8,3 +8,6 @@ The log of my [#100DaysOfCode](https://twitter.com/hashtag/100daysofcode) challe
 Started markdown version of "Think Java 2e". Learned how to set links and blocks of code. http://blomenk.bplaced.net/thinkjava/ 
 
 ### R1D2
+thinkjava.md: Added TOC & start of Preface. Learned how to create unordered lists & anchors. https://www.markdownguide.org/
+
+### R1D3
