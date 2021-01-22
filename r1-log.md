@@ -11,3 +11,6 @@ Started markdown version of "Think Java 2e". Learned how to set links and blocks
 thinkjava.md: Added TOC & start of Preface. Learned how to create unordered lists & anchors. https://www.markdownguide.org/
 
 ### R1D3
+Installed Anki on openSUSE Tumbleweed. Added 20 flashcards. Learned how to add css style="text-align: left;" to a flashcard.
+
+### R1D4
