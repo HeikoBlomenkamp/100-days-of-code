@@ -17,3 +17,6 @@ Installed Anki on openSUSE Tumbleweed. Added 20 flashcards. Learned how to add c
 thinkjava.md: Added The Philosophy Behind the Book. Learned how to create definition lists & added those to a flashcard.
 
 ### R1D5
+thinkjava.md: Cleaned heading levels. Added 3 new subchapters of the Preface. Updated the dillinger.io transformation script.
+
+### R1D6
