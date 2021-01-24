@@ -14,3 +14,6 @@ thinkjava.md: Added TOC & start of Preface. Learned how to create unordered list
 Installed Anki on openSUSE Tumbleweed. Added 20 flashcards. Learned how to add css style="text-align: left;" to a flashcard.
 
 ### R1D4
+thinkjava.md: Added The Philosophy Behind the Book. Learned how to create definition lists & added those to a flashcard.
+
+### R1D5
