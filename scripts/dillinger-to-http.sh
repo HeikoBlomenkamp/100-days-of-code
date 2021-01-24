@@ -1,8 +1,11 @@
 #!/bin/bash
 
-# $Id: dillinger-to-http.sh,v 1.1 2021/01/24 00:07:16 heiko Exp $
+# $Id: dillinger-to-http.sh,v 1.2 2021/01/24 22:56:06 heiko Exp $
 #
 # $Log: dillinger-to-http.sh,v $
+# Revision 1.2  2021/01/24 22:56:06  heiko
+# R1D5: Added three new headings (subchapters of TJ Preface).
+#
 # Revision 1.1  2021/01/24 00:07:16  heiko
 # Initial revision
 #
@@ -16,7 +19,10 @@ fi
 
 # Array of all headings
 HEADINGS=('Preface' \
-'The_Philosophy_Behind_the_Book')
+'The_Philosophy_Behind_the_Book' \
+'ObjectOriented_Programming' \
+'Changes_to_the_Second_Edition' \
+'About_the_Appendixes')
 
 # Keep original file
 cp -ua $1 $2
