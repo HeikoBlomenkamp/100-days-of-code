@@ -20,3 +20,6 @@ thinkjava.md: Added The Philosophy Behind the Book. Learned how to create defini
 thinkjava.md: Cleaned heading levels. Added 3 new subchapters of the Preface. Updated the dillinger.io transformation script.
 
 ### R1D6
+thinkjava.md: Finished the Preface. Learned how to insert UTF-8 chars. Forked https://github.com/ChrisMayfield/ThinkJavaCode2
+
+### R1D7
