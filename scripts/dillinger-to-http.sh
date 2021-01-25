@@ -1,8 +1,11 @@
 #!/bin/bash
 
-# $Id: dillinger-to-http.sh,v 1.2 2021/01/24 22:56:06 heiko Exp $
+# $Id: dillinger-to-http.sh,v 1.3 2021/01/25 20:51:00 heiko Exp $
 #
 # $Log: dillinger-to-http.sh,v $
+# Revision 1.3  2021/01/25 20:51:00  heiko
+# R1D6: Added two new headings (subchapters of TJ Preface).
+#
 # Revision 1.2  2021/01/24 22:56:06  heiko
 # R1D5: Added three new headings (subchapters of TJ Preface).
 #
@@ -22,7 +25,9 @@ HEADINGS=('Preface' \
 'The_Philosophy_Behind_the_Book' \
 'ObjectOriented_Programming' \
 'Changes_to_the_Second_Edition' \
-'About_the_Appendixes')
+'About_the_Appendixes' \
+'Using_the_Code_Examples' \
+'Acknowledgments')
 
 # Keep original file
 cp -ua $1 $2
