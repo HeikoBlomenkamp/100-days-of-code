@@ -1,8 +1,11 @@
 #!/bin/bash
 
-# $Id: dillinger-to-http.sh,v 1.3 2021/01/25 20:51:00 heiko Exp $
+# $Id: dillinger-to-http.sh,v 1.4 2021/01/26 23:19:52 heiko Exp $
 #
 # $Log: dillinger-to-http.sh,v $
+# Revision 1.4  2021/01/26 23:19:52  heiko
+# R1D7: Added two new headings (of TJ Chapter One).
+#
 # Revision 1.3  2021/01/25 20:51:00  heiko
 # R1D6: Added two new headings (subchapters of TJ Preface).
 #
@@ -27,7 +30,9 @@ HEADINGS=('Preface' \
 'Changes_to_the_Second_Edition' \
 'About_the_Appendixes' \
 'Using_the_Code_Examples' \
-'Acknowledgments')
+'Acknowledgments'
+'1_Computer_Programming' \
+'11_What_Is_a_Computer')
 
 # Keep original file
 cp -ua $1 $2
