@@ -26,3 +26,6 @@ thinkjava.md: Finished the Preface. Learned how to insert UTF-8 chars. Forked ht
 thinkjava.md: Finished subchapter: What Is a Computer? (1.1). Learned how to insert images. Added some ThinkJava2 files to repo.
 
 ### R1D8
+Added some flashcards to Anki (markdown UTF-8 chars, images). Started a quick test of ThinkJavaCode2. Did some offline studies.
+
+### R1D9
