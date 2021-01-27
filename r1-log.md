@@ -23,3 +23,6 @@ thinkjava.md: Cleaned heading levels. Added 3 new subchapters of the Preface. Up
 thinkjava.md: Finished the Preface. Learned how to insert UTF-8 chars. Forked https://github.com/ChrisMayfield/ThinkJavaCode2
 
 ### R1D7
+thinkjava.md: Finished subchapter: What Is a Computer? (1.1). Learned how to insert images. Added some ThinkJava2 files to repo.
+
+### R1D8
