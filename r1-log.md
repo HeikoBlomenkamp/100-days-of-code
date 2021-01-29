@@ -29,3 +29,6 @@ thinkjava.md: Finished subchapter: What Is a Computer? (1.1). Learned how to ins
 Added some flashcards to Anki (markdown UTF-8 chars, images). Started a quick test of ThinkJavaCode2. Did some offline studies.
 
 ### R1D9
+Installed Docker on workstation, for playing around with Linux commands. Learned how to use containers. Did offline studies.
+
+### R1D10
