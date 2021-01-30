@@ -32,3 +32,6 @@ Added some flashcards to Anki (markdown UTF-8 chars, images). Started a quick te
 Installed Docker on workstation, for playing around with Linux commands. Learned how to use containers. Did offline studies.
 
 ### R1D10
+thinkjava.md: Finished subchapter The Hello World program (1.3). Repeated some Python, and SQL. Updated transformation script.
+
+### R1D11
