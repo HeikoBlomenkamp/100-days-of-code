@@ -35,3 +35,6 @@ Installed Docker on workstation, for playing around with Linux commands. Learned
 thinkjava.md: Finished subchapter The Hello World program (1.3). Repeated some Python, and SQL. Updated transformation script.
 
 ### R1D11
+thinkjava.md: Finished subchapter Compiling Java Programs (1.4). Repeated some PHP & HTML by book. Updated transformation script.
+
+### R1D12
