@@ -38,3 +38,9 @@ thinkjava.md: Finished subchapter The Hello World program (1.3). Repeated some P
 thinkjava.md: Finished subchapter Compiling Java Programs (1.4). Repeated some PHP & HTML by book. Updated transformation script.
 
 ### R1D12
+Did a lot of offline Java studies. Also a lot of refreshing of PHP & HTML. Installed some tools for learning on my workstation.
+
+### R1D13
+Did a lot of offline Java studies. Also a lot of refreshing of PHP & HTML. Installed some tools for learning on my workstation.
+
+### R1D14
