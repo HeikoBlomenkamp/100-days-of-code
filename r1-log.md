@@ -44,3 +44,7 @@ Did a lot of offline Java studies. Also a lot of refreshing of PHP & HTML. Insta
 Did a lot of offline Java studies. Also a lot of refreshing of PHP & HTML. Installed some tools for learning on my workstation.
 
 ### R1D14
+thinkjava.md: Finished subchapter Formatting Source Code (1.6). Replaced source code in ThinkJava2 repo with textbook versions.
+
+### R1D15
+ 
