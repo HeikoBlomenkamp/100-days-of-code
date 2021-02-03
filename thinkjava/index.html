@@ -1,7 +1,10 @@
 <!DOCTYPE html><html><head><meta charset="utf-8"><title>thinkjava.md</title><style>@charset "UTF-8";@import 'https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0-alpha2/katex.min.css';code{color:#c7254e;background-color:#f9f2f4;border-radius:4px}code,kbd{padding:2px 4px}kbd{color:#fff;background-color:#333;border-radius:3px;box-shadow:inset 0 -1px 0 rgba(0,0,0,.25)}kbd kbd{padding:0;font-size:100%;box-shadow:none}pre{display:block;margin:0 0 10px;word-break:break-all;word-wrap:break-word;color:#333;background-color:#f5f5f5;border:1px solid #ccc;border-radius:4px}pre code{padding:0;font-size:inherit;color:inherit;white-space:pre-wrap;background-color:transparent;border-radius:0}.pre-scrollable{max-height:340px;overflow-y:scroll}table{background-color:transparent}th{text-align:left}.table{width:100%;max-width:100%;margin-bottom:20px}.table>thead>tr>th{padding:8px;line-height:1.4285714;border-top:1px solid #ddd}.table>thead>tr>td,.table>tbody>tr>th,.table>tbody>tr>td,.table>tfoot>tr>th,.table>tfoot>tr>td{padding:8px;line-height:1.4285714;vertical-align:top;border-top:1px solid #ddd}.table>thead>tr>th{vertical-align:bottom;border-bottom:2px solid #ddd}.table>caption+thead>tr:first-child>th,.table>caption+thead>tr:first-child>td,.table>colgroup+thead>tr:first-child>th,.table>colgroup+thead>tr:first-child>td,.table>thead:first-child>tr:first-child>th,.table>thead:first-child>tr:first-child>td{border-top:0}.table>tbody+tbody{border-top:2px solid #ddd}.table .table{background-color:#fff}.table-condensed>thead>tr>th,.table-condensed>thead>tr>td,.table-condensed>tbody>tr>th,.table-condensed>tbody>tr>td,.table-condensed>tfoot>tr>th,.table-condensed>tfoot>tr>td{padding:5px}.table-bordered,.table-bordered>thead>tr>th,.table-bordered>thead>tr>td,.table-bordered>tbody>tr>th,.table-bordered>tbody>tr>td,.table-bordered>tfoot>tr>th,.table-bordered>tfoot>tr>td{border:1px solid #ddd}.table-bordered>thead>tr>th,.table-bordered>thead>tr>td{border-bottom-width:2px}.table-striped>tbody>tr:nth-child(odd)>td,.table-striped>tbody>tr:nth-child(odd)>th{background-color:#f9f9f9}.table-hover>tbody>tr:hover>td,.table-hover>tbody>tr:hover>th{background-color:#f5f5f5}table col[class*="col-"]{position:static;float:none;display:table-column}table td[class*="col-"],table th[class*="col-"]{position:static;float:none;display:table-cell}.table>thead>tr>td.active,.table>thead>tr>th.active,.table>thead>tr.active>td,.table>thead>tr.active>th,.table>tbody>tr>td.active,.table>tbody>tr>th.active,.table>tbody>tr.active>td,.table>tbody>tr.active>th,.table>tfoot>tr>td.active,.table>tfoot>tr>th.active,.table>tfoot>tr.active>td,.table>tfoot>tr.active>th{background-color:#f5f5f5}.table-hover>tbody>tr>td.active:hover,.table-hover>tbody>tr>th.active:hover,.table-hover>tbody>tr.active:hover>td,.table-hover>tbody>tr:hover>.active,.table-hover>tbody>tr.active:hover>th{background-color:#e8e8e8}.table>thead>tr>td.success,.table>thead>tr>th.success,.table>thead>tr.success>td,.table>thead>tr.success>th,.table>tbody>tr>td.success,.table>tbody>tr>th.success,.table>tbody>tr.success>td,.table>tbody>tr.success>th,.table>tfoot>tr>td.success,.table>tfoot>tr>th.success,.table>tfoot>tr.success>td,.table>tfoot>tr.success>th{background-color:#dff0d8}.table-hover>tbody>tr>td.success:hover,.table-hover>tbody>tr>th.success:hover,.table-hover>tbody>tr.success:hover>td,.table-hover>tbody>tr:hover>.success,.table-hover>tbody>tr.success:hover>th{background-color:#d0e9c6}.table>thead>tr>td.info,.table>thead>tr>th.info,.table>thead>tr.info>td,.table>thead>tr.info>th,.table>tbody>tr>td.info,.table>tbody>tr>th.info,.table>tbody>tr.info>td,.table>tbody>tr.info>th,.table>tfoot>tr>td.info,.table>tfoot>tr>th.info,.table>tfoot>tr.info>td,.table>tfoot>tr.info>th{background-color:#d9edf7}.table-hover>tbody>tr>td.info:hover,.table-hover>tbody>tr>th.info:hover,.table-hover>tbody>tr.info:hover>td,.table-hover>tbody>tr:hover>.info,.table-hover>tbody>tr.info:hover>th{background-color:#c4e3f3}.table>thead>tr>td.warning,.table>thead>tr>th.warning,.table>thead>tr.warning>td,.table>thead>tr.warning>th,.table>tbody>tr>td.warning,.table>tbody>tr>th.warning,.table>tbody>tr.warning>td,.table>tbody>tr.warning>th,.table>tfoot>tr>td.warning,.table>tfoot>tr>th.warning,.table>tfoot>tr.warning>td,.table>tfoot>tr.warning>th{background-color:#fcf8e3}.table-hover>tbody>tr>td.warning:hover,.table-hover>tbody>tr>th.warning:hover,.table-hover>tbody>tr.warning:hover>td,.table-hover>tbody>tr:hover>.warning,.table-hover>tbody>tr.warning:hover>th{background-color:#faf2cc}.table>thead>tr>td.danger,.table>thead>tr>th.danger,.table>thead>tr.danger>td,.table>thead>tr.danger>th,.table>tbody>tr>td.danger,.table>tbody>tr>th.danger,.table>tbody>tr.danger>td,.table>tbody>tr.danger>th,.table>tfoot>tr>td.danger,.table>tfoot>tr>th.danger,.table>tfoot>tr.danger>td,.table>tfoot>tr.danger>th{background-color:#f2dede}.table-hover>tbody>tr>td.danger:hover,.table-hover>tbody>tr>th.danger:hover,.table-hover>tbody>tr.danger:hover>td,.table-hover>tbody>tr:hover>.danger,.table-hover>tbody>tr.danger:hover>th{background-color:#ebcccc}fieldset{border:0;min-width:0}legend{display:block;width:100%;margin-bottom:20px;font-size:21px;line-height:inherit;color:#333;border-bottom:1px solid #e5e5e5}label{display:inline-block;max-width:100%;margin-bottom:5px;font-weight:700}input[type="radio"],input[type="checkbox"]{margin:4px 0 0;margin-top:1px \9;line-height:normal}input[type="file"]{display:block}input[type="range"]{display:block;width:100%}select[multiple],select[size]{height:auto}input[type="file"]:focus,input[type="radio"]:focus,input[type="checkbox"]:focus{outline:thin dotted;outline:5px auto -webkit-focus-ring-color;outline-offset:-2px}output{padding-top:7px}output,.form-control{display:block;font-size:14px;line-height:1.4285714;color:#555}.form-control{width:100%;height:34px;padding:6px 12px;background-color:#fff;background-image:none;border:1px solid #ccc;border-radius:4px;box-shadow:inset 0 1px 1px rgba(0,0,0,.075);transition:border-color ease-in-out .15s,box-shadow ease-in-out .15s}.form-control:focus{border-color:#66afe9;outline:0;box-shadow:inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6)}.form-control::-moz-placeholder{color:#777;opacity:1}.form-control:-ms-input-placeholder{color:#777}.form-control::-webkit-input-placeholder{color:#777}.form-control[disabled],.form-control[readonly],fieldset[disabled] .form-control{cursor:not-allowed;background-color:#eee;opacity:1}textarea.form-control{height:auto}input[type="date"],input[type="time"],input[type="datetime-local"],input[type="month"]{line-height:34px;line-height:1.4285714 \0}input[type="date"].input-sm,.form-horizontal .form-group-sm input.form-control[type="date"],.input-group-sm>input.form-control[type="date"],.input-group-sm>input.input-group-addon[type="date"],.input-group-sm>.input-group-btn>input.btn[type="date"],input[type="time"].input-sm,.form-horizontal .form-group-sm input.form-control[type="time"],.input-group-sm>input.form-control[type="time"],.input-group-sm>input.input-group-addon[type="time"],.input-group-sm>.input-group-btn>input.btn[type="time"],input[type="datetime-local"].input-sm,.form-horizontal .form-group-sm input.form-control[type="datetime-local"],.input-group-sm>input.form-control[type="datetime-local"],.input-group-sm>input.input-group-addon[type="datetime-local"],.input-group-sm>.input-group-btn>input.btn[type="datetime-local"],input[type="month"].input-sm,.form-horizontal .form-group-sm input.form-control[type="month"],.input-group-sm>input.form-control[type="month"],.input-group-sm>input.input-group-addon[type="month"],.input-group-sm>.input-group-btn>input.btn[type="month"]{line-height:30px}input[type="date"].input-lg,.form-horizontal .form-group-lg input.form-control[type="date"],.input-group-lg>input.form-control[type="date"],.input-group-lg>input.input-group-addon[type="date"],.input-group-lg>.input-group-btn>input.btn[type="date"],input[type="time"].input-lg,.form-horizontal .form-group-lg input.form-control[type="time"],.input-group-lg>input.form-control[type="time"],.input-group-lg>input.input-group-addon[type="time"],.input-group-lg>.input-group-btn>input.btn[type="time"],input[type="datetime-local"].input-lg,.form-horizontal .form-group-lg input.form-control[type="datetime-local"],.input-group-lg>input.form-control[type="datetime-local"],.input-group-lg>input.input-group-addon[type="datetime-local"],.input-group-lg>.input-group-btn>input.btn[type="datetime-local"],input[type="month"].input-lg,.form-horizontal .form-group-lg input.form-control[type="month"],.input-group-lg>input.form-control[type="month"],.input-group-lg>input.input-group-addon[type="month"],.input-group-lg>.input-group-btn>input.btn[type="month"]{line-height:46px}.form-group{margin-bottom:15px}.radio,.checkbox{position:relative;display:block;min-height:20px;margin-top:10px;margin-bottom:10px}.radio label,.checkbox label{padding-left:20px;margin-bottom:0;font-weight:400;cursor:pointer}.radio input[type="radio"],.radio-inline input[type="radio"],.checkbox input[type="checkbox"],.checkbox-inline input[type="checkbox"]{position:absolute;margin-left:-20px;margin-top:4px \9}.radio+.radio,.checkbox+.checkbox{margin-top:-5px}.radio-inline,.checkbox-inline{display:inline-block;padding-left:20px;margin-bottom:0;vertical-align:middle;font-weight:400;cursor:pointer}.radio-inline+.radio-inline,.checkbox-inline+.checkbox-inline{margin-top:0;margin-left:10px}input[type="radio"][disabled],input[type="radio"].disabled,fieldset[disabled] input[type="radio"],input[type="checkbox"][disabled],input[type="checkbox"].disabled,fieldset[disabled] input[type="checkbox"],.radio-inline.disabled,fieldset[disabled] .radio-inline,.checkbox-inline.disabled,fieldset[disabled] .checkbox-inline,.radio.disabled label,fieldset[disabled] .radio label,.checkbox.disabled label,fieldset[disabled] .checkbox label{cursor:not-allowed}.form-control-static{padding-top:7px;padding-bottom:7px;margin-bottom:0}.form-control-static.input-lg,.form-horizontal .form-group-lg .form-control-static.form-control,.input-group-lg>.form-control-static.form-control,.input-group-lg>.form-control-static.input-group-addon,.input-group-lg>.input-group-btn>.form-control-static.btn,.form-control-static.input-sm,.form-horizontal .form-group-sm .form-control-static.form-control,.input-group-sm>.form-control-static.form-control,.input-group-sm>.form-control-static.input-group-addon,.input-group-sm>.input-group-btn>.form-control-static.btn{padding-left:0;padding-right:0}.input-sm,.form-horizontal .form-group-sm .form-control,.input-group-sm>.form-control{height:30px;padding:5px 10px;font-size:12px;line-height:1.5;border-radius:3px}.input-group-sm>.input-group-addon{height:30px;line-height:1.5}.input-group-sm>.input-group-btn>.btn{height:30px;padding:5px 10px;font-size:12px;line-height:1.5;border-radius:3px}select.input-sm,.form-horizontal .form-group-sm select.form-control,.input-group-sm>select.form-control,.input-group-sm>select.input-group-addon,.input-group-sm>.input-group-btn>select.btn{height:30px;line-height:30px}textarea.input-sm,.form-horizontal .form-group-sm textarea.form-control,.input-group-sm>textarea.form-control,.input-group-sm>textarea.input-group-addon,.input-group-sm>.input-group-btn>textarea.btn,select[multiple].input-sm,.form-horizontal .form-group-sm select.form-control[multiple],.input-group-sm>select.form-control[multiple],.input-group-sm>select.input-group-addon[multiple],.input-group-sm>.input-group-btn>select.btn[multiple]{height:auto}.input-lg,.form-horizontal .form-group-lg .form-control,.input-group-lg>.form-control{height:46px;padding:10px 16px;font-size:18px;line-height:1.33;border-radius:6px}.input-group-lg>.input-group-addon{height:46px;line-height:1.33}.input-group-lg>.input-group-btn>.btn{height:46px;padding:10px 16px;font-size:18px;line-height:1.33;border-radius:6px}select.input-lg,.form-horizontal .form-group-lg select.form-control,.input-group-lg>select.form-control,.input-group-lg>select.input-group-addon,.input-group-lg>.input-group-btn>select.btn{height:46px;line-height:46px}textarea.input-lg,.form-horizontal .form-group-lg textarea.form-control,.input-group-lg>textarea.form-control,.input-group-lg>textarea.input-group-addon,.input-group-lg>.input-group-btn>textarea.btn,select[multiple].input-lg,.form-horizontal .form-group-lg select.form-control[multiple],.input-group-lg>select.form-control[multiple],.input-group-lg>select.input-group-addon[multiple],.input-group-lg>.input-group-btn>select.btn[multiple]{height:auto}.has-feedback{position:relative}.has-feedback .form-control{padding-right:42.5px}.form-control-feedback{position:absolute;top:25px;right:0;z-index:2;display:block;width:34px;height:34px;line-height:34px;text-align:center}.input-lg+.form-control-feedback,.form-horizontal .form-group-lg .form-control+.form-control-feedback,.input-group-lg>.form-control+.form-control-feedback,.input-group-lg>.input-group-addon+.form-control-feedback,.input-group-lg>.input-group-btn>.btn+.form-control-feedback{width:46px;height:46px;line-height:46px}.input-sm+.form-control-feedback,.form-horizontal .form-group-sm .form-control+.form-control-feedback,.input-group-sm>.form-control+.form-control-feedback,.input-group-sm>.input-group-addon+.form-control-feedback,.input-group-sm>.input-group-btn>.btn+.form-control-feedback{width:30px;height:30px;line-height:30px}.has-success .help-block,.has-success .control-label,.has-success .radio,.has-success .checkbox,.has-success .radio-inline,.has-success .checkbox-inline{color:#3c763d}.has-success .form-control{border-color:#3c763d;box-shadow:inset 0 1px 1px rgba(0,0,0,.075)}.has-success .form-control:focus{border-color:#2b542c;box-shadow:inset 0 1px 1px rgba(0,0,0,.075),0 0 6px #67b168}.has-success .input-group-addon{color:#3c763d;border-color:#3c763d;background-color:#dff0d8}.has-success .form-control-feedback{color:#3c763d}.has-warning .help-block,.has-warning .control-label,.has-warning .radio,.has-warning .checkbox,.has-warning .radio-inline,.has-warning .checkbox-inline{color:#8a6d3b}.has-warning .form-control{border-color:#8a6d3b;box-shadow:inset 0 1px 1px rgba(0,0,0,.075)}.has-warning .form-control:focus{border-color:#66512c;box-shadow:inset 0 1px 1px rgba(0,0,0,.075),0 0 6px #c0a16b}.has-warning .input-group-addon{color:#8a6d3b;border-color:#8a6d3b;background-color:#fcf8e3}.has-warning .form-control-feedback{color:#8a6d3b}.has-error .help-block,.has-error .control-label,.has-error .radio,.has-error .checkbox,.has-error .radio-inline,.has-error .checkbox-inline{color:#a94442}.has-error .form-control{border-color:#a94442;box-shadow:inset 0 1px 1px rgba(0,0,0,.075)}.has-error .form-control:focus{border-color:#843534;box-shadow:inset 0 1px 1px rgba(0,0,0,.075),0 0 6px #ce8483}.has-error .input-group-addon{color:#a94442;border-color:#a94442;background-color:#f2dede}.has-error .form-control-feedback{color:#a94442}.has-feedback label.sr-only~.form-control-feedback{top:0}.help-block{display:block;margin-top:5px;margin-bottom:10px;color:#737373}.form-horizontal .radio,.form-horizontal .checkbox,.form-horizontal .radio-inline,.form-horizontal .checkbox-inline{margin-top:0;margin-bottom:0;padding-top:7px}.form-horizontal .radio,.form-horizontal .checkbox{min-height:27px}.form-horizontal .form-group{margin-left:-15px;margin-right:-15px}.form-horizontal .form-group:before{content:" ";display:table}.form-horizontal .form-group:after{content:" ";display:table;clear:both}.form-horizontal .has-feedback .form-control-feedback{top:0;right:15px}.btn{display:inline-block;vertical-align:middle;cursor:pointer;background-image:none;border:1px solid transparent;white-space:nowrap;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.btn:focus,.btn:active:focus,.btn.active:focus{outline:thin dotted;outline:5px auto -webkit-focus-ring-color;outline-offset:-2px}.btn:hover,.btn:focus{color:#333;text-decoration:none}.btn:active,.btn.active{outline:0;background-image:none;box-shadow:inset 0 3px 5px rgba(0,0,0,.125)}.btn.disabled,.btn[disabled],fieldset[disabled] .btn{cursor:not-allowed;pointer-events:none;opacity:.65;filter:alpha(opacity=65);box-shadow:none}.btn-default{color:#333;background-color:#fff;border-color:#ccc}.btn-default:hover,.btn-default:focus,.btn-default:active,.btn-default.active,.open>.btn-default.dropdown-toggle{color:#333;background-color:#e6e6e6;border-color:#adadad}.btn-default:active,.btn-default.active,.open>.btn-default.dropdown-toggle{background-image:none}.btn-default.disabled,.btn-default.disabled:hover,.btn-default.disabled:focus,.btn-default.disabled:active,.btn-default.disabled.active,.btn-default[disabled],.btn-default[disabled]:hover,.btn-default[disabled]:focus,.btn-default[disabled]:active,.btn-default[disabled].active,fieldset[disabled] .btn-default,fieldset[disabled] .btn-default:hover,fieldset[disabled] .btn-default:focus,fieldset[disabled] .btn-default:active,fieldset[disabled] .btn-default.active{background-color:#fff;border-color:#ccc}.btn-default .badge{color:#fff;background-color:#333}.btn-primary{color:#fff;background-color:#428bca;border-color:#357ebd}.btn-primary:hover,.btn-primary:focus,.btn-primary:active,.btn-primary.active,.open>.btn-primary.dropdown-toggle{color:#fff;background-color:#3071a9;border-color:#285e8e}.btn-primary:active,.btn-primary.active,.open>.btn-primary.dropdown-toggle{background-image:none}.btn-primary.disabled,.btn-primary.disabled:hover,.btn-primary.disabled:focus,.btn-primary.disabled:active,.btn-primary.disabled.active,.btn-primary[disabled],.btn-primary[disabled]:hover,.btn-primary[disabled]:focus,.btn-primary[disabled]:active,.btn-primary[disabled].active,fieldset[disabled] .btn-primary,fieldset[disabled] .btn-primary:hover,fieldset[disabled] .btn-primary:focus,fieldset[disabled] .btn-primary:active,fieldset[disabled] .btn-primary.active{background-color:#428bca;border-color:#357ebd}.btn-primary .badge{color:#428bca;background-color:#fff}.btn-success{color:#fff;background-color:#5cb85c;border-color:#4cae4c}.btn-success:hover,.btn-success:focus,.btn-success:active,.btn-success.active,.open>.btn-success.dropdown-toggle{color:#fff;background-color:#449d44;border-color:#398439}.btn-success:active,.btn-success.active,.open>.btn-success.dropdown-toggle{background-image:none}.btn-success.disabled,.btn-success.disabled:hover,.btn-success.disabled:focus,.btn-success.disabled:active,.btn-success.disabled.active,.btn-success[disabled],.btn-success[disabled]:hover,.btn-success[disabled]:focus,.btn-success[disabled]:active,.btn-success[disabled].active,fieldset[disabled] .btn-success,fieldset[disabled] .btn-success:hover,fieldset[disabled] .btn-success:focus,fieldset[disabled] .btn-success:active,fieldset[disabled] .btn-success.active{background-color:#5cb85c;border-color:#4cae4c}.btn-success .badge{color:#5cb85c;background-color:#fff}.btn-info{color:#fff;background-color:#5bc0de;border-color:#46b8da}.btn-info:hover,.btn-info:focus,.btn-info:active,.btn-info.active,.open>.btn-info.dropdown-toggle{color:#fff;background-color:#31b0d5;border-color:#269abc}.btn-info:active,.btn-info.active,.open>.btn-info.dropdown-toggle{background-image:none}.btn-info.disabled,.btn-info.disabled:hover,.btn-info.disabled:focus,.btn-info.disabled:active,.btn-info.disabled.active,.btn-info[disabled],.btn-info[disabled]:hover,.btn-info[disabled]:focus,.btn-info[disabled]:active,.btn-info[disabled].active,fieldset[disabled] .btn-info,fieldset[disabled] .btn-info:hover,fieldset[disabled] .btn-info:focus,fieldset[disabled] .btn-info:active,fieldset[disabled] .btn-info.active{background-color:#5bc0de;border-color:#46b8da}.btn-info .badge{color:#5bc0de;background-color:#fff}.btn-warning{color:#fff;background-color:#f0ad4e;border-color:#eea236}.btn-warning:hover,.btn-warning:focus,.btn-warning:active,.btn-warning.active,.open>.btn-warning.dropdown-toggle{color:#fff;background-color:#ec971f;border-color:#d58512}.btn-warning:active,.btn-warning.active,.open>.btn-warning.dropdown-toggle{background-image:none}.btn-warning.disabled,.btn-warning.disabled:hover,.btn-warning.disabled:focus,.btn-warning.disabled:active,.btn-warning.disabled.active,.btn-warning[disabled],.btn-warning[disabled]:hover,.btn-warning[disabled]:focus,.btn-warning[disabled]:active,.btn-warning[disabled].active,fieldset[disabled] .btn-warning,fieldset[disabled] .btn-warning:hover,fieldset[disabled] .btn-warning:focus,fieldset[disabled] .btn-warning:active,fieldset[disabled] .btn-warning.active{background-color:#f0ad4e;border-color:#eea236}.btn-warning .badge{color:#f0ad4e;background-color:#fff}.btn-danger{color:#fff;background-color:#d9534f;border-color:#d43f3a}.btn-danger:hover,.btn-danger:focus,.btn-danger:active,.btn-danger.active,.open>.btn-danger.dropdown-toggle{color:#fff;background-color:#c9302c;border-color:#ac2925}.btn-danger:active,.btn-danger.active,.open>.btn-danger.dropdown-toggle{background-image:none}.btn-danger.disabled,.btn-danger.disabled:hover,.btn-danger.disabled:focus,.btn-danger.disabled:active,.btn-danger.disabled.active,.btn-danger[disabled],.btn-danger[disabled]:hover,.btn-danger[disabled]:focus,.btn-danger[disabled]:active,.btn-danger[disabled].active,fieldset[disabled] .btn-danger,fieldset[disabled] .btn-danger:hover,fieldset[disabled] .btn-danger:focus,fieldset[disabled] .btn-danger:active,fieldset[disabled] .btn-danger.active{background-color:#d9534f;border-color:#d43f3a}.btn-danger .badge{color:#d9534f;background-color:#fff}.btn-link{color:#428bca;font-weight:400;cursor:pointer;border-radius:0}.btn-link,.btn-link:active,.btn-link[disabled],fieldset[disabled] .btn-link{background-color:transparent;box-shadow:none}.btn-link,.btn-link:hover,.btn-link:focus,.btn-link:active{border-color:transparent}.btn-link:hover,.btn-link:focus{color:#2a6496;text-decoration:underline;background-color:transparent}.btn-link[disabled]:hover,.btn-link[disabled]:focus,fieldset[disabled] .btn-link:hover,fieldset[disabled] .btn-link:focus{color:#777;text-decoration:none}.btn-lg{padding:10px 16px;font-size:18px;line-height:1.33;border-radius:6px}.btn-sm{padding:5px 10px}.btn-sm,.btn-xs{font-size:12px;line-height:1.5;border-radius:3px}.btn-xs{padding:1px 5px}.btn-block{display:block;width:100%}.btn-block+.btn-block{margin-top:5px}input[type="submit"].btn-block,input[type="reset"].btn-block,input[type="button"].btn-block{width:100%}.fade{opacity:0;transition:opacity .15s linear}.fade.in{opacity:1}.collapse{display:none}.collapse.in{display:block}tr.collapse.in{display:table-row}tbody.collapse.in{display:table-row-group}.collapsing{position:relative;height:0;overflow:hidden;transition:height .35s ease}.input-group{position:relative;display:table;border-collapse:separate}.input-group[class*="col-"]{float:none;padding-left:0;padding-right:0}.input-group .form-control{position:relative;z-index:2;float:left;width:100%;margin-bottom:0}.input-group-addon,.input-group-btn,.input-group .form-control{display:table-cell}.input-group-addon:not(:first-child):not(:last-child),.input-group-btn:not(:first-child):not(:last-child),.input-group .form-control:not(:first-child):not(:last-child){border-radius:0}.input-group-addon{white-space:nowrap}.input-group-addon,.input-group-btn{width:1%;vertical-align:middle}.input-group-addon{padding:6px 12px;font-size:14px;font-weight:400;line-height:1;color:#555;text-align:center;background-color:#eee;border:1px solid #ccc;border-radius:4px}.input-group-addon.input-sm,.form-horizontal .form-group-sm .input-group-addon.form-control,.input-group-sm>.input-group-addon,.input-group-sm>.input-group-btn>.input-group-addon.btn{padding:5px 10px;font-size:12px;border-radius:3px}.input-group-addon.input-lg,.form-horizontal .form-group-lg .input-group-addon.form-control,.input-group-lg>.input-group-addon,.input-group-lg>.input-group-btn>.input-group-addon.btn{padding:10px 16px;font-size:18px;border-radius:6px}.input-group-addon input[type="radio"],.input-group-addon input[type="checkbox"]{margin-top:0}.input-group .form-control:first-child,.input-group-addon:first-child,.input-group-btn:first-child>.btn,.input-group-btn:first-child>.btn-group>.btn,.input-group-btn:first-child>.dropdown-toggle,.input-group-btn:last-child>.btn:not(:last-child):not(.dropdown-toggle),.input-group-btn:last-child>.btn-group:not(:last-child)>.btn{border-bottom-right-radius:0;border-top-right-radius:0}.input-group-addon:first-child{border-right:0}.input-group .form-control:last-child,.input-group-addon:last-child,.input-group-btn:last-child>.btn,.input-group-btn:last-child>.btn-group>.btn,.input-group-btn:last-child>.dropdown-toggle,.input-group-btn:first-child>.btn:not(:first-child),.input-group-btn:first-child>.btn-group:not(:first-child)>.btn{border-bottom-left-radius:0;border-top-left-radius:0}.input-group-addon:last-child{border-left:0}.input-group-btn{font-size:0;white-space:nowrap}.input-group-btn,.input-group-btn>.btn{position:relative}.input-group-btn>.btn+.btn{margin-left:-1px}.input-group-btn>.btn:hover,.input-group-btn>.btn:focus,.input-group-btn>.btn:active{z-index:2}.input-group-btn:first-child>.btn,.input-group-btn:first-child>.btn-group{margin-right:-1px}.input-group-btn:last-child>.btn,.input-group-btn:last-child>.btn-group{margin-left:-1px}.pagination{display:inline-block;padding-left:0;margin:20px 0;border-radius:4px}.pagination>li{display:inline}.pagination>li>a,.pagination>li>span{position:relative;float:left;padding:6px 12px;line-height:1.4285714;text-decoration:none;color:#428bca;background-color:#fff;border:1px solid #ddd;margin-left:-1px}.pagination>li:first-child>a,.pagination>li:first-child>span{margin-left:0;border-bottom-left-radius:4px;border-top-left-radius:4px}.pagination>li:last-child>a,.pagination>li:last-child>span{border-bottom-right-radius:4px;border-top-right-radius:4px}.pagination>li>a:hover,.pagination>li>a:focus,.pagination>li>span:hover,.pagination>li>span:focus{color:#2a6496;background-color:#eee;border-color:#ddd}.pagination>.active>a,.pagination>.active>a:hover,.pagination>.active>a:focus,.pagination>.active>span,.pagination>.active>span:hover,.pagination>.active>span:focus{z-index:2;color:#fff;background-color:#428bca;border-color:#428bca;cursor:default}.pagination>.disabled>span,.pagination>.disabled>span:hover,.pagination>.disabled>span:focus,.pagination>.disabled>a,.pagination>.disabled>a:hover,.pagination>.disabled>a:focus{color:#777;background-color:#fff;border-color:#ddd;cursor:not-allowed}.pagination-lg>li>a,.pagination-lg>li>span{padding:10px 16px;font-size:18px}.pagination-lg>li:first-child>a,.pagination-lg>li:first-child>span{border-bottom-left-radius:6px;border-top-left-radius:6px}.pagination-lg>li:last-child>a,.pagination-lg>li:last-child>span{border-bottom-right-radius:6px;border-top-right-radius:6px}.pagination-sm>li>a,.pagination-sm>li>span{padding:5px 10px;font-size:12px}.pagination-sm>li:first-child>a,.pagination-sm>li:first-child>span{border-bottom-left-radius:3px;border-top-left-radius:3px}.pagination-sm>li:last-child>a,.pagination-sm>li:last-child>span{border-bottom-right-radius:3px;border-top-right-radius:3px}.close{float:right;font-size:21px;font-weight:700;line-height:1;color:#000;text-shadow:0 1px 0 #fff;opacity:.2;filter:alpha(opacity=20)}.close:hover,.close:focus{color:#000;text-decoration:none;cursor:pointer;opacity:.5;filter:alpha(opacity=50)}button.close{padding:0;cursor:pointer;background:0 0;border:0;-webkit-appearance:none}.modal-open,.modal{overflow:hidden}.modal{display:none;position:fixed;top:0;right:0;bottom:0;left:0;z-index:1050;-webkit-overflow-scrolling:touch;outline:0}.modal.fade .modal-dialog{transform:translate3d(0,-25%,0);transition:transform .3s ease-out}.modal.in .modal-dialog{transform:translate3d(0,0,0)}.modal-open .modal{overflow-x:hidden;overflow-y:auto}.modal-dialog{position:relative;width:auto;margin:10px}.modal-content{position:relative;background-color:#fff;border:1px solid #999;border:1px solid rgba(0,0,0,.2);border-radius:6px;box-shadow:0 3px 9px rgba(0,0,0,.5);background-clip:padding-box;outline:0}.modal-backdrop{position:fixed;top:0;right:0;bottom:0;left:0;z-index:1040;background-color:#000}.modal-backdrop.fade{opacity:0;filter:alpha(opacity=0)}.modal-backdrop.in{opacity:.5;filter:alpha(opacity=50)}.modal-header{padding:15px;border-bottom:1px solid #e5e5e5;min-height:16.4285714px}.modal-header .close{margin-top:-2px}.modal-title{margin:0;line-height:1.4285714}.modal-body{position:relative;padding:15px}.modal-footer{padding:15px;text-align:right;border-top:1px solid #e5e5e5}.modal-footer:before,.modal-footer:after{content:" ";display:table}.modal-footer:after{clear:both}.modal-footer .btn+.btn{margin-left:5px;margin-bottom:0}.modal-footer .btn-group .btn+.btn{margin-left:-1px}.modal-footer .btn-block+.btn-block{margin-left:0}.modal-scrollbar-measure{position:absolute;top:-9999px;width:50px;height:50px;overflow:scroll}.clearfix:before,.clearfix:after{content:" ";display:table}.clearfix:after{clear:both}.center-block{display:block;margin-left:auto;margin-right:auto}.pull-right{float:right!important}.pull-left{float:left!important}.hide{display:none!important}.show{display:block!important}.invisible{visibility:hidden}.text-hide{font:0/0 a;color:transparent;text-shadow:none;background-color:transparent;border:0}.hidden{display:none!important;visibility:hidden!important}.affix{position:fixed;transform:translate3d(0,0,0)}.hljs{display:block;overflow-x:auto;padding:.5em;background:#002b36;color:#839496;-webkit-text-size-adjust:none}.hljs-comment,.hljs-template_comment,.diff .hljs-header,.hljs-doctype,.hljs-pi,.lisp .hljs-string,.hljs-javadoc{color:#586e75}.hljs-keyword,.hljs-winutils,.method,.hljs-addition,.css .hljs-tag,.hljs-request,.hljs-status,.nginx .hljs-title{color:#859900}.hljs-number,.hljs-command,.hljs-string,.hljs-tag .hljs-value,.hljs-rules .hljs-value,.hljs-phpdoc,.hljs-dartdoc,.tex .hljs-formula,.hljs-regexp,.hljs-hexcolor,.hljs-link_url{color:#2aa198}.hljs-title,.hljs-localvars,.hljs-chunk,.hljs-decorator,.hljs-built_in,.hljs-identifier,.vhdl .hljs-literal,.hljs-id,.css .hljs-function{color:#268bd2}.hljs-attribute,.hljs-variable,.lisp .hljs-body,.smalltalk .hljs-number,.hljs-constant,.hljs-class .hljs-title,.hljs-parent,.hljs-type,.hljs-link_reference{color:#b58900}.hljs-preprocessor,.hljs-preprocessor .hljs-keyword,.hljs-pragma,.hljs-shebang,.hljs-symbol,.hljs-symbol .hljs-string,.diff .hljs-change,.hljs-special,.hljs-attr_selector,.hljs-subst,.hljs-cdata,.css .hljs-pseudo,.hljs-header{color:#cb4b16}.hljs-deletion,.hljs-important{color:#dc322f}.hljs-link_label{color:#6c71c4}.tex .hljs-formula{background:#073642}*,*:before,*:after{box-sizing:border-box}html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block;vertical-align:baseline}audio:not([controls]){display:none;height:0}[hidden],template{display:none}a{background:0 0}a:active,a:hover{outline:0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:700}dfn{font-style:italic}h1{margin:.67em 0}mark{background:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-.5em}sub{bottom:-.25em}images{border:0}svg:not(:root){overflow:hidden}figure{margin:1em 40px}hr{box-sizing:content-box;height:0}pre{overflow:auto}code,kbd{font-size:1em}code,kbd,pre,samp{font-family:monospace,monospace}samp{font-size:1em}button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}button{overflow:visible}button,select{text-transform:none}button,html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input{line-height:normal}input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0;margin-right:5px}input[type="number"]::-webkit-inner-spin-button,input[type="number"]::-webkit-outer-spin-button{height:auto}input[type="search"]{-webkit-appearance:textfield;box-sizing:content-box}input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration{-webkit-appearance:none}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{border:0;padding:0}textarea{overflow:auto}optgroup{font-weight:700}table{border-collapse:collapse;border-spacing:0}.debug{background-color:#ffc0cb!important}.ellipsis{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.ir{background-color:transparent;border:0;overflow:hidden}.ir::before{content:'';display:block;height:150%;width:0}html{font-size:.875em;background:#fff;color:#373D49}html,body{font-family:Georgia,Cambria,serif;height:100%}body{font-size:1rem;font-weight:400;line-height:2rem}ul,ol{margin-bottom:.83999rem;padding-top:.16001rem}li{font-feature-settings:'kern' 1,'onum' 1,'liga' 1;margin-left:1rem}li>ul,li>ol{margin-bottom:0}p{padding-top:.66001rem;font-feature-settings:'kern' 1,'onum' 1,'liga' 1;margin-top:0}p,pre{margin-bottom:1.33999rem}pre{font-size:1rem;padding:.66001rem 9.5px 9.5px;line-height:2rem;background:linear-gradient(to bottom,#fff 0,#fff .75rem,#f5f7fa .75rem,#f5f7fa 2.75rem,#fff 2.75rem,#fff 4rem);background-size:100% 4rem;border-color:#D3DAEA}blockquote{margin:0}blockquote p{font-size:1rem;margin-bottom:.33999rem;font-style:italic;padding:.66001rem 1rem 1rem;border-left:3px solid #A0AABF}th,td{padding:12px}h1,h2,h3,h4,h5,h6{font-family:"Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;font-feature-settings:'dlig' 1,'liga' 1,'lnum' 1,'kern' 1;font-style:normal;font-weight:600;margin-top:0}h1{line-height:3rem;font-size:2.0571429rem;margin-bottom:.21999rem;padding-top:.78001rem}h2{font-size:1.953125rem;margin-bottom:.1835837rem;padding-top:.8164163rem}h2,h3{line-height:3rem}h3{font-size:1.6457143rem;margin-bottom:.07599rem;padding-top:.92401rem}h4{font-size:1.5625rem;margin-bottom:.546865rem;padding-top:.453135rem}h5{font-size:1.25rem;margin-bottom:-.56251rem;padding-top:.56251rem}h6{font-size:1rem;margin-bottom:-.65001rem;padding-top:.65001rem}a{cursor:pointer;color:#35D7BB;text-decoration:none}a:hover,a:focus{border-bottom-color:#35D7BB;color:#dff9f4}img{height:auto;max-width:100%}dt{font-style:italic;font-weight:600}.g{display:block}.g:after{clear:both;content:'';display:table}.g-b{float:left;margin:0;width:100%}.g{margin-left:-16px;margin-right:-16px}.g-b{padding-left:16px;padding-right:16px}.g-b--center{display:block;float:none;margin:0 auto}.g-b--right{float:right}.g-b--1of1{width:100%}.g-b--1of2,.g-b--2of4,.g-b--3of6,.g-b--4of8,.g-b--5of10,.g-b--6of12{width:50%}.g-b--1of3,.g-b--2of6,.g-b--4of12{width:33.333%}.g-b--2of3,.g-b--4of6,.g-b--8of12{width:66.666%}.g-b--1of4,.g-b--2of8,.g-b--3of12{width:25%}.g-b--3of4,.g-b--6of8,.g-b--9of12{width:75%}.g-b--1of5,.g-b--2of10{width:20%}.g-b--2of5,.g-b--4of10{width:40%}.g-b--3of5,.g-b--6of10{width:60%}.g-b--4of5,.g-b--8of10{width:80%}.g-b--1of6,.g-b--2of12{width:16.666%}.g-b--5of6,.g-b--10of12{width:83.333%}.g-b--1of8{width:12.5%}.g-b--3of8{width:37.5%}.g-b--5of8{width:62.5%}.g-b--7of8{width:87.5%}.g-b--1of10{width:10%}.g-b--3of10{width:30%}.g-b--7of10{width:70%}.g-b--9of10{width:90%}.g-b--1of12{width:8.333%}.g-b--5of12{width:41.666%}.g-b--7of12{width:58.333%}.g-b--11of12{width:91.666%}.g-b--push--1of1{margin-left:100%}.g-b--push--1of2,.g-b--push--2of4,.g-b--push--3of6,.g-b--push--4of8,.g-b--push--5of10,.g-b--push--6of12{margin-left:50%}.g-b--push--1of3,.g-b--push--2of6,.g-b--push--4of12{margin-left:33.333%}.g-b--push--2of3,.g-b--push--4of6,.g-b--push--8of12{margin-left:66.666%}.g-b--push--1of4,.g-b--push--2of8,.g-b--push--3of12{margin-left:25%}.g-b--push--3of4,.g-b--push--6of8,.g-b--push--9of12{margin-left:75%}.g-b--push--1of5,.g-b--push--2of10{margin-left:20%}.g-b--push--2of5,.g-b--push--4of10{margin-left:40%}.g-b--push--3of5,.g-b--push--6of10{margin-left:60%}.g-b--push--4of5,.g-b--push--8of10{margin-left:80%}.g-b--push--1of6,.g-b--push--2of12{margin-left:16.666%}.g-b--push--5of6,.g-b--push--10of12{margin-left:83.333%}.g-b--push--1of8{margin-left:12.5%}.g-b--push--3of8{margin-left:37.5%}.g-b--push--5of8{margin-left:62.5%}.g-b--push--7of8{margin-left:87.5%}.g-b--push--1of10{margin-left:10%}.g-b--push--3of10{margin-left:30%}.g-b--push--7of10{margin-left:70%}.g-b--push--9of10{margin-left:90%}.g-b--push--1of12{margin-left:8.333%}.g-b--push--5of12{margin-left:41.666%}.g-b--push--7of12{margin-left:58.333%}.g-b--push--11of12{margin-left:91.666%}.g-b--pull--1of1{margin-right:100%}.g-b--pull--1of2,.g-b--pull--2of4,.g-b--pull--3of6,.g-b--pull--4of8,.g-b--pull--5of10,.g-b--pull--6of12{margin-right:50%}.g-b--pull--1of3,.g-b--pull--2of6,.g-b--pull--4of12{margin-right:33.333%}.g-b--pull--2of3,.g-b--pull--4of6,.g-b--pull--8of12{margin-right:66.666%}.g-b--pull--1of4,.g-b--pull--2of8,.g-b--pull--3of12{margin-right:25%}.g-b--pull--3of4,.g-b--pull--6of8,.g-b--pull--9of12{margin-right:75%}.g-b--pull--1of5,.g-b--pull--2of10{margin-right:20%}.g-b--pull--2of5,.g-b--pull--4of10{margin-right:40%}.g-b--pull--3of5,.g-b--pull--6of10{margin-right:60%}.g-b--pull--4of5,.g-b--pull--8of10{margin-right:80%}.g-b--pull--1of6,.g-b--pull--2of12{margin-right:16.666%}.g-b--pull--5of6,.g-b--pull--10of12{margin-right:83.333%}.g-b--pull--1of8{margin-right:12.5%}.g-b--pull--3of8{margin-right:37.5%}.g-b--pull--5of8{margin-right:62.5%}.g-b--pull--7of8{margin-right:87.5%}.g-b--pull--1of10{margin-right:10%}.g-b--pull--3of10{margin-right:30%}.g-b--pull--7of10{margin-right:70%}.g-b--pull--9of10{margin-right:90%}.g-b--pull--1of12{margin-right:8.333%}.g-b--pull--5of12{margin-right:41.666%}.g-b--pull--7of12{margin-right:58.333%}.g-b--pull--11of12{margin-right:91.666%}.splashscreen{position:fixed;top:0;left:0;width:100%;height:100%;background-color:#373D49;z-index:22}.splashscreen-dillinger{width:260px;height:auto;display:block;margin:0 auto;padding-bottom:3rem}.splashscreen p{font-size:1.25rem;padding-top:.56251rem;font-family:"Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;font-weight:400;text-align:center;max-width:500px;margin:0 auto;color:#FFF}.sp-center{position:relative;transform:translateY(-50%);top:50%}.open-menu>.wrapper{overflow-x:hidden}.page{margin:0 auto;position:relative;top:0;left:0;width:100%;height:100%;z-index:2;transition:all .25s ease-in-out;background-color:#fff;padding-top:51px;will-change:left}.open-menu .page{left:270px}.title{line-height:1rem;font-size:.8rem;margin-bottom:.77999rem;padding-top:.22001rem;font-weight:500;color:#A0AABF;letter-spacing:1px;text-transform:uppercase;padding-left:16px;padding-right:16px;margin-top:1rem}.split-preview .title{padding-left:0}.title-document{line-height:1rem;font-size:1.25rem;margin-bottom:.89999rem;padding-top:.10001rem;font-weight:400;font-family:"Ubuntu Mono",Monaco;color:#373D49;padding-left:16px;padding-right:16px;width:80%;min-width:300px;outline:0;border:none}.icon{display:block;margin:0 auto;width:36px;height:36px;border-radius:3px;text-align:center}.icon svg{display:inline-block;margin-left:auto;margin-right:auto}.icon-preview{background-color:#373D49;line-height:40px}.icon-preview svg{width:19px;height:12px}.icon-settings{background-color:#373D49;line-height:44px}.icon-settings svg{width:18px;height:18px}.icon-link{width:16px;height:16px;line-height:1;margin-right:24px;text-align:right}.navbar{background-color:#373D49;height:51px;width:100%;position:fixed;top:0;left:0;z-index:6;transition:all .25s ease-in-out;will-change:left}.navbar:after{content:"";display:table;clear:both}.open-menu .navbar{left:270px}.navbar-brand{float:left;margin:0 0 0 24px;padding:0;line-height:42px}.navbar-brand svg{width:85px;height:11px}.nav-left{float:left}.nav-right{float:right}.nav-sidebar{width:100%}.menu{list-style:none;margin:0;padding:0}.menu a{border:0;color:#A0AABF;font-family:"Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;outline:none;text-transform:uppercase}.menu a:hover{color:#35D7BB}.menu .menu-item{border:0;display:none;float:left;margin:0;position:relative}.menu .menu-item>a{display:block;font-size:12px;height:51px;letter-spacing:1px;line-height:51px;padding:0 24px}.menu .menu-item--settings,.menu .menu-item--preview,.menu .menu-item--save-to.in-sidebar,.menu .menu-item--import-from.in-sidebar,.menu .menu-item--link-unlink.in-sidebar,.menu .menu-item--documents.in-sidebar{display:block}.menu .menu-item--documents{padding-bottom:1rem}.menu .menu-item.open>a{background-color:#1D212A}.menu .menu-item-icon>a{height:auto;padding:0}.menu .menu-item-icon:hover>a{background-color:transparent}.menu .menu-link.open i{background-color:#1D212A}.menu .menu-link.open g{fill:#35D7BB}.menu .menu-link-preview,.menu .menu-link-settings{margin-top:8px;width:51px}.menu-sidebar{width:100%}.menu-sidebar .menu-item{float:none;margin-bottom:1px;width:100%}.menu-sidebar .menu-item.open>a{background-color:#373D49}.menu-sidebar .open .caret{transform:rotate(180deg)}.menu-sidebar>.menu-item:hover .dropdown a,.menu-sidebar>.menu-item:hover .settings a{background-color:transparent}.menu-sidebar .menu-link{background-color:#373D49;font-weight:600}.menu-sidebar .menu-link:after{content:"";display:table;clear:both}.menu-sidebar .menu-link>span{float:left}.menu-sidebar .menu-link>.caret{float:right;text-align:right;top:22px}.menu-sidebar .dropdown,.menu-sidebar .settings{background-color:transparent;position:static;width:100%}.dropdown{position:absolute;right:0;top:51px;width:188px}.dropdown,.settings{display:none;background-color:#1D212A}.dropdown{padding:0}.dropdown,.settings,.sidebar-list{list-style:none;margin:0}.sidebar-list{padding:0}.dropdown li{margin:32px 0;padding:0 0 0 32px}.dropdown li,.settings li{line-height:1}.sidebar-list li{line-height:1;margin:32px 0;padding:0 0 0 32px}.dropdown a{color:#D0D6E2}.dropdown a,.settings a,.sidebar-list a{display:block;text-transform:none}.sidebar-list a{color:#D0D6E2}.dropdown a:after,.settings a:after,.sidebar-list a:after{content:"";display:table;clear:both}.dropdown .icon,.settings .icon,.sidebar-list .icon{float:right}.open .dropdown,.open .settings,.open .sidebar-list{display:block}.open .dropdown.collapse,.open .collapse.settings,.open .sidebar-list.collapse{display:none}.open .dropdown.collapse.in,.open .collapse.in.settings,.open .sidebar-list.collapse.in{display:block}.dropdown .unlinked .icon,.settings .unlinked .icon,.sidebar-list .unlinked .icon{opacity:.3}.dropdown.documents li,.documents.settings li,.sidebar-list.documents li{background-image:url("../img/icons/file.svg");background-position:240px center;background-repeat:no-repeat;background-size:14px 16px;padding:3px 32px}.dropdown.documents li.octocat,.documents.settings li.octocat,.sidebar-list.documents li.octocat{background-image:url("../img/icons/octocat.svg");background-position:234px center;background-size:24px 24px}.dropdown.documents li:last-child,.documents.settings li:last-child,.sidebar-list.documents li:last-child{margin-bottom:1rem}.dropdown.documents li.active a,.documents.settings li.active a,.sidebar-list.documents li.active a{color:#35D7BB}.settings{position:fixed;top:67px;right:16px;border-radius:3px;width:288px;background-color:#373D49;padding:16px;z-index:7}.show-settings .settings{display:block}.settings .has-checkbox{float:left}.settings form{display:-ms-flexbox;display:flex;-ms-flex-direction:row;flex-direction:row;-ms-flex-pack:justify;justify-content:space-between}.settings input{width:20%}.settings a{font-size:1.25rem;font-family:"Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;font-weight:400;-webkit-font-smoothing:antialiased;line-height:28px;color:#D0D6E2}.settings a:after{content:"";display:table;clear:both}.settings a:hover{color:#35D7BB}.settings li{border-bottom:1px solid #4F535B;margin:0;padding:16px 0}.settings li:last-child{border-bottom:none}.brand{border:none;display:block}.brand:hover g{fill:#35D7BB}.toggle{display:block;float:left;height:16px;padding:25px 16px 26px;width:40px}.toggle span:after,.toggle span:before{content:'';left:0;position:absolute;top:-6px}.toggle span:after{top:6px}.toggle span{display:block;position:relative}.toggle span,.toggle span:after,.toggle span:before{-webkit-backface-visibility:hidden;backface-visibility:hidden;background-color:#D3DAEA;height:2px;transition:all .3s;width:20px}.open-menu .toggle span{background-color:transparent}.open-menu .toggle span:before{transform:rotate(45deg) translate(3px,3px)}.open-menu .toggle span:after{transform:rotate(-45deg) translate(5px,-6px)}.caret{display:inline-block;width:0;height:0;margin-left:6px;vertical-align:middle;position:relative;top:-1px;border-top:4px solid;border-right:4px solid transparent;border-left:4px solid transparent}.sidebar{overflow:auto;height:100%;padding-right:15px;padding-bottom:15px;width:285px}.sidebar-wrapper{-webkit-overflow-scrolling:touch;background-color:#2B2F36;left:0;height:100%;overflow-y:hidden;position:fixed;top:0;width:285px;z-index:1}.sidebar-branding{width:160px;padding:0;margin:16px auto}.header{border-bottom:1px solid #E8E8E8;position:relative}.words,.characters{line-height:1rem;font-size:.8rem;margin-bottom:.77999rem;padding-top:.22001rem;font-weight:500;font-family:"Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;color:#A0AABF;letter-spacing:1px;text-transform:uppercase;z-index:5;position:absolute;right:16px;top:0}.words span,.characters span{color:#000}.words+.characters{top:22px}.btn{text-align:center;display:inline-block;width:100%;text-transform:uppercase;font-weight:600;font-family:"Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;font-size:14px;text-shadow:0 1px 0 #1b8b77;padding:16px 24px;background-color:#35D7BB;border-radius:3px;margin:0 auto 16px;line-height:1;color:#fff;transition:all .15s linear;-webkit-font-smoothing:antialiased}.btn--new,.btn--save{display:block;width:238px}.btn--new:hover,.btn--new:focus,.btn--save:hover,.btn--save:focus{color:#fff;border-bottom-color:transparent;box-shadow:0 1px 3px #24b59c;text-shadow:0 1px 0 #24b59c}.btn--save{background-color:#4A5261;text-shadow:0 1px 1px #1e2127}.btn--save:hover,.btn--save:focus{color:#fff;border-bottom-color:transparent;box-shadow:0 1px 5px #08090a;text-shadow:none}.btn--delete{display:block;width:238px;background-color:transparent;font-size:12px;text-shadow:none}.btn--delete:hover,.btn--delete:focus{color:#fff;border-bottom-color:transparent;text-shadow:0 1px 0 #08090a;opacity:.8}.btn--delete-modal,.btn--ok,.btn--close{border-top:0;background-color:#4A5261;text-shadow:0 1px 0 #08090a;margin:0}.btn--delete-modal:hover,.btn--delete-modal:focus,.btn--ok:hover,.btn--ok:focus,.btn--close:hover,.btn--close:focus{color:#fff;background-color:#292d36;text-shadow:none}.btn--delete-modal{display:inline;width:auto}.overlay{position:absolute;top:0;left:0;width:100%;height:100%;background-color:rgba(55,61,73,.8);transition:all .25s ease-in-out;transition-timing-function:ease-out;will-change:left,opacity,visibility;z-index:5;opacity:0;visibility:hidden}.show-settings .overlay{visibility:visible;opacity:1}.switch{float:right;line-height:1}.switch input{display:none}.switch small{display:inline-block;cursor:pointer;padding:0 24px 0 0;transition:all ease .2s;background-color:#2B2F36;border-color:#2B2F36}.switch small,.switch small:before{border-radius:30px;box-shadow:inset 0 0 2px 0 #14171F}.switch small:before{display:block;content:'';width:28px;height:28px;background:#fff}.switch.checked small{padding-right:0;padding-left:24px;background-color:#35D7BB;box-shadow:none}.modal--dillinger.about .modal-dialog{font-size:1.25rem;max-width:500px}.modal--dillinger.scope .modal-dialog{max-width:300px;margin:5rem auto}.modal--dillinger .modal-dialog{max-width:600px;width:auto;margin:5rem auto}.modal--dillinger .modal-content{background:#373D49;border-radius:3px;box-shadow:0 2px 5px 0 #2C3B59;color:#fff;font-family:"Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;font-weight:400;padding:2rem}.modal--dillinger ul{list-style-type:disc;margin:1rem 0;padding:0 0 0 1rem}.modal--dillinger li{padding:0;margin:0}.modal--dillinger .modal-header{border:0;padding:0}.modal--dillinger .modal-body{padding:0}.modal--dillinger .modal-footer{border:0;padding:0}.modal--dillinger .close{color:#fff;opacity:1}.modal-backdrop{background-color:#373D49}.pagination--dillinger{padding:0!important;margin:1.5rem 0!important;display:-ms-flexbox;display:flex;-ms-flex-pack:justify;justify-content:space-between;-ms-flex-direction:row;flex-direction:row;-ms-flex-align:center;align-items:center;-ms-flex-line-pack:stretch;align-content:stretch}.pagination--dillinger li{display:-ms-flexbox;display:flex;-ms-flex-positive:1;flex-grow:1;text-align:center}.pagination--dillinger li:first-child>a,.pagination--dillinger li.disabled>a,.pagination--dillinger li.disabled>a:hover,.pagination--dillinger li.disabled>a:focus,.pagination--dillinger li>a{background-color:transparent;border-color:#4F535B;border-right-color:transparent}.pagination--dillinger li.active>a,.pagination--dillinger li.active>a:hover,.pagination--dillinger li.active>a:focus{border-color:#4A5261;background-color:#4A5261;color:#fff}.pagination--dillinger li>a{float:none;color:#fff;width:100%;display:block;text-align:center;margin:0;border-right-color:transparent;padding:6px}.pagination--dillinger li>a:hover,.pagination--dillinger li>a:focus{border-color:#35D7BB;background-color:#35D7BB;color:#fff}.pagination--dillinger li:last-child a{border-color:#4F535B}.pagination--dillinger li:first-child a{border-right-color:transparent}.diNotify{position:absolute;z-index:9999;left:0;right:0;top:0;margin:0 auto;max-width:400px;text-align:center;transition:top .5s ease-in-out,opacity .5s ease-in-out;visibility:hidden}.diNotify-body{-webkit-font-smoothing:antialiased;background-color:#35D7BB;background:#666E7F;border-radius:3px;color:#fff;font-family:"Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;font-weight:400;overflow:hidden;padding:1rem 2rem .5rem;display:-ms-flexbox;display:flex;-ms-flex-align:baseline;align-items:baseline;-ms-flex-pack:center;justify-content:center}.diNotify-icon{display:block;width:16px;height:16px;line-height:16px;position:relative;top:3px}.diNotify-message{padding-left:1rem}.zen-wrapper{position:fixed;top:0;left:0;right:0;bottom:0;width:100%;height:100%;z-index:10;background-color:#FFF;opacity:0;transition:opacity .25s ease-in-out}.zen-wrapper.on{opacity:1}.enter-zen-mode{background-image:url("../img/icons/enter-zen.svg");right:.5rem;top:.313rem;display:none}.enter-zen-mode,.close-zen-mode{font:0/0 a;color:transparent;text-shadow:none;background-color:transparent;border:0;background-repeat:no-repeat;width:32px;height:32px;display:block;position:absolute}.close-zen-mode{background-image:url("../img/icons/exit-zen.svg");right:1rem;top:1rem}.zen-page{position:relative;top:0;bottom:0;z-index:11;height:100%;width:100%}#zen{font-size:1.25rem;width:300px;height:80%;margin:0 auto;position:relative;top:10%}#zen:before,#zen:after{content:"";position:absolute;height:10%;width:100%;z-index:12;pointer-events:none}#preview .table{width:auto}.ui-resizable{position:relative}.ui-resizable-handle{position:absolute;font-size:.1px;z-index:99999;display:block}.ui-resizable-e{background-color:#666;border-right:8px solid #e8e8e8;border-left:1px solid #222;width:10px;z-index:88!important;position:relative}.ui-resizable-e:after{content:"-";display:block;position:absolute;top:calc(50% - 16px);left:0;height:25px;width:2px;background-color:rgba(0,0,0,.4);margin:3px}#editor{cursor:ew-resize;position:relative;z-index:auto}.profile-pic{float:left;width:250px}#_default_ a::before{color:#A0AABF}#_default_ img{display:none}#_default_ #_default_{display:block;float:left;max-width:38%;word-wrap:break-word}#_default_ .default-ad{display:none}#_default_ ._default_{display:block}#_default_ a{color:#35d7bb;text-decoration:none}#_default_ a:hover{color:#8ae8d8}#_default_ .default-image{display:none}#_default_ .default-title:after{content:" — "}#_default_ .default-title,#_default_ .default-text,#_default_ .default-description{display:inline}#_default_ .default-title{position:relative;font-weight:600;display:none}#_default_ a:before{position:relative;top:0;padding:5px;color:#a0aabf;content:"Ad";text-transform:uppercase;font-size:8px;font-family:Verdana,sans-serif}#_default_{display:block;float:left;max-width:38%;word-wrap:break-word}#_default_ ._default_{display:block;font-size:.75rem;height:51px;letter-spacing:1px;line-height:1rem;padding:18px 24px}body{max-width:1024px;margin:0 auto;overflow:auto;padding:2%}.split{overflow:scroll;padding:0!important;-webkit-overflow-scrolling:touch}.split-editor{padding-left:0;padding-right:0;position:relative;z-index:3}.show-preview .split-editor{display:none}.split-preview{background-color:#fff;display:none;top:0;position:relative;z-index:4}.show-preview .split-preview{display:block}#editor{font-size:1rem;font-family:"Ubuntu Mono",Monaco;font-weight:400;line-height:2rem;width:100%;height:100%}#editor .ace_gutter{-webkit-font-smoothing:antialiased}.editor-header{width:50%;float:left;border-bottom:1px solid #E8E8E8;position:relative}.editor-header--first{border-right:1px solid #E8E8E8}.editor-header .title{display:inline-block}.preview-html{padding:15px}.preview-html a{color:#A0AABF;text-decoration:underline}.preview-src{white-space:normal}.preview-mode-toggle-src{background-image:url("../img/icons/code.svg")}.preview-mode-toggle-src,.preview-mode-toggle-html{font:0/0 a;color:transparent;text-shadow:none;background-color:transparent;border:0;background-repeat:no-repeat;width:32px;height:32px;display:block;position:absolute;right:.5rem;top:.5rem;display:none}.preview-mode-toggle-html{background-image:url("../img/icons/eye.svg")}.sr-only{visibility:hidden;text-overflow:110%;overflow:hidden;top:-100px;position:absolute}.mnone{margin:0!important}@media screen and (min-width:27.5em){html{font-size:.875em}body{font-size:1rem}ul,ol{margin-bottom:.83999rem;padding-top:.16001rem}p{padding-top:.66001rem}p,pre{margin-bottom:1.33999rem}pre,blockquote p{font-size:1rem;padding-top:.66001rem}blockquote p{margin-bottom:.33999rem}h1{font-size:2.0571429rem;margin-bottom:.21999rem;padding-top:.78001rem}h2{font-size:1.953125rem;margin-bottom:.1835837rem;padding-top:.8164163rem}h3{font-size:1.6457143rem;margin-bottom:.07599rem;padding-top:.92401rem}h4{font-size:1.5625rem;margin-bottom:.546865rem;padding-top:.453135rem}h5{font-size:1.25rem;margin-bottom:-.56251rem;padding-top:.56251rem}h6{font-size:1rem;margin-bottom:-.65001rem;padding-top:.65001rem}.g{margin-left:-16px;margin-right:-16px}.g-b{padding-left:16px;padding-right:16px}.g-b--m1of1{width:100%}.g-b--m1of2,.g-b--m2of4,.g-b--m3of6,.g-b--m4of8,.g-b--m5of10,.g-b--m6of12{width:50%}.g-b--m1of3,.g-b--m2of6,.g-b--m4of12{width:33.333%}.g-b--m2of3,.g-b--m4of6,.g-b--m8of12{width:66.666%}.g-b--m1of4,.g-b--m2of8,.g-b--m3of12{width:25%}.g-b--m3of4,.g-b--m6of8,.g-b--m9of12{width:75%}.g-b--m1of5,.g-b--m2of10{width:20%}.g-b--m2of5,.g-b--m4of10{width:40%}.g-b--m3of5,.g-b--m6of10{width:60%}.g-b--m4of5,.g-b--m8of10{width:80%}.g-b--m1of6,.g-b--m2of12{width:16.666%}.g-b--m5of6,.g-b--m10of12{width:83.333%}.g-b--m1of8{width:12.5%}.g-b--m3of8{width:37.5%}.g-b--m5of8{width:62.5%}.g-b--m7of8{width:87.5%}.g-b--m1of10{width:10%}.g-b--m3of10{width:30%}.g-b--m7of10{width:70%}.g-b--m9of10{width:90%}.g-b--m1of12{width:8.333%}.g-b--m5of12{width:41.666%}.g-b--m7of12{width:58.333%}.g-b--m11of12{width:91.666%}.g-b--push--m1of1{margin-left:100%}.g-b--push--m1of2,.g-b--push--m2of4,.g-b--push--m3of6,.g-b--push--m4of8,.g-b--push--m5of10,.g-b--push--m6of12{margin-left:50%}.g-b--push--m1of3,.g-b--push--m2of6,.g-b--push--m4of12{margin-left:33.333%}.g-b--push--m2of3,.g-b--push--m4of6,.g-b--push--m8of12{margin-left:66.666%}.g-b--push--m1of4,.g-b--push--m2of8,.g-b--push--m3of12{margin-left:25%}.g-b--push--m3of4,.g-b--push--m6of8,.g-b--push--m9of12{margin-left:75%}.g-b--push--m1of5,.g-b--push--m2of10{margin-left:20%}.g-b--push--m2of5,.g-b--push--m4of10{margin-left:40%}.g-b--push--m3of5,.g-b--push--m6of10{margin-left:60%}.g-b--push--m4of5,.g-b--push--m8of10{margin-left:80%}.g-b--push--m1of6,.g-b--push--m2of12{margin-left:16.666%}.g-b--push--m5of6,.g-b--push--m10of12{margin-left:83.333%}.g-b--push--m1of8{margin-left:12.5%}.g-b--push--m3of8{margin-left:37.5%}.g-b--push--m5of8{margin-left:62.5%}.g-b--push--m7of8{margin-left:87.5%}.g-b--push--m1of10{margin-left:10%}.g-b--push--m3of10{margin-left:30%}.g-b--push--m7of10{margin-left:70%}.g-b--push--m9of10{margin-left:90%}.g-b--push--m1of12{margin-left:8.333%}.g-b--push--m5of12{margin-left:41.666%}.g-b--push--m7of12{margin-left:58.333%}.g-b--push--m11of12{margin-left:91.666%}.g-b--pull--m1of1{margin-right:100%}.g-b--pull--m1of2,.g-b--pull--m2of4,.g-b--pull--m3of6,.g-b--pull--m4of8,.g-b--pull--m5of10,.g-b--pull--m6of12{margin-right:50%}.g-b--pull--m1of3,.g-b--pull--m2of6,.g-b--pull--m4of12{margin-right:33.333%}.g-b--pull--m2of3,.g-b--pull--m4of6,.g-b--pull--m8of12{margin-right:66.666%}.g-b--pull--m1of4,.g-b--pull--m2of8,.g-b--pull--m3of12{margin-right:25%}.g-b--pull--m3of4,.g-b--pull--m6of8,.g-b--pull--m9of12{margin-right:75%}.g-b--pull--m1of5,.g-b--pull--m2of10{margin-right:20%}.g-b--pull--m2of5,.g-b--pull--m4of10{margin-right:40%}.g-b--pull--m3of5,.g-b--pull--m6of10{margin-right:60%}.g-b--pull--m4of5,.g-b--pull--m8of10{margin-right:80%}.g-b--pull--m1of6,.g-b--pull--m2of12{margin-right:16.666%}.g-b--pull--m5of6,.g-b--pull--m10of12{margin-right:83.333%}.g-b--pull--m1of8{margin-right:12.5%}.g-b--pull--m3of8{margin-right:37.5%}.g-b--pull--m5of8{margin-right:62.5%}.g-b--pull--m7of8{margin-right:87.5%}.g-b--pull--m1of10{margin-right:10%}.g-b--pull--m3of10{margin-right:30%}.g-b--pull--m7of10{margin-right:70%}.g-b--pull--m9of10{margin-right:90%}.g-b--pull--m1of12{margin-right:8.333%}.g-b--pull--m5of12{margin-right:41.666%}.g-b--pull--m7of12{margin-right:58.333%}.g-b--pull--m11of12{margin-right:91.666%}.splashscreen p{font-size:1.25rem;margin-bottom:1.43749rem;padding-top:.56251rem}.title{font-size:.8rem;margin-bottom:.77999rem;padding-top:.22001rem}.title-document{margin-bottom:.89999rem;padding-top:.10001rem}.title-document,.settings a{font-size:1.25rem}.words,.characters{font-size:.8rem;margin-bottom:.77999rem;padding-top:.22001rem}.modal--dillinger.about .modal-dialog,#zen{font-size:1.25rem}#zen{width:400px}#editor{font-size:1rem}}@media screen and (min-width:46.25em){html{font-size:.875em}body{font-size:1rem}ul,ol{margin-bottom:.83999rem;padding-top:.16001rem}p{padding-top:.66001rem}p,pre{margin-bottom:1.33999rem}pre,blockquote p{font-size:1rem;padding-top:.66001rem}blockquote p{margin-bottom:.33999rem}h1{font-size:2.0571429rem;margin-bottom:.21999rem;padding-top:.78001rem}h2{font-size:1.953125rem;margin-bottom:.1835837rem;padding-top:.8164163rem}h3{font-size:1.6457143rem;margin-bottom:.07599rem;padding-top:.92401rem}h4{font-size:1.5625rem;margin-bottom:.546865rem;padding-top:.453135rem}h5{font-size:1.25rem;margin-bottom:-.56251rem;padding-top:.56251rem}h6{font-size:1rem;margin-bottom:-.65001rem;padding-top:.65001rem}.g{margin-left:-16px;margin-right:-16px}.g-b{padding-left:16px;padding-right:16px}.g-b--t1of1{width:100%}.g-b--t1of2,.g-b--t2of4,.g-b--t3of6,.g-b--t4of8,.g-b--t5of10,.g-b--t6of12{width:50%}.g-b--t1of3,.g-b--t2of6,.g-b--t4of12{width:33.333%}.g-b--t2of3,.g-b--t4of6,.g-b--t8of12{width:66.666%}.g-b--t1of4,.g-b--t2of8,.g-b--t3of12{width:25%}.g-b--t3of4,.g-b--t6of8,.g-b--t9of12{width:75%}.g-b--t1of5,.g-b--t2of10{width:20%}.g-b--t2of5,.g-b--t4of10{width:40%}.g-b--t3of5,.g-b--t6of10{width:60%}.g-b--t4of5,.g-b--t8of10{width:80%}.g-b--t1of6,.g-b--t2of12{width:16.666%}.g-b--t5of6,.g-b--t10of12{width:83.333%}.g-b--t1of8{width:12.5%}.g-b--t3of8{width:37.5%}.g-b--t5of8{width:62.5%}.g-b--t7of8{width:87.5%}.g-b--t1of10{width:10%}.g-b--t3of10{width:30%}.g-b--t7of10{width:70%}.g-b--t9of10{width:90%}.g-b--t1of12{width:8.333%}.g-b--t5of12{width:41.666%}.g-b--t7of12{width:58.333%}.g-b--t11of12{width:91.666%}.g-b--push--t1of1{margin-left:100%}.g-b--push--t1of2,.g-b--push--t2of4,.g-b--push--t3of6,.g-b--push--t4of8,.g-b--push--t5of10,.g-b--push--t6of12{margin-left:50%}.g-b--push--t1of3,.g-b--push--t2of6,.g-b--push--t4of12{margin-left:33.333%}.g-b--push--t2of3,.g-b--push--t4of6,.g-b--push--t8of12{margin-left:66.666%}.g-b--push--t1of4,.g-b--push--t2of8,.g-b--push--t3of12{margin-left:25%}.g-b--push--t3of4,.g-b--push--t6of8,.g-b--push--t9of12{margin-left:75%}.g-b--push--t1of5,.g-b--push--t2of10{margin-left:20%}.g-b--push--t2of5,.g-b--push--t4of10{margin-left:40%}.g-b--push--t3of5,.g-b--push--t6of10{margin-left:60%}.g-b--push--t4of5,.g-b--push--t8of10{margin-left:80%}.g-b--push--t1of6,.g-b--push--t2of12{margin-left:16.666%}.g-b--push--t5of6,.g-b--push--t10of12{margin-left:83.333%}.g-b--push--t1of8{margin-left:12.5%}.g-b--push--t3of8{margin-left:37.5%}.g-b--push--t5of8{margin-left:62.5%}.g-b--push--t7of8{margin-left:87.5%}.g-b--push--t1of10{margin-left:10%}.g-b--push--t3of10{margin-left:30%}.g-b--push--t7of10{margin-left:70%}.g-b--push--t9of10{margin-left:90%}.g-b--push--t1of12{margin-left:8.333%}.g-b--push--t5of12{margin-left:41.666%}.g-b--push--t7of12{margin-left:58.333%}.g-b--push--t11of12{margin-left:91.666%}.g-b--pull--t1of1{margin-right:100%}.g-b--pull--t1of2,.g-b--pull--t2of4,.g-b--pull--t3of6,.g-b--pull--t4of8,.g-b--pull--t5of10,.g-b--pull--t6of12{margin-right:50%}.g-b--pull--t1of3,.g-b--pull--t2of6,.g-b--pull--t4of12{margin-right:33.333%}.g-b--pull--t2of3,.g-b--pull--t4of6,.g-b--pull--t8of12{margin-right:66.666%}.g-b--pull--t1of4,.g-b--pull--t2of8,.g-b--pull--t3of12{margin-right:25%}.g-b--pull--t3of4,.g-b--pull--t6of8,.g-b--pull--t9of12{margin-right:75%}.g-b--pull--t1of5,.g-b--pull--t2of10{margin-right:20%}.g-b--pull--t2of5,.g-b--pull--t4of10{margin-right:40%}.g-b--pull--t3of5,.g-b--pull--t6of10{margin-right:60%}.g-b--pull--t4of5,.g-b--pull--t8of10{margin-right:80%}.g-b--pull--t1of6,.g-b--pull--t2of12{margin-right:16.666%}.g-b--pull--t5of6,.g-b--pull--t10of12{margin-right:83.333%}.g-b--pull--t1of8{margin-right:12.5%}.g-b--pull--t3of8{margin-right:37.5%}.g-b--pull--t5of8{margin-right:62.5%}.g-b--pull--t7of8{margin-right:87.5%}.g-b--pull--t1of10{margin-right:10%}.g-b--pull--t3of10{margin-right:30%}.g-b--pull--t7of10{margin-right:70%}.g-b--pull--t9of10{margin-right:90%}.g-b--pull--t1of12{margin-right:8.333%}.g-b--pull--t5of12{margin-right:41.666%}.g-b--pull--t7of12{margin-right:58.333%}.g-b--pull--t11of12{margin-right:91.666%}.splashscreen-dillinger{width:500px}.splashscreen p{font-size:1.25rem;margin-bottom:1.43749rem;padding-top:.56251rem}.title{font-size:.8rem;margin-bottom:.77999rem;padding-top:.22001rem}.title-document{font-size:1.25rem;margin-bottom:.89999rem;padding-top:.10001rem}.menu .menu-item--save-to,.menu .menu-item--import-from{display:block}.menu .menu-item--preview,.menu .menu-item--save-to.in-sidebar,.menu .menu-item--import-from.in-sidebar{display:none}.settings a{font-size:1.25rem}.words,.characters{font-size:.8rem;margin-bottom:.77999rem;padding-top:.22001rem}.modal--dillinger.about .modal-dialog{font-size:1.25rem}.enter-zen-mode{display:block}.close-zen-mode{right:3rem;top:3rem}#zen{font-size:1.25rem;width:500px}.split-editor{border-right:1px solid #E8E8E8;float:left;padding-right:16px;width:50%}.show-preview .split-editor{display:block}.split-preview{display:block;float:right;position:relative;top:0;width:50%}#editor{font-size:1rem}.preview-mode-toggle-src,.preview-mode-toggle-html{display:block}}@media screen and (min-width:62.5em){html{font-size:.875em}body{font-size:1rem}ul,ol{margin-bottom:.83999rem;padding-top:.16001rem}p{padding-top:.66001rem}p,pre{margin-bottom:1.33999rem}pre,blockquote p{font-size:1rem;padding-top:.66001rem}blockquote p{margin-bottom:.33999rem}h1{font-size:2.0571429rem;margin-bottom:.21999rem;padding-top:.78001rem}h2{font-size:1.953125rem;margin-bottom:.1835837rem;padding-top:.8164163rem}h3{font-size:1.6457143rem;margin-bottom:.07599rem;padding-top:.92401rem}h4{font-size:1.5625rem;margin-bottom:.546865rem;padding-top:.453135rem}h5{font-size:1.25rem;margin-bottom:-.56251rem;padding-top:.56251rem}h6{font-size:1rem;margin-bottom:-.65001rem;padding-top:.65001rem}.g{margin-left:-16px;margin-right:-16px}.g-b{padding-left:16px;padding-right:16px}.g-b--d1of1{width:100%}.g-b--d1of2,.g-b--d2of4,.g-b--d3of6,.g-b--d4of8,.g-b--d5of10,.g-b--d6of12{width:50%}.g-b--d1of3,.g-b--d2of6,.g-b--d4of12{width:33.333%}.g-b--d2of3,.g-b--d4of6,.g-b--d8of12{width:66.666%}.g-b--d1of4,.g-b--d2of8,.g-b--d3of12{width:25%}.g-b--d3of4,.g-b--d6of8,.g-b--d9of12{width:75%}.g-b--d1of5,.g-b--d2of10{width:20%}.g-b--d2of5,.g-b--d4of10{width:40%}.g-b--d3of5,.g-b--d6of10{width:60%}.g-b--d4of5,.g-b--d8of10{width:80%}.g-b--d1of6,.g-b--d2of12{width:16.666%}.g-b--d5of6,.g-b--d10of12{width:83.333%}.g-b--d1of8{width:12.5%}.g-b--d3of8{width:37.5%}.g-b--d5of8{width:62.5%}.g-b--d7of8{width:87.5%}.g-b--d1of10{width:10%}.g-b--d3of10{width:30%}.g-b--d7of10{width:70%}.g-b--d9of10{width:90%}.g-b--d1of12{width:8.333%}.g-b--d5of12{width:41.666%}.g-b--d7of12{width:58.333%}.g-b--d11of12{width:91.666%}.g-b--push--d1of1{margin-left:100%}.g-b--push--d1of2,.g-b--push--d2of4,.g-b--push--d3of6,.g-b--push--d4of8,.g-b--push--d5of10,.g-b--push--d6of12{margin-left:50%}.g-b--push--d1of3,.g-b--push--d2of6,.g-b--push--d4of12{margin-left:33.333%}.g-b--push--d2of3,.g-b--push--d4of6,.g-b--push--d8of12{margin-left:66.666%}.g-b--push--d1of4,.g-b--push--d2of8,.g-b--push--d3of12{margin-left:25%}.g-b--push--d3of4,.g-b--push--d6of8,.g-b--push--d9of12{margin-left:75%}.g-b--push--d1of5,.g-b--push--d2of10{margin-left:20%}.g-b--push--d2of5,.g-b--push--d4of10{margin-left:40%}.g-b--push--d3of5,.g-b--push--d6of10{margin-left:60%}.g-b--push--d4of5,.g-b--push--d8of10{margin-left:80%}.g-b--push--d1of6,.g-b--push--d2of12{margin-left:16.666%}.g-b--push--d5of6,.g-b--push--d10of12{margin-left:83.333%}.g-b--push--d1of8{margin-left:12.5%}.g-b--push--d3of8{margin-left:37.5%}.g-b--push--d5of8{margin-left:62.5%}.g-b--push--d7of8{margin-left:87.5%}.g-b--push--d1of10{margin-left:10%}.g-b--push--d3of10{margin-left:30%}.g-b--push--d7of10{margin-left:70%}.g-b--push--d9of10{margin-left:90%}.g-b--push--d1of12{margin-left:8.333%}.g-b--push--d5of12{margin-left:41.666%}.g-b--push--d7of12{margin-left:58.333%}.g-b--push--d11of12{margin-left:91.666%}.g-b--pull--d1of1{margin-right:100%}.g-b--pull--d1of2,.g-b--pull--d2of4,.g-b--pull--d3of6,.g-b--pull--d4of8,.g-b--pull--d5of10,.g-b--pull--d6of12{margin-right:50%}.g-b--pull--d1of3,.g-b--pull--d2of6,.g-b--pull--d4of12{margin-right:33.333%}.g-b--pull--d2of3,.g-b--pull--d4of6,.g-b--pull--d8of12{margin-right:66.666%}.g-b--pull--d1of4,.g-b--pull--d2of8,.g-b--pull--d3of12{margin-right:25%}.g-b--pull--d3of4,.g-b--pull--d6of8,.g-b--pull--d9of12{margin-right:75%}.g-b--pull--d1of5,.g-b--pull--d2of10{margin-right:20%}.g-b--pull--d2of5,.g-b--pull--d4of10{margin-right:40%}.g-b--pull--d3of5,.g-b--pull--d6of10{margin-right:60%}.g-b--pull--d4of5,.g-b--pull--d8of10{margin-right:80%}.g-b--pull--d1of6,.g-b--pull--d2of12{margin-right:16.666%}.g-b--pull--d5of6,.g-b--pull--d10of12{margin-right:83.333%}.g-b--pull--d1of8{margin-right:12.5%}.g-b--pull--d3of8{margin-right:37.5%}.g-b--pull--d5of8{margin-right:62.5%}.g-b--pull--d7of8{margin-right:87.5%}.g-b--pull--d1of10{margin-right:10%}.g-b--pull--d3of10{margin-right:30%}.g-b--pull--d7of10{margin-right:70%}.g-b--pull--d9of10{margin-right:90%}.g-b--pull--d1of12{margin-right:8.333%}.g-b--pull--d5of12{margin-right:41.666%}.g-b--pull--d7of12{margin-right:58.333%}.g-b--pull--d11of12{margin-right:91.666%}.splashscreen-dillinger{width:700px}.splashscreen p{font-size:1.25rem;margin-bottom:1.43749rem;padding-top:.56251rem}.title{font-size:.8rem;margin-bottom:.77999rem;padding-top:.22001rem}.title-document{font-size:1.25rem;margin-bottom:.89999rem;padding-top:.10001rem}.menu .menu-item--export-as{display:block}.menu .menu-item--preview{display:none}.settings a{font-size:1.25rem}.words,.characters{font-size:.8rem;margin-bottom:.77999rem;padding-top:.22001rem}.modal--dillinger.about .modal-dialog,#zen{font-size:1.25rem}#zen{width:700px}#editor{font-size:1rem}}@media screen and (min-width:87.5em){html{font-size:.875em}body{font-size:1rem}ul,ol{margin-bottom:.83999rem;padding-top:.16001rem}p{padding-top:.66001rem}p,pre{margin-bottom:1.33999rem}pre,blockquote p{font-size:1rem;padding-top:.66001rem}blockquote p{margin-bottom:.33999rem}h1{font-size:2.0571429rem;margin-bottom:.21999rem;padding-top:.78001rem}h2{font-size:1.953125rem;margin-bottom:.1835837rem;padding-top:.8164163rem}h3{font-size:1.6457143rem;margin-bottom:.07599rem;padding-top:.92401rem}h4{font-size:1.5625rem;margin-bottom:.546865rem;padding-top:.453135rem}h5{font-size:1.25rem;margin-bottom:-.56251rem;padding-top:.56251rem}h6{font-size:1rem;margin-bottom:-.65001rem;padding-top:.65001rem}.splashscreen-dillinger{width:800px}.splashscreen p{font-size:1.25rem;margin-bottom:1.43749rem;padding-top:.56251rem}.title{font-size:.8rem;margin-bottom:.77999rem;padding-top:.22001rem}.title-document{margin-bottom:.89999rem;padding-top:.10001rem}.title-document,.settings a{font-size:1.25rem}.words,.characters{font-size:.8rem;margin-bottom:.77999rem;padding-top:.22001rem}.modal--dillinger.about .modal-dialog,#zen{font-size:1.25rem}#editor{font-size:1rem}}@media (min-width:768px){.form-inline .form-group{display:inline-block;margin-bottom:0;vertical-align:middle}.form-inline .form-control{display:inline-block;width:auto;vertical-align:middle}.form-inline .input-group{display:inline-table;vertical-align:middle}.form-inline .input-group .input-group-addon,.form-inline .input-group .input-group-btn,.form-inline .input-group .form-control{width:auto}.form-inline .input-group>.form-control{width:100%}.form-inline .control-label{margin-bottom:0;vertical-align:middle}.form-inline .radio,.form-inline .checkbox{display:inline-block;margin-top:0;margin-bottom:0;vertical-align:middle}.form-inline .radio label,.form-inline .checkbox label{padding-left:0}.form-inline .radio input[type="radio"],.form-inline .checkbox input[type="checkbox"]{position:relative;margin-left:0}.form-inline .has-feedback .form-control-feedback{top:0}.form-horizontal .control-label{text-align:right;margin-bottom:0;padding-top:7px}.form-horizontal .form-group-lg .control-label{padding-top:14.3px}.form-horizontal .form-group-sm .control-label{padding-top:6px}.modal-dialog{width:600px;margin:30px auto}.modal-content{box-shadow:0 5px 15px rgba(0,0,0,.5)}.modal-sm{width:300px}}@media (min-width:992px){.modal-lg{width:900px}}@media screen and (max-width:1200px){#_default_{max-width:30%}#_default_ ._default_{font-size:.825rem;line-height:.875rem;padding:12px 12px 6px 24px;text-align:justify}}@media screen and (max-width:1100px){#_default_{max-width:27%}#_default_ ._default_{font-size:.8rem;line-height:.85rem;padding:12px 6px 6px 24px;text-align:justify}}@media screen and (max-width:1000px){#_default_{max-width:24%}#_default_ ._default_{font-size:.775rem;line-height:.8rem;padding:12px 6px 6px 24px;text-align:justify}}@media screen and (max-width:900px){#_default_{max-width:30%}}@media screen and (max-width:767px){.table-responsive{width:100%;margin-bottom:15px;overflow-y:hidden;overflow-x:auto;-ms-overflow-style:-ms-autohiding-scrollbar;border:1px solid #ddd;-webkit-overflow-scrolling:touch}.table-responsive>.table{margin-bottom:0}.table-responsive>.table>thead>tr>th,.table-responsive>.table>thead>tr>td,.table-responsive>.table>tbody>tr>th,.table-responsive>.table>tbody>tr>td,.table-responsive>.table>tfoot>tr>th,.table-responsive>.table>tfoot>tr>td{white-space:nowrap}.table-responsive>.table-bordered{border:0}.table-responsive>.table-bordered>thead>tr>th:first-child,.table-responsive>.table-bordered>thead>tr>td:first-child,.table-responsive>.table-bordered>tbody>tr>th:first-child,.table-responsive>.table-bordered>tbody>tr>td:first-child,.table-responsive>.table-bordered>tfoot>tr>th:first-child,.table-responsive>.table-bordered>tfoot>tr>td:first-child{border-left:0}.table-responsive>.table-bordered>thead>tr>th:last-child,.table-responsive>.table-bordered>thead>tr>td:last-child,.table-responsive>.table-bordered>tbody>tr>th:last-child,.table-responsive>.table-bordered>tbody>tr>td:last-child,.table-responsive>.table-bordered>tfoot>tr>th:last-child,.table-responsive>.table-bordered>tfoot>tr>td:last-child{border-right:0}.table-responsive>.table-bordered>tbody>tr:last-child>th,.table-responsive>.table-bordered>tbody>tr:last-child>td,.table-responsive>.table-bordered>tfoot>tr:last-child>th,.table-responsive>.table-bordered>tfoot>tr:last-child>td{border-bottom:0}}@media screen and (max-width:720px){#_default_{max-width:60%}#_default_ ._default_{font-size:.75rem;line-height:1rem;padding:12px 24px}}@media screen and (max-width:620px){#_default_{max-width:50%}#_default_ ._default_{font-size:.66rem;letter-spacing:1px;line-height:1rem;padding:10px 24px}}@media screen and (max-width:520px){#_default_ ._default_{font-size:.4rem;line-height:.875rem;padding:6px 12px 6px 24px;text-align:justify}}@media screen and (max-width:460px){#_default_{display:none}}@media screen and (max-width:46.1875em){.editor-header{display:none}.editor-header--first{display:block;width:100%}}</style></head><body id="preview">
-<pre><code class="has-line-data" data-line-start="1" data-line-end="41">// $Id: thinkjava.md,v 1.12 2021/01/30 23:57:45 heiko Exp $
+<pre><code class="has-line-data" data-line-start="1" data-line-end="44">// $Id: thinkjava.md,v 1.13 2021/02/03 03:59:28 heiko Exp $
 //
 // $Log: thinkjava.md,v $
+// Revision 1.13  2021/02/03 03:59:28  heiko
+// R1D14: Finished subchapter Formatting Source Code (1.6).
+//
 // Revision 1.12  2021/01/30 23:57:45  heiko
 // R1D11: Finished subchapter Compiling Java Programs (1.4).
 //
@@ -39,338 +42,338 @@
 // Initial revision
 //
 </code></pre>
-<p class="has-line-data" data-line-start="44" data-line-end="45"><a href="https://www.100daysofcode.com/">#100DaysOfCode</a> :: ROUND 1 DAY 1–100</p>
-<p class="has-line-data" data-line-start="46" data-line-end="47"><strong>Markdown Version of “Think Java 2e”</strong></p>
-<p class="has-line-data" data-line-start="48" data-line-end="50">Think Java 2e is available at <a href="https://greenteapress.com/wp/think-java-2e/">https://greenteapress.com/wp/think-java-2e/</a>.<br>
+<p class="has-line-data" data-line-start="47" data-line-end="48"><a href="https://www.100daysofcode.com/">#100DaysOfCode</a> :: ROUND 1 DAY 1–100</p>
+<p class="has-line-data" data-line-start="49" data-line-end="50"><strong>Markdown Version of “Think Java 2e”</strong></p>
+<p class="has-line-data" data-line-start="51" data-line-end="53">Think Java 2e is available at <a href="https://greenteapress.com/wp/think-java-2e/">https://greenteapress.com/wp/think-java-2e/</a>.<br>
 Styled HTML generated by <a href="https://dillinger.io">Dillinger</a>.</p>
-<p class="has-line-data" data-line-start="51" data-line-end="53">Challenge started on January 20, 2021.<br>
+<p class="has-line-data" data-line-start="54" data-line-end="56">Challenge started on January 20, 2021.<br>
 <a href="https://twitter.com/HeikoBlomenkamp">@HeikoBlomenkamp</a></p>
-<h1 class="code-line" data-line-start=56 data-line-end=57><a id="Think_Java_How_to_Think_Like_a_Computer_Scientist_56"></a>Think Java: How to Think Like a Computer Scientist</h1>
-<p class="has-line-data" data-line-start="58" data-line-end="60"><strong>Allen B. Downey and Chris Mayfield</strong><br>
+<h1 class="code-line" data-line-start=59 data-line-end=60><a id="Think_Java_How_to_Think_Like_a_Computer_Scientist_59"></a>Think Java: How to Think Like a Computer Scientist</h1>
+<p class="has-line-data" data-line-start="61" data-line-end="63"><strong>Allen B. Downey and Chris Mayfield</strong><br>
 2nd Edition, Version 7.1.0</p>
-<p class="has-line-data" data-line-start="61" data-line-end="62">Copyright © 2020 Allen B. Downey and Chris Mayfield.</p>
-<p class="has-line-data" data-line-start="63" data-line-end="66">Permission is granted to copy, distribute, and/or modify this work under the terms of<br>
+<p class="has-line-data" data-line-start="64" data-line-end="65">Copyright © 2020 Allen B. Downey and Chris Mayfield.</p>
+<p class="has-line-data" data-line-start="66" data-line-end="69">Permission is granted to copy, distribute, and/or modify this work under the terms of<br>
 the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International<br>
 License, which is available at <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">https://creativecommons.org/licenses/by-nc-sa/4.0/</a>.</p>
 <ul>
-<li class="has-line-data" data-line-start="69" data-line-end="76"><a href="#Preface">Preface</a>
+<li class="has-line-data" data-line-start="72" data-line-end="79"><a href="#Preface">Preface</a>
 <ul>
-<li class="has-line-data" data-line-start="70" data-line-end="71"><a href="#The_Philosophy_Behind_the_Book">The Philosophy Behind the Book</a></li>
-<li class="has-line-data" data-line-start="71" data-line-end="72"><a href="#ObjectOriented_Programming">Object-Oriented Programming</a></li>
-<li class="has-line-data" data-line-start="72" data-line-end="73"><a href="#Changes_to_the_Second_Edition">Changes to the Second Edition</a></li>
-<li class="has-line-data" data-line-start="73" data-line-end="74"><a href="#About_the_Appendixes">About the Appendixes</a></li>
-<li class="has-line-data" data-line-start="74" data-line-end="75"><a href="#Using_the_Code_Examples">Using the Code Examples</a></li>
-<li class="has-line-data" data-line-start="75" data-line-end="76"><a href="#Acknowledgments">Acknowledgments</a></li>
+<li class="has-line-data" data-line-start="73" data-line-end="74"><a href="#The_Philosophy_Behind_the_Book">The Philosophy Behind the Book</a></li>
+<li class="has-line-data" data-line-start="74" data-line-end="75"><a href="#ObjectOriented_Programming">Object-Oriented Programming</a></li>
+<li class="has-line-data" data-line-start="75" data-line-end="76"><a href="#Changes_to_the_Second_Edition">Changes to the Second Edition</a></li>
+<li class="has-line-data" data-line-start="76" data-line-end="77"><a href="#About_the_Appendixes">About the Appendixes</a></li>
+<li class="has-line-data" data-line-start="77" data-line-end="78"><a href="#Using_the_Code_Examples">Using the Code Examples</a></li>
+<li class="has-line-data" data-line-start="78" data-line-end="79"><a href="#Acknowledgments">Acknowledgments</a></li>
 </ul>
 </li>
-<li class="has-line-data" data-line-start="76" data-line-end="88"><a href="#1_Computer_Programming">Computer Programming</a>
+<li class="has-line-data" data-line-start="79" data-line-end="91"><a href="#1_Computer_Programming">Computer Programming</a>
 <ul>
-<li class="has-line-data" data-line-start="77" data-line-end="78"><a href="#11_What_Is_a_Computer">What Is a Computer?</a></li>
-<li class="has-line-data" data-line-start="78" data-line-end="79"><a href="#12_What_Is_Programming">What Is Programming?</a></li>
-<li class="has-line-data" data-line-start="79" data-line-end="80"><a href="#13_The_Hello_World_Program">The Hello World Program</a></li>
-<li class="has-line-data" data-line-start="80" data-line-end="81"><a href="#14_Compiling_Java_Programs">Compiling Java Programs</a></li>
-<li class="has-line-data" data-line-start="81" data-line-end="82">Displaying Two Messages</li>
-<li class="has-line-data" data-line-start="82" data-line-end="83">Formatting Source Code</li>
-<li class="has-line-data" data-line-start="83" data-line-end="84">Using Escape Sequences</li>
-<li class="has-line-data" data-line-start="84" data-line-end="85">What Is Computer Science?</li>
-<li class="has-line-data" data-line-start="85" data-line-end="86">Debugging Programs</li>
-<li class="has-line-data" data-line-start="86" data-line-end="87">Vocabulary</li>
-<li class="has-line-data" data-line-start="87" data-line-end="88">Exercises</li>
+<li class="has-line-data" data-line-start="80" data-line-end="81"><a href="#11_What_Is_a_Computer">What Is a Computer?</a></li>
+<li class="has-line-data" data-line-start="81" data-line-end="82"><a href="#12_What_Is_Programming">What Is Programming?</a></li>
+<li class="has-line-data" data-line-start="82" data-line-end="83"><a href="#13_The_Hello_World_Program">The Hello World Program</a></li>
+<li class="has-line-data" data-line-start="83" data-line-end="84"><a href="#14_Compiling_Java_Programs">Compiling Java Programs</a></li>
+<li class="has-line-data" data-line-start="84" data-line-end="85"><a href="#15_Displaying_Two_Messages">Displaying Two Messages</a></li>
+<li class="has-line-data" data-line-start="85" data-line-end="86"><a href="#16_Formatting_Source_Code">Formatting Source Code</a></li>
+<li class="has-line-data" data-line-start="86" data-line-end="87">Using Escape Sequences</li>
+<li class="has-line-data" data-line-start="87" data-line-end="88">What Is Computer Science?</li>
+<li class="has-line-data" data-line-start="88" data-line-end="89">Debugging Programs</li>
+<li class="has-line-data" data-line-start="89" data-line-end="90">Vocabulary</li>
+<li class="has-line-data" data-line-start="90" data-line-end="91">Exercises</li>
 </ul>
 </li>
-<li class="has-line-data" data-line-start="88" data-line-end="101">Variables and Operators
+<li class="has-line-data" data-line-start="91" data-line-end="104">Variables and Operators
 <ul>
-<li class="has-line-data" data-line-start="89" data-line-end="90">Declaring Variables</li>
-<li class="has-line-data" data-line-start="90" data-line-end="91">Assigning Variables</li>
-<li class="has-line-data" data-line-start="91" data-line-end="92">Memory Diagrams</li>
-<li class="has-line-data" data-line-start="92" data-line-end="93">Printing Variables</li>
-<li class="has-line-data" data-line-start="93" data-line-end="94">Arithmetic Operators</li>
-<li class="has-line-data" data-line-start="94" data-line-end="95">Floating-Point Numbers</li>
-<li class="has-line-data" data-line-start="95" data-line-end="96">Rounding Errors</li>
-<li class="has-line-data" data-line-start="96" data-line-end="97">Operators for Strings</li>
-<li class="has-line-data" data-line-start="97" data-line-end="98">Compiler Error Messages</li>
-<li class="has-line-data" data-line-start="98" data-line-end="99">Other Types of Errors</li>
-<li class="has-line-data" data-line-start="99" data-line-end="100">Vocabulary</li>
-<li class="has-line-data" data-line-start="100" data-line-end="101">Exercises</li>
+<li class="has-line-data" data-line-start="92" data-line-end="93">Declaring Variables</li>
+<li class="has-line-data" data-line-start="93" data-line-end="94">Assigning Variables</li>
+<li class="has-line-data" data-line-start="94" data-line-end="95">Memory Diagrams</li>
+<li class="has-line-data" data-line-start="95" data-line-end="96">Printing Variables</li>
+<li class="has-line-data" data-line-start="96" data-line-end="97">Arithmetic Operators</li>
+<li class="has-line-data" data-line-start="97" data-line-end="98">Floating-Point Numbers</li>
+<li class="has-line-data" data-line-start="98" data-line-end="99">Rounding Errors</li>
+<li class="has-line-data" data-line-start="99" data-line-end="100">Operators for Strings</li>
+<li class="has-line-data" data-line-start="100" data-line-end="101">Compiler Error Messages</li>
+<li class="has-line-data" data-line-start="101" data-line-end="102">Other Types of Errors</li>
+<li class="has-line-data" data-line-start="102" data-line-end="103">Vocabulary</li>
+<li class="has-line-data" data-line-start="103" data-line-end="104">Exercises</li>
 </ul>
 </li>
-<li class="has-line-data" data-line-start="101" data-line-end="114">Input and Output
+<li class="has-line-data" data-line-start="104" data-line-end="117">Input and Output
 <ul>
-<li class="has-line-data" data-line-start="102" data-line-end="103">The System Class</li>
-<li class="has-line-data" data-line-start="103" data-line-end="104">The Scanner Class</li>
-<li class="has-line-data" data-line-start="104" data-line-end="105">Language Elements</li>
-<li class="has-line-data" data-line-start="105" data-line-end="106">Literals and Constants</li>
-<li class="has-line-data" data-line-start="106" data-line-end="107">Formatting Output</li>
-<li class="has-line-data" data-line-start="107" data-line-end="108">Reading Error Messages</li>
-<li class="has-line-data" data-line-start="108" data-line-end="109">Type Cast Operators</li>
-<li class="has-line-data" data-line-start="109" data-line-end="110">Remainder Operator</li>
-<li class="has-line-data" data-line-start="110" data-line-end="111">Putting It All Together</li>
-<li class="has-line-data" data-line-start="111" data-line-end="112">The Scanner Bug</li>
-<li class="has-line-data" data-line-start="112" data-line-end="113">Vocabulary</li>
-<li class="has-line-data" data-line-start="113" data-line-end="114">Exercises</li>
+<li class="has-line-data" data-line-start="105" data-line-end="106">The System Class</li>
+<li class="has-line-data" data-line-start="106" data-line-end="107">The Scanner Class</li>
+<li class="has-line-data" data-line-start="107" data-line-end="108">Language Elements</li>
+<li class="has-line-data" data-line-start="108" data-line-end="109">Literals and Constants</li>
+<li class="has-line-data" data-line-start="109" data-line-end="110">Formatting Output</li>
+<li class="has-line-data" data-line-start="110" data-line-end="111">Reading Error Messages</li>
+<li class="has-line-data" data-line-start="111" data-line-end="112">Type Cast Operators</li>
+<li class="has-line-data" data-line-start="112" data-line-end="113">Remainder Operator</li>
+<li class="has-line-data" data-line-start="113" data-line-end="114">Putting It All Together</li>
+<li class="has-line-data" data-line-start="114" data-line-end="115">The Scanner Bug</li>
+<li class="has-line-data" data-line-start="115" data-line-end="116">Vocabulary</li>
+<li class="has-line-data" data-line-start="116" data-line-end="117">Exercises</li>
 </ul>
 </li>
-<li class="has-line-data" data-line-start="114" data-line-end="126">Methods and Testing
+<li class="has-line-data" data-line-start="117" data-line-end="129">Methods and Testing
 <ul>
-<li class="has-line-data" data-line-start="115" data-line-end="116">Defining New Methods</li>
-<li class="has-line-data" data-line-start="116" data-line-end="117">Flow of Execution</li>
-<li class="has-line-data" data-line-start="117" data-line-end="118">Parameters and Arguments</li>
-<li class="has-line-data" data-line-start="118" data-line-end="119">Multiple Parameters</li>
-<li class="has-line-data" data-line-start="119" data-line-end="120">Stack Diagrams</li>
-<li class="has-line-data" data-line-start="120" data-line-end="121">Math Methods</li>
-<li class="has-line-data" data-line-start="121" data-line-end="122">Composition</li>
-<li class="has-line-data" data-line-start="122" data-line-end="123">Return Values</li>
-<li class="has-line-data" data-line-start="123" data-line-end="124">Incremental Development</li>
-<li class="has-line-data" data-line-start="124" data-line-end="125">Vocabulary</li>
-<li class="has-line-data" data-line-start="125" data-line-end="126">Exercises</li>
+<li class="has-line-data" data-line-start="118" data-line-end="119">Defining New Methods</li>
+<li class="has-line-data" data-line-start="119" data-line-end="120">Flow of Execution</li>
+<li class="has-line-data" data-line-start="120" data-line-end="121">Parameters and Arguments</li>
+<li class="has-line-data" data-line-start="121" data-line-end="122">Multiple Parameters</li>
+<li class="has-line-data" data-line-start="122" data-line-end="123">Stack Diagrams</li>
+<li class="has-line-data" data-line-start="123" data-line-end="124">Math Methods</li>
+<li class="has-line-data" data-line-start="124" data-line-end="125">Composition</li>
+<li class="has-line-data" data-line-start="125" data-line-end="126">Return Values</li>
+<li class="has-line-data" data-line-start="126" data-line-end="127">Incremental Development</li>
+<li class="has-line-data" data-line-start="127" data-line-end="128">Vocabulary</li>
+<li class="has-line-data" data-line-start="128" data-line-end="129">Exercises</li>
 </ul>
 </li>
-<li class="has-line-data" data-line-start="126" data-line-end="139">Conditionals and Logic
+<li class="has-line-data" data-line-start="129" data-line-end="142">Conditionals and Logic
 <ul>
-<li class="has-line-data" data-line-start="127" data-line-end="128">Relational Operators</li>
-<li class="has-line-data" data-line-start="128" data-line-end="129">The if-else Statement</li>
-<li class="has-line-data" data-line-start="129" data-line-end="130">Chaining and Nesting</li>
-<li class="has-line-data" data-line-start="130" data-line-end="131">The switch Statement</li>
-<li class="has-line-data" data-line-start="131" data-line-end="132">Logical Operators</li>
-<li class="has-line-data" data-line-start="132" data-line-end="133">De Morgan’s Laws</li>
-<li class="has-line-data" data-line-start="133" data-line-end="134">Boolean Variables</li>
-<li class="has-line-data" data-line-start="134" data-line-end="135">Boolean Methods</li>
-<li class="has-line-data" data-line-start="135" data-line-end="136">Validating Input</li>
-<li class="has-line-data" data-line-start="136" data-line-end="137">Example Program</li>
-<li class="has-line-data" data-line-start="137" data-line-end="138">Vocabulary</li>
-<li class="has-line-data" data-line-start="138" data-line-end="139">Exercises</li>
+<li class="has-line-data" data-line-start="130" data-line-end="131">Relational Operators</li>
+<li class="has-line-data" data-line-start="131" data-line-end="132">The if-else Statement</li>
+<li class="has-line-data" data-line-start="132" data-line-end="133">Chaining and Nesting</li>
+<li class="has-line-data" data-line-start="133" data-line-end="134">The switch Statement</li>
+<li class="has-line-data" data-line-start="134" data-line-end="135">Logical Operators</li>
+<li class="has-line-data" data-line-start="135" data-line-end="136">De Morgan’s Laws</li>
+<li class="has-line-data" data-line-start="136" data-line-end="137">Boolean Variables</li>
+<li class="has-line-data" data-line-start="137" data-line-end="138">Boolean Methods</li>
+<li class="has-line-data" data-line-start="138" data-line-end="139">Validating Input</li>
+<li class="has-line-data" data-line-start="139" data-line-end="140">Example Program</li>
+<li class="has-line-data" data-line-start="140" data-line-end="141">Vocabulary</li>
+<li class="has-line-data" data-line-start="141" data-line-end="142">Exercises</li>
 </ul>
 </li>
-<li class="has-line-data" data-line-start="139" data-line-end="153">Loops and Strings
+<li class="has-line-data" data-line-start="142" data-line-end="156">Loops and Strings
 <ul>
-<li class="has-line-data" data-line-start="140" data-line-end="141">The while Statement</li>
-<li class="has-line-data" data-line-start="141" data-line-end="142">Increment and Decrement</li>
-<li class="has-line-data" data-line-start="142" data-line-end="143">The for Statement</li>
-<li class="has-line-data" data-line-start="143" data-line-end="144">Nested Loops</li>
-<li class="has-line-data" data-line-start="144" data-line-end="145">Characters</li>
-<li class="has-line-data" data-line-start="145" data-line-end="146">Which Loop to Use</li>
-<li class="has-line-data" data-line-start="146" data-line-end="147">String Iteration</li>
-<li class="has-line-data" data-line-start="147" data-line-end="148">The indexOf Method</li>
-<li class="has-line-data" data-line-start="148" data-line-end="149">Substrings</li>
-<li class="has-line-data" data-line-start="149" data-line-end="150">String Comparison</li>
-<li class="has-line-data" data-line-start="150" data-line-end="151">String Formatting</li>
-<li class="has-line-data" data-line-start="151" data-line-end="152">Vocabulary</li>
-<li class="has-line-data" data-line-start="152" data-line-end="153">Exercises</li>
+<li class="has-line-data" data-line-start="143" data-line-end="144">The while Statement</li>
+<li class="has-line-data" data-line-start="144" data-line-end="145">Increment and Decrement</li>
+<li class="has-line-data" data-line-start="145" data-line-end="146">The for Statement</li>
+<li class="has-line-data" data-line-start="146" data-line-end="147">Nested Loops</li>
+<li class="has-line-data" data-line-start="147" data-line-end="148">Characters</li>
+<li class="has-line-data" data-line-start="148" data-line-end="149">Which Loop to Use</li>
+<li class="has-line-data" data-line-start="149" data-line-end="150">String Iteration</li>
+<li class="has-line-data" data-line-start="150" data-line-end="151">The indexOf Method</li>
+<li class="has-line-data" data-line-start="151" data-line-end="152">Substrings</li>
+<li class="has-line-data" data-line-start="152" data-line-end="153">String Comparison</li>
+<li class="has-line-data" data-line-start="153" data-line-end="154">String Formatting</li>
+<li class="has-line-data" data-line-start="154" data-line-end="155">Vocabulary</li>
+<li class="has-line-data" data-line-start="155" data-line-end="156">Exercises</li>
 </ul>
 </li>
-<li class="has-line-data" data-line-start="153" data-line-end="165">Arrays and References
+<li class="has-line-data" data-line-start="156" data-line-end="168">Arrays and References
 <ul>
-<li class="has-line-data" data-line-start="154" data-line-end="155">Creating Arrays</li>
-<li class="has-line-data" data-line-start="155" data-line-end="156">Accessing Elements</li>
-<li class="has-line-data" data-line-start="156" data-line-end="157">Displaying Arrays</li>
-<li class="has-line-data" data-line-start="157" data-line-end="158">Copying Arrays</li>
-<li class="has-line-data" data-line-start="158" data-line-end="159">Traversing Arrays</li>
-<li class="has-line-data" data-line-start="159" data-line-end="160">Random Numbers</li>
-<li class="has-line-data" data-line-start="160" data-line-end="161">Building a Histogram</li>
-<li class="has-line-data" data-line-start="161" data-line-end="162">The Enhanced for Loop</li>
-<li class="has-line-data" data-line-start="162" data-line-end="163">Counting Characters</li>
-<li class="has-line-data" data-line-start="163" data-line-end="164">Vocabulary</li>
-<li class="has-line-data" data-line-start="164" data-line-end="165">Exercises</li>
+<li class="has-line-data" data-line-start="157" data-line-end="158">Creating Arrays</li>
+<li class="has-line-data" data-line-start="158" data-line-end="159">Accessing Elements</li>
+<li class="has-line-data" data-line-start="159" data-line-end="160">Displaying Arrays</li>
+<li class="has-line-data" data-line-start="160" data-line-end="161">Copying Arrays</li>
+<li class="has-line-data" data-line-start="161" data-line-end="162">Traversing Arrays</li>
+<li class="has-line-data" data-line-start="162" data-line-end="163">Random Numbers</li>
+<li class="has-line-data" data-line-start="163" data-line-end="164">Building a Histogram</li>
+<li class="has-line-data" data-line-start="164" data-line-end="165">The Enhanced for Loop</li>
+<li class="has-line-data" data-line-start="165" data-line-end="166">Counting Characters</li>
+<li class="has-line-data" data-line-start="166" data-line-end="167">Vocabulary</li>
+<li class="has-line-data" data-line-start="167" data-line-end="168">Exercises</li>
 </ul>
 </li>
-<li class="has-line-data" data-line-start="165" data-line-end="176">Recursive Methods
+<li class="has-line-data" data-line-start="168" data-line-end="179">Recursive Methods
 <ul>
-<li class="has-line-data" data-line-start="166" data-line-end="167">Recursive Void Methods</li>
-<li class="has-line-data" data-line-start="167" data-line-end="168">Recursive Stack Diagrams</li>
-<li class="has-line-data" data-line-start="168" data-line-end="169">Value-Returning Methods</li>
-<li class="has-line-data" data-line-start="169" data-line-end="170">The Leap of Faith</li>
-<li class="has-line-data" data-line-start="170" data-line-end="171">Counting Up Recursively</li>
-<li class="has-line-data" data-line-start="171" data-line-end="172">Binary Number System</li>
-<li class="has-line-data" data-line-start="172" data-line-end="173">Recursive Binary Method</li>
-<li class="has-line-data" data-line-start="173" data-line-end="174">CodingBat Problems</li>
-<li class="has-line-data" data-line-start="174" data-line-end="175">Vocabulary</li>
-<li class="has-line-data" data-line-start="175" data-line-end="176">Exercises</li>
+<li class="has-line-data" data-line-start="169" data-line-end="170">Recursive Void Methods</li>
+<li class="has-line-data" data-line-start="170" data-line-end="171">Recursive Stack Diagrams</li>
+<li class="has-line-data" data-line-start="171" data-line-end="172">Value-Returning Methods</li>
+<li class="has-line-data" data-line-start="172" data-line-end="173">The Leap of Faith</li>
+<li class="has-line-data" data-line-start="173" data-line-end="174">Counting Up Recursively</li>
+<li class="has-line-data" data-line-start="174" data-line-end="175">Binary Number System</li>
+<li class="has-line-data" data-line-start="175" data-line-end="176">Recursive Binary Method</li>
+<li class="has-line-data" data-line-start="176" data-line-end="177">CodingBat Problems</li>
+<li class="has-line-data" data-line-start="177" data-line-end="178">Vocabulary</li>
+<li class="has-line-data" data-line-start="178" data-line-end="179">Exercises</li>
 </ul>
 </li>
-<li class="has-line-data" data-line-start="176" data-line-end="188">Immutable Objects
+<li class="has-line-data" data-line-start="179" data-line-end="191">Immutable Objects
 <ul>
-<li class="has-line-data" data-line-start="177" data-line-end="178">Primitives vs Objects</li>
-<li class="has-line-data" data-line-start="178" data-line-end="179">The null Keyword</li>
-<li class="has-line-data" data-line-start="179" data-line-end="180">Strings Are Immutable</li>
-<li class="has-line-data" data-line-start="180" data-line-end="181">Wrapper Classes</li>
-<li class="has-line-data" data-line-start="181" data-line-end="182">Command-Line Arguments</li>
-<li class="has-line-data" data-line-start="182" data-line-end="183">Argument Validation</li>
-<li class="has-line-data" data-line-start="183" data-line-end="184">BigInteger Arithmetic</li>
-<li class="has-line-data" data-line-start="184" data-line-end="185">Incremental Design</li>
-<li class="has-line-data" data-line-start="185" data-line-end="186">More Generalization</li>
-<li class="has-line-data" data-line-start="186" data-line-end="187">Vocabulary</li>
-<li class="has-line-data" data-line-start="187" data-line-end="188">Exercises</li>
+<li class="has-line-data" data-line-start="180" data-line-end="181">Primitives vs Objects</li>
+<li class="has-line-data" data-line-start="181" data-line-end="182">The null Keyword</li>
+<li class="has-line-data" data-line-start="182" data-line-end="183">Strings Are Immutable</li>
+<li class="has-line-data" data-line-start="183" data-line-end="184">Wrapper Classes</li>
+<li class="has-line-data" data-line-start="184" data-line-end="185">Command-Line Arguments</li>
+<li class="has-line-data" data-line-start="185" data-line-end="186">Argument Validation</li>
+<li class="has-line-data" data-line-start="186" data-line-end="187">BigInteger Arithmetic</li>
+<li class="has-line-data" data-line-start="187" data-line-end="188">Incremental Design</li>
+<li class="has-line-data" data-line-start="188" data-line-end="189">More Generalization</li>
+<li class="has-line-data" data-line-start="189" data-line-end="190">Vocabulary</li>
+<li class="has-line-data" data-line-start="190" data-line-end="191">Exercises</li>
 </ul>
 </li>
-<li class="has-line-data" data-line-start="188" data-line-end="202">Mutable Objects
+<li class="has-line-data" data-line-start="191" data-line-end="205">Mutable Objects
 <ul>
-<li class="has-line-data" data-line-start="189" data-line-end="190">Point Objects</li>
-<li class="has-line-data" data-line-start="190" data-line-end="191">Objects as Parameters</li>
-<li class="has-line-data" data-line-start="191" data-line-end="192">Objects as Return Values</li>
-<li class="has-line-data" data-line-start="192" data-line-end="193">Rectangles Are Mutable</li>
-<li class="has-line-data" data-line-start="193" data-line-end="194">Aliasing Revisited</li>
-<li class="has-line-data" data-line-start="194" data-line-end="195">Java Library Source</li>
-<li class="has-line-data" data-line-start="195" data-line-end="196">Class Diagrams</li>
-<li class="has-line-data" data-line-start="196" data-line-end="197">Scope Revisited</li>
-<li class="has-line-data" data-line-start="197" data-line-end="198">Garbage Collection</li>
-<li class="has-line-data" data-line-start="198" data-line-end="199">Mutable vs Immutable</li>
-<li class="has-line-data" data-line-start="199" data-line-end="200">StringBuilder Objects</li>
-<li class="has-line-data" data-line-start="200" data-line-end="201">Vocabulary</li>
-<li class="has-line-data" data-line-start="201" data-line-end="202">Exercises</li>
+<li class="has-line-data" data-line-start="192" data-line-end="193">Point Objects</li>
+<li class="has-line-data" data-line-start="193" data-line-end="194">Objects as Parameters</li>
+<li class="has-line-data" data-line-start="194" data-line-end="195">Objects as Return Values</li>
+<li class="has-line-data" data-line-start="195" data-line-end="196">Rectangles Are Mutable</li>
+<li class="has-line-data" data-line-start="196" data-line-end="197">Aliasing Revisited</li>
+<li class="has-line-data" data-line-start="197" data-line-end="198">Java Library Source</li>
+<li class="has-line-data" data-line-start="198" data-line-end="199">Class Diagrams</li>
+<li class="has-line-data" data-line-start="199" data-line-end="200">Scope Revisited</li>
+<li class="has-line-data" data-line-start="200" data-line-end="201">Garbage Collection</li>
+<li class="has-line-data" data-line-start="201" data-line-end="202">Mutable vs Immutable</li>
+<li class="has-line-data" data-line-start="202" data-line-end="203">StringBuilder Objects</li>
+<li class="has-line-data" data-line-start="203" data-line-end="204">Vocabulary</li>
+<li class="has-line-data" data-line-start="204" data-line-end="205">Exercises</li>
 </ul>
 </li>
-<li class="has-line-data" data-line-start="202" data-line-end="213">Designing Classes
+<li class="has-line-data" data-line-start="205" data-line-end="216">Designing Classes
 <ul>
-<li class="has-line-data" data-line-start="203" data-line-end="204">The Time Class</li>
-<li class="has-line-data" data-line-start="204" data-line-end="205">Constructors</li>
-<li class="has-line-data" data-line-start="205" data-line-end="206">Value Constructors</li>
-<li class="has-line-data" data-line-start="206" data-line-end="207">Getters and Setters</li>
-<li class="has-line-data" data-line-start="207" data-line-end="208">Displaying Objects</li>
-<li class="has-line-data" data-line-start="208" data-line-end="209">The toString Method</li>
-<li class="has-line-data" data-line-start="209" data-line-end="210">The equals Method</li>
-<li class="has-line-data" data-line-start="210" data-line-end="211">Adding Times</li>
-<li class="has-line-data" data-line-start="211" data-line-end="212">Vocabulary</li>
-<li class="has-line-data" data-line-start="212" data-line-end="213">Exercises</li>
+<li class="has-line-data" data-line-start="206" data-line-end="207">The Time Class</li>
+<li class="has-line-data" data-line-start="207" data-line-end="208">Constructors</li>
+<li class="has-line-data" data-line-start="208" data-line-end="209">Value Constructors</li>
+<li class="has-line-data" data-line-start="209" data-line-end="210">Getters and Setters</li>
+<li class="has-line-data" data-line-start="210" data-line-end="211">Displaying Objects</li>
+<li class="has-line-data" data-line-start="211" data-line-end="212">The toString Method</li>
+<li class="has-line-data" data-line-start="212" data-line-end="213">The equals Method</li>
+<li class="has-line-data" data-line-start="213" data-line-end="214">Adding Times</li>
+<li class="has-line-data" data-line-start="214" data-line-end="215">Vocabulary</li>
+<li class="has-line-data" data-line-start="215" data-line-end="216">Exercises</li>
 </ul>
 </li>
-<li class="has-line-data" data-line-start="213" data-line-end="225">Arrays of Objects
+<li class="has-line-data" data-line-start="216" data-line-end="228">Arrays of Objects
 <ul>
-<li class="has-line-data" data-line-start="214" data-line-end="215">Card Objects</li>
-<li class="has-line-data" data-line-start="215" data-line-end="216">Card toString</li>
-<li class="has-line-data" data-line-start="216" data-line-end="217">Class Variables</li>
-<li class="has-line-data" data-line-start="217" data-line-end="218">The compareTo Method</li>
-<li class="has-line-data" data-line-start="218" data-line-end="219">Cards Are Immutable</li>
-<li class="has-line-data" data-line-start="219" data-line-end="220">Arrays of Cards</li>
-<li class="has-line-data" data-line-start="220" data-line-end="221">Sequential Search</li>
-<li class="has-line-data" data-line-start="221" data-line-end="222">Binary Search</li>
-<li class="has-line-data" data-line-start="222" data-line-end="223">Tracing the Code</li>
-<li class="has-line-data" data-line-start="223" data-line-end="224">Vocabulary</li>
-<li class="has-line-data" data-line-start="224" data-line-end="225">Exercises</li>
+<li class="has-line-data" data-line-start="217" data-line-end="218">Card Objects</li>
+<li class="has-line-data" data-line-start="218" data-line-end="219">Card toString</li>
+<li class="has-line-data" data-line-start="219" data-line-end="220">Class Variables</li>
+<li class="has-line-data" data-line-start="220" data-line-end="221">The compareTo Method</li>
+<li class="has-line-data" data-line-start="221" data-line-end="222">Cards Are Immutable</li>
+<li class="has-line-data" data-line-start="222" data-line-end="223">Arrays of Cards</li>
+<li class="has-line-data" data-line-start="223" data-line-end="224">Sequential Search</li>
+<li class="has-line-data" data-line-start="224" data-line-end="225">Binary Search</li>
+<li class="has-line-data" data-line-start="225" data-line-end="226">Tracing the Code</li>
+<li class="has-line-data" data-line-start="226" data-line-end="227">Vocabulary</li>
+<li class="has-line-data" data-line-start="227" data-line-end="228">Exercises</li>
 </ul>
 </li>
-<li class="has-line-data" data-line-start="225" data-line-end="238">Objects of Arrays
+<li class="has-line-data" data-line-start="228" data-line-end="241">Objects of Arrays
 <ul>
-<li class="has-line-data" data-line-start="226" data-line-end="227">Decks of Cards</li>
-<li class="has-line-data" data-line-start="227" data-line-end="228">Shuffling Decks</li>
-<li class="has-line-data" data-line-start="228" data-line-end="229">Selection Sort</li>
-<li class="has-line-data" data-line-start="229" data-line-end="230">Merge Sort</li>
-<li class="has-line-data" data-line-start="230" data-line-end="231">Subdecks</li>
-<li class="has-line-data" data-line-start="231" data-line-end="232">Merging Decks</li>
-<li class="has-line-data" data-line-start="232" data-line-end="233">Adding Recursion</li>
-<li class="has-line-data" data-line-start="233" data-line-end="234">Static Context</li>
-<li class="has-line-data" data-line-start="234" data-line-end="235">Piles of Cards</li>
-<li class="has-line-data" data-line-start="235" data-line-end="236">Playing War</li>
-<li class="has-line-data" data-line-start="236" data-line-end="237">Vocabulary</li>
-<li class="has-line-data" data-line-start="237" data-line-end="238">Exercises</li>
+<li class="has-line-data" data-line-start="229" data-line-end="230">Decks of Cards</li>
+<li class="has-line-data" data-line-start="230" data-line-end="231">Shuffling Decks</li>
+<li class="has-line-data" data-line-start="231" data-line-end="232">Selection Sort</li>
+<li class="has-line-data" data-line-start="232" data-line-end="233">Merge Sort</li>
+<li class="has-line-data" data-line-start="233" data-line-end="234">Subdecks</li>
+<li class="has-line-data" data-line-start="234" data-line-end="235">Merging Decks</li>
+<li class="has-line-data" data-line-start="235" data-line-end="236">Adding Recursion</li>
+<li class="has-line-data" data-line-start="236" data-line-end="237">Static Context</li>
+<li class="has-line-data" data-line-start="237" data-line-end="238">Piles of Cards</li>
+<li class="has-line-data" data-line-start="238" data-line-end="239">Playing War</li>
+<li class="has-line-data" data-line-start="239" data-line-end="240">Vocabulary</li>
+<li class="has-line-data" data-line-start="240" data-line-end="241">Exercises</li>
 </ul>
 </li>
-<li class="has-line-data" data-line-start="238" data-line-end="247">Extending Classes
+<li class="has-line-data" data-line-start="241" data-line-end="250">Extending Classes
 <ul>
-<li class="has-line-data" data-line-start="239" data-line-end="240">CardCollection</li>
-<li class="has-line-data" data-line-start="240" data-line-end="241">Inheritance</li>
-<li class="has-line-data" data-line-start="241" data-line-end="242">Dealing Cards</li>
-<li class="has-line-data" data-line-start="242" data-line-end="243">The Player Class</li>
-<li class="has-line-data" data-line-start="243" data-line-end="244">The Eights Class</li>
-<li class="has-line-data" data-line-start="244" data-line-end="245">Class Relationships</li>
-<li class="has-line-data" data-line-start="245" data-line-end="246">Vocabulary</li>
-<li class="has-line-data" data-line-start="246" data-line-end="247">Exercises</li>
+<li class="has-line-data" data-line-start="242" data-line-end="243">CardCollection</li>
+<li class="has-line-data" data-line-start="243" data-line-end="244">Inheritance</li>
+<li class="has-line-data" data-line-start="244" data-line-end="245">Dealing Cards</li>
+<li class="has-line-data" data-line-start="245" data-line-end="246">The Player Class</li>
+<li class="has-line-data" data-line-start="246" data-line-end="247">The Eights Class</li>
+<li class="has-line-data" data-line-start="247" data-line-end="248">Class Relationships</li>
+<li class="has-line-data" data-line-start="248" data-line-end="249">Vocabulary</li>
+<li class="has-line-data" data-line-start="249" data-line-end="250">Exercises</li>
 </ul>
 </li>
-<li class="has-line-data" data-line-start="247" data-line-end="260">Arrays of Arrays
+<li class="has-line-data" data-line-start="250" data-line-end="263">Arrays of Arrays
 <ul>
-<li class="has-line-data" data-line-start="248" data-line-end="249">Conway’s Game of Life</li>
-<li class="has-line-data" data-line-start="249" data-line-end="250">The Cell Class</li>
-<li class="has-line-data" data-line-start="250" data-line-end="251">Two-Dimensional Arrays</li>
-<li class="has-line-data" data-line-start="251" data-line-end="252">The GridCanvas Class</li>
-<li class="has-line-data" data-line-start="252" data-line-end="253">Other Grid Methods</li>
-<li class="has-line-data" data-line-start="253" data-line-end="254">Starting the Game</li>
-<li class="has-line-data" data-line-start="254" data-line-end="255">The Simulation Loop</li>
-<li class="has-line-data" data-line-start="255" data-line-end="256">Exception Handling</li>
-<li class="has-line-data" data-line-start="256" data-line-end="257">Counting Neighbors</li>
-<li class="has-line-data" data-line-start="257" data-line-end="258">Updating the Grid</li>
-<li class="has-line-data" data-line-start="258" data-line-end="259">Vocabulary</li>
-<li class="has-line-data" data-line-start="259" data-line-end="260">Exercises</li>
+<li class="has-line-data" data-line-start="251" data-line-end="252">Conway’s Game of Life</li>
+<li class="has-line-data" data-line-start="252" data-line-end="253">The Cell Class</li>
+<li class="has-line-data" data-line-start="253" data-line-end="254">Two-Dimensional Arrays</li>
+<li class="has-line-data" data-line-start="254" data-line-end="255">The GridCanvas Class</li>
+<li class="has-line-data" data-line-start="255" data-line-end="256">Other Grid Methods</li>
+<li class="has-line-data" data-line-start="256" data-line-end="257">Starting the Game</li>
+<li class="has-line-data" data-line-start="257" data-line-end="258">The Simulation Loop</li>
+<li class="has-line-data" data-line-start="258" data-line-end="259">Exception Handling</li>
+<li class="has-line-data" data-line-start="259" data-line-end="260">Counting Neighbors</li>
+<li class="has-line-data" data-line-start="260" data-line-end="261">Updating the Grid</li>
+<li class="has-line-data" data-line-start="261" data-line-end="262">Vocabulary</li>
+<li class="has-line-data" data-line-start="262" data-line-end="263">Exercises</li>
 </ul>
 </li>
-<li class="has-line-data" data-line-start="260" data-line-end="267">Reusing Classes
+<li class="has-line-data" data-line-start="263" data-line-end="270">Reusing Classes
 <ul>
-<li class="has-line-data" data-line-start="261" data-line-end="262">Langton’s Ant</li>
-<li class="has-line-data" data-line-start="262" data-line-end="263">Refactoring</li>
-<li class="has-line-data" data-line-start="263" data-line-end="264">Abstract Classes</li>
-<li class="has-line-data" data-line-start="264" data-line-end="265">UML Diagram</li>
-<li class="has-line-data" data-line-start="265" data-line-end="266">Vocabulary</li>
-<li class="has-line-data" data-line-start="266" data-line-end="267">Exercises</li>
+<li class="has-line-data" data-line-start="264" data-line-end="265">Langton’s Ant</li>
+<li class="has-line-data" data-line-start="265" data-line-end="266">Refactoring</li>
+<li class="has-line-data" data-line-start="266" data-line-end="267">Abstract Classes</li>
+<li class="has-line-data" data-line-start="267" data-line-end="268">UML Diagram</li>
+<li class="has-line-data" data-line-start="268" data-line-end="269">Vocabulary</li>
+<li class="has-line-data" data-line-start="269" data-line-end="270">Exercises</li>
 </ul>
 </li>
-<li class="has-line-data" data-line-start="267" data-line-end="279">Advanced Topics
+<li class="has-line-data" data-line-start="270" data-line-end="282">Advanced Topics
 <ul>
-<li class="has-line-data" data-line-start="268" data-line-end="269">Polygon Objects</li>
-<li class="has-line-data" data-line-start="269" data-line-end="270">Adding Color</li>
-<li class="has-line-data" data-line-start="270" data-line-end="271">Regular Polygons</li>
-<li class="has-line-data" data-line-start="271" data-line-end="272">More Constructors</li>
-<li class="has-line-data" data-line-start="272" data-line-end="273">An Initial Drawing</li>
-<li class="has-line-data" data-line-start="273" data-line-end="274">Blinking Polygons</li>
-<li class="has-line-data" data-line-start="274" data-line-end="275">Interfaces</li>
-<li class="has-line-data" data-line-start="275" data-line-end="276">Event Listeners</li>
-<li class="has-line-data" data-line-start="276" data-line-end="277">Timers</li>
-<li class="has-line-data" data-line-start="277" data-line-end="278">Vocabulary</li>
-<li class="has-line-data" data-line-start="278" data-line-end="279">Exercises</li>
+<li class="has-line-data" data-line-start="271" data-line-end="272">Polygon Objects</li>
+<li class="has-line-data" data-line-start="272" data-line-end="273">Adding Color</li>
+<li class="has-line-data" data-line-start="273" data-line-end="274">Regular Polygons</li>
+<li class="has-line-data" data-line-start="274" data-line-end="275">More Constructors</li>
+<li class="has-line-data" data-line-start="275" data-line-end="276">An Initial Drawing</li>
+<li class="has-line-data" data-line-start="276" data-line-end="277">Blinking Polygons</li>
+<li class="has-line-data" data-line-start="277" data-line-end="278">Interfaces</li>
+<li class="has-line-data" data-line-start="278" data-line-end="279">Event Listeners</li>
+<li class="has-line-data" data-line-start="279" data-line-end="280">Timers</li>
+<li class="has-line-data" data-line-start="280" data-line-end="281">Vocabulary</li>
+<li class="has-line-data" data-line-start="281" data-line-end="282">Exercises</li>
 </ul>
 </li>
-<li class="has-line-data" data-line-start="279" data-line-end="288">Tools
+<li class="has-line-data" data-line-start="282" data-line-end="291">Tools
 <ul>
-<li class="has-line-data" data-line-start="280" data-line-end="281">Installing DrJava</li>
-<li class="has-line-data" data-line-start="281" data-line-end="282">DrJava Interactions</li>
-<li class="has-line-data" data-line-start="282" data-line-end="283">Command-Line Interface</li>
-<li class="has-line-data" data-line-start="283" data-line-end="284">Command-Line Testing</li>
-<li class="has-line-data" data-line-start="284" data-line-end="285">Running Checkstyle</li>
-<li class="has-line-data" data-line-start="285" data-line-end="286">Tracing with a Debugger</li>
-<li class="has-line-data" data-line-start="286" data-line-end="287">Testing with JUnit</li>
-<li class="has-line-data" data-line-start="287" data-line-end="288">Vocabulary</li>
+<li class="has-line-data" data-line-start="283" data-line-end="284">Installing DrJava</li>
+<li class="has-line-data" data-line-start="284" data-line-end="285">DrJava Interactions</li>
+<li class="has-line-data" data-line-start="285" data-line-end="286">Command-Line Interface</li>
+<li class="has-line-data" data-line-start="286" data-line-end="287">Command-Line Testing</li>
+<li class="has-line-data" data-line-start="287" data-line-end="288">Running Checkstyle</li>
+<li class="has-line-data" data-line-start="288" data-line-end="289">Tracing with a Debugger</li>
+<li class="has-line-data" data-line-start="289" data-line-end="290">Testing with JUnit</li>
+<li class="has-line-data" data-line-start="290" data-line-end="291">Vocabulary</li>
 </ul>
 </li>
-<li class="has-line-data" data-line-start="288" data-line-end="294">Javadoc
+<li class="has-line-data" data-line-start="291" data-line-end="297">Javadoc
 <ul>
-<li class="has-line-data" data-line-start="289" data-line-end="290">Reading Documentation</li>
-<li class="has-line-data" data-line-start="290" data-line-end="291">Writing Documentation</li>
-<li class="has-line-data" data-line-start="291" data-line-end="292">Javadoc Tags</li>
-<li class="has-line-data" data-line-start="292" data-line-end="293">Example Source File</li>
-<li class="has-line-data" data-line-start="293" data-line-end="294">Vocabulary</li>
+<li class="has-line-data" data-line-start="292" data-line-end="293">Reading Documentation</li>
+<li class="has-line-data" data-line-start="293" data-line-end="294">Writing Documentation</li>
+<li class="has-line-data" data-line-start="294" data-line-end="295">Javadoc Tags</li>
+<li class="has-line-data" data-line-start="295" data-line-end="296">Example Source File</li>
+<li class="has-line-data" data-line-start="296" data-line-end="297">Vocabulary</li>
 </ul>
 </li>
-<li class="has-line-data" data-line-start="294" data-line-end="300">Graphics
+<li class="has-line-data" data-line-start="297" data-line-end="303">Graphics
 <ul>
-<li class="has-line-data" data-line-start="295" data-line-end="296">Creating Graphics</li>
-<li class="has-line-data" data-line-start="296" data-line-end="297">Graphics Methods</li>
-<li class="has-line-data" data-line-start="297" data-line-end="298">Example Drawing</li>
-<li class="has-line-data" data-line-start="298" data-line-end="299">Vocabulary</li>
-<li class="has-line-data" data-line-start="299" data-line-end="300">Exercises</li>
+<li class="has-line-data" data-line-start="298" data-line-end="299">Creating Graphics</li>
+<li class="has-line-data" data-line-start="299" data-line-end="300">Graphics Methods</li>
+<li class="has-line-data" data-line-start="300" data-line-end="301">Example Drawing</li>
+<li class="has-line-data" data-line-start="301" data-line-end="302">Vocabulary</li>
+<li class="has-line-data" data-line-start="302" data-line-end="303">Exercises</li>
 </ul>
 </li>
-<li class="has-line-data" data-line-start="300" data-line-end="304">Debugging
+<li class="has-line-data" data-line-start="303" data-line-end="307">Debugging
 <ul>
-<li class="has-line-data" data-line-start="301" data-line-end="302">Compile-Time Errors</li>
-<li class="has-line-data" data-line-start="302" data-line-end="303">Run-Time Errors</li>
-<li class="has-line-data" data-line-start="303" data-line-end="304">Logic Errors</li>
+<li class="has-line-data" data-line-start="304" data-line-end="305">Compile-Time Errors</li>
+<li class="has-line-data" data-line-start="305" data-line-end="306">Run-Time Errors</li>
+<li class="has-line-data" data-line-start="306" data-line-end="307">Logic Errors</li>
 </ul>
 </li>
-<li class="has-line-data" data-line-start="304" data-line-end="305">Index</li>
+<li class="has-line-data" data-line-start="307" data-line-end="308">Index</li>
 </ul>
-<h2 class="code-line" data-line-start=308 data-line-end=309><a id="Preface"></a>Preface</h2>
-<p class="has-line-data" data-line-start="310" data-line-end="316"><em>Think Java</em> is an introduction to computer science and programming intended for<br>
+<h2 class="code-line" data-line-start=311 data-line-end=312><a id="Preface"></a>Preface</h2>
+<p class="has-line-data" data-line-start="313" data-line-end="319"><em>Think Java</em> is an introduction to computer science and programming intended for<br>
 readers with little or no experience. We start with the most basic concepts and are<br>
 careful to define all terms when they are first used. The book presents each new idea<br>
 in a logical progression. Larger topics, like control flow statements and object-<br>
 oriented programming, are divided into smaller examples and introduced over the<br>
 course of several chapters.</p>
-<p class="has-line-data" data-line-start="317" data-line-end="323">This book is intentionally concise. Each chapter is 12–14 pages and covers the<br>
+<p class="has-line-data" data-line-start="320" data-line-end="326">This book is intentionally concise. Each chapter is 12–14 pages and covers the<br>
 material for one week of a college course. It is not meant to be a comprehensive<br>
 presentation of Java, but rather, an initial exposure to programming constructs and<br>
 techniques. We begin with small problems and basic algorithms and work up to<br>
 object-oriented design. In the vocabulary of computer science pedagogy, this book uses<br>
 the “objects late” approach.</p>
-<h3 class="code-line" data-line-start=326 data-line-end=327><a id="The_Philosophy_Behind_the_Book"></a>The Philosophy Behind the Book</h3>
-<p class="has-line-data" data-line-start="328" data-line-end="329">Here are the guiding principles that make the book the way it is:</p>
+<h3 class="code-line" data-line-start=329 data-line-end=330><a id="The_Philosophy_Behind_the_Book"></a>The Philosophy Behind the Book</h3>
+<p class="has-line-data" data-line-start="331" data-line-end="332">Here are the guiding principles that make the book the way it is:</p>
 <dl>
 <dt>One concept at a time:</dt>
 <dd>We break down topics that give beginners trouble into a series of small steps,<br>
@@ -395,28 +398,28 @@ allowing readers to choose methods that work best for them.</dd>
 programming language, and be able to debug errors. We discuss these and<br>
 other aspects throughout the book and summarize our advice in Appendix <a href="#">D</a>.</dd>
 </dl>
-<h3 class="code-line" data-line-start=360 data-line-end=361><a id="ObjectOriented_Programming"></a>Object-Oriented Programming</h3>
-<p class="has-line-data" data-line-start="362" data-line-end="364">Some Java books introduce classes and objects immediately; others begin with<br>
+<h3 class="code-line" data-line-start=363 data-line-end=364><a id="ObjectOriented_Programming"></a>Object-Oriented Programming</h3>
+<p class="has-line-data" data-line-start="365" data-line-end="367">Some Java books introduce classes and objects immediately; others begin with<br>
 procedural programming and transition to object-oriented more gradually.</p>
-<p class="has-line-data" data-line-start="365" data-line-end="368">Many of Java’s object-oriented features are motivated by problems with previous<br>
+<p class="has-line-data" data-line-start="368" data-line-end="371">Many of Java’s object-oriented features are motivated by problems with previous<br>
 languages, and their implementations are influenced by this history. Some of these<br>
 features are hard to explain when people aren’t familiar with the problems they solve.</p>
-<p class="has-line-data" data-line-start="369" data-line-end="373">We get to object-oriented programming as quickly as possible (beginning with<br>
+<p class="has-line-data" data-line-start="372" data-line-end="376">We get to object-oriented programming as quickly as possible (beginning with<br>
 Chapter <a href="#">9</a>). But we introduce concepts one at a time, as clearly as possible, in a way<br>
 that allows readers to practice each idea in isolation before moving on. So it takes<br>
 some time to get there.</p>
-<p class="has-line-data" data-line-start="374" data-line-end="377">You can’t write Java programs (even Hello World) without encountering object-<br>
+<p class="has-line-data" data-line-start="377" data-line-end="380">You can’t write Java programs (even Hello World) without encountering object-<br>
 oriented features. In some cases we explain a feature briefly when it first appears,<br>
 and then explain it more deeply later on.</p>
-<p class="has-line-data" data-line-start="378" data-line-end="381">If you read the entire book, you will see nearly every topic required for Java SE<br>
+<p class="has-line-data" data-line-start="381" data-line-end="384">If you read the entire book, you will see nearly every topic required for Java SE<br>
 Programmer I certification. Supplemental lessons are available in the official Java<br>
 tutorials on Oracle’s website (<a href="https://thinkjava.org/tutorial">https://thinkjava.org/tutorial</a>).</p>
-<p class="has-line-data" data-line-start="382" data-line-end="386">This book is also well suited to prepare high school students for the AP Computer<br>
+<p class="has-line-data" data-line-start="385" data-line-end="389">This book is also well suited to prepare high school students for the AP Computer<br>
 Science A exam, which includes object-oriented design and implementation. (AP is a<br>
 registered trademark of The College Board.) A mapping of <em>Think Java</em> section<br>
 numbers to the AP course is available on our website: <a href="https://thinkjava.org/">https://thinkjava.org/</a>.</p>
-<h3 class="code-line" data-line-start=389 data-line-end=390><a id="Changes_to_the_Second_Edition"></a>Changes to the Second Edition</h3>
-<p class="has-line-data" data-line-start="391" data-line-end="394">This new edition was written over several years, with feedback from dozens of<br>
+<h3 class="code-line" data-line-start=392 data-line-end=393><a id="Changes_to_the_Second_Edition"></a>Changes to the Second Edition</h3>
+<p class="has-line-data" data-line-start="394" data-line-end="397">This new edition was written over several years, with feedback from dozens of<br>
 instructors and hundreds of students. A complete history of all changes is available<br>
 on GitHub. Here are some of the highlights:</p>
 <dl>
@@ -446,8 +449,8 @@ events.</dd>
 more detail. The other three appendixes that were present in the first edition<br>
 have been revised for clarity and layout.</dd>
 </dl>
-<h3 class="code-line" data-line-start=427 data-line-end=428><a id="About_the_Appendixes"></a>About the Appendixes</h3>
-<p class="has-line-data" data-line-start="429" data-line-end="432">The chapters of this book are meant to be read in order, because each one builds on<br>
+<h3 class="code-line" data-line-start=430 data-line-end=431><a id="About_the_Appendixes"></a>About the Appendixes</h3>
+<p class="has-line-data" data-line-start="432" data-line-end="435">The chapters of this book are meant to be read in order, because each one builds on<br>
 the previous one. We also include several appendixes with material that can be read<br>
 at any time:</p>
 <dl>
@@ -473,148 +476,148 @@ provides many more suggestions on how to debug your programs. We<br>
 recommend that you review this appendix frequently as you work through the<br>
 book.</dd>
 </dl>
-<h3 class="code-line" data-line-start=460 data-line-end=461><a id="Using_the_Code_Examples"></a>Using the Code Examples</h3>
-<p class="has-line-data" data-line-start="462" data-line-end="466">Most of the code examples in this book are available from a Git repository at<br>
+<h3 class="code-line" data-line-start=463 data-line-end=464><a id="Using_the_Code_Examples"></a>Using the Code Examples</h3>
+<p class="has-line-data" data-line-start="465" data-line-end="469">Most of the code examples in this book are available from a Git repository at<br>
 <a href="https://github.com/ChrisMayfield/ThinkJavaCode2">https://github.com/ChrisMayfield/ThinkJavaCode2</a>. Git is a “version control system”<br>
 that allows you to keep track of the files that make up a project. A collection of<br>
 files under Git’s control is called a “repository”.</p>
-<p class="has-line-data" data-line-start="467" data-line-end="469">GitHub is a hosting service that provides storage for Git repositories and a<br>
+<p class="has-line-data" data-line-start="470" data-line-end="472">GitHub is a hosting service that provides storage for Git repositories and a<br>
 convenient web interface. It provides several ways to work with the code:</p>
 <ul>
-<li class="has-line-data" data-line-start="470" data-line-end="476">
-<p class="has-line-data" data-line-start="470" data-line-end="475">You can create a copy of the repository on GitHub by clicking the Fork button.<br>
+<li class="has-line-data" data-line-start="473" data-line-end="479">
+<p class="has-line-data" data-line-start="473" data-line-end="478">You can create a copy of the repository on GitHub by clicking the Fork button.<br>
 If you don’t already have a GitHub account, you’ll need to create one. After<br>
 forking, you’ll have your own repository on GitHub that you can use to keep<br>
 track of code you write. Then you can “clone” the repository, which downloads<br>
 a copy of the files to your computer.</p>
 </li>
-<li class="has-line-data" data-line-start="476" data-line-end="480">
-<p class="has-line-data" data-line-start="476" data-line-end="479">Alternatively, you could clone the original repository without forking. If you<br>
+<li class="has-line-data" data-line-start="479" data-line-end="483">
+<p class="has-line-data" data-line-start="479" data-line-end="482">Alternatively, you could clone the original repository without forking. If you<br>
 choose this option, you don’t need a GitHub account, but you won’t be able to<br>
 save your changes on GitHub.</p>
 </li>
-<li class="has-line-data" data-line-start="480" data-line-end="484">
-<p class="has-line-data" data-line-start="480" data-line-end="483">If you don’t want to use Git at all, you can download the code in a ZIP archive<br>
+<li class="has-line-data" data-line-start="483" data-line-end="487">
+<p class="has-line-data" data-line-start="483" data-line-end="486">If you don’t want to use Git at all, you can download the code in a ZIP archive<br>
 using the Clone button on the GitHub page, or this link:<br>
 <a href="https://thinkjava.org/code2zip">https://thinkjava.org/code2zip</a>.</p>
 </li>
 </ul>
-<p class="has-line-data" data-line-start="484" data-line-end="486">After you clone the repository or unzip the ZIP file, you should have a directory<br>
+<p class="has-line-data" data-line-start="487" data-line-end="489">After you clone the repository or unzip the ZIP file, you should have a directory<br>
 named <em>ThinkJavaCode2</em> with a subdirectory for each chapter in the book.</p>
-<p class="has-line-data" data-line-start="487" data-line-end="490">The examples in this book were developed and tested using OpenJDK 11. If you are<br>
+<p class="has-line-data" data-line-start="490" data-line-end="493">The examples in this book were developed and tested using OpenJDK 11. If you are<br>
 using a more recent version, everything should still work. If you are using an older<br>
 version, some of the examples might not.</p>
-<h3 class="code-line" data-line-start=493 data-line-end=494><a id="Acknowledgments"></a>Acknowledgments</h3>
-<p class="has-line-data" data-line-start="495" data-line-end="498">Many people have sent corrections and suggestions over the years, and we<br>
+<h3 class="code-line" data-line-start=496 data-line-end=497><a id="Acknowledgments"></a>Acknowledgments</h3>
+<p class="has-line-data" data-line-start="498" data-line-end="501">Many people have sent corrections and suggestions over the years, and we<br>
 appreciate their valuable feedback! This list begins with Version 4.0 of the open<br>
 source edition, so it omits those who contributed to earlier versions:</p>
 <ul>
-<li class="has-line-data" data-line-start="499" data-line-end="502">
-<p class="has-line-data" data-line-start="499" data-line-end="501">Ellen Hildreth used this book to teach Data Structures at Wellesley College and<br>
+<li class="has-line-data" data-line-start="502" data-line-end="505">
+<p class="has-line-data" data-line-start="502" data-line-end="504">Ellen Hildreth used this book to teach Data Structures at Wellesley College and<br>
 submitted a whole stack of corrections and suggestions.</p>
 </li>
-<li class="has-line-data" data-line-start="502" data-line-end="505">
-<p class="has-line-data" data-line-start="502" data-line-end="504">Tania Passfield pointed out that some glossaries had leftover terms that no<br>
+<li class="has-line-data" data-line-start="505" data-line-end="508">
+<p class="has-line-data" data-line-start="505" data-line-end="507">Tania Passfield pointed out that some glossaries had leftover terms that no<br>
 longer appeared in the text.</p>
 </li>
-<li class="has-line-data" data-line-start="505" data-line-end="508">
-<p class="has-line-data" data-line-start="505" data-line-end="507">Elizabeth Wiethoff noticed that the series expansion of exp(-x²) was wrong.<br>
+<li class="has-line-data" data-line-start="508" data-line-end="511">
+<p class="has-line-data" data-line-start="508" data-line-end="510">Elizabeth Wiethoff noticed that the series expansion of exp(-x²) was wrong.<br>
 She has also worked on a Ruby version of the book.</p>
 </li>
-<li class="has-line-data" data-line-start="508" data-line-end="510">
-<p class="has-line-data" data-line-start="508" data-line-end="509">Matt Crawford sent in a whole patch file full of corrections.</p>
-</li>
-<li class="has-line-data" data-line-start="510" data-line-end="511">
-<p class="has-line-data" data-line-start="510" data-line-end="511">Chi-Yu Li pointed out a typo and an error in one of the code examples.</p>
-</li>
 <li class="has-line-data" data-line-start="511" data-line-end="513">
-<p class="has-line-data" data-line-start="511" data-line-end="512">Doan Thanh Nam corrected an example.</p>
+<p class="has-line-data" data-line-start="511" data-line-end="512">Matt Crawford sent in a whole patch file full of corrections.</p>
 </li>
-<li class="has-line-data" data-line-start="513" data-line-end="516">
-<p class="has-line-data" data-line-start="513" data-line-end="515">Muhammad Saied translated the book into Arabic and found several errors in<br>
+<li class="has-line-data" data-line-start="513" data-line-end="514">
+<p class="has-line-data" data-line-start="513" data-line-end="514">Chi-Yu Li pointed out a typo and an error in one of the code examples.</p>
+</li>
+<li class="has-line-data" data-line-start="514" data-line-end="516">
+<p class="has-line-data" data-line-start="514" data-line-end="515">Doan Thanh Nam corrected an example.</p>
+</li>
+<li class="has-line-data" data-line-start="516" data-line-end="519">
+<p class="has-line-data" data-line-start="516" data-line-end="518">Muhammad Saied translated the book into Arabic and found several errors in<br>
 the process.</p>
 </li>
-<li class="has-line-data" data-line-start="516" data-line-end="518">
-<p class="has-line-data" data-line-start="516" data-line-end="517">Marius Margowski found an inconsistency in a code example.</p>
+<li class="has-line-data" data-line-start="519" data-line-end="521">
+<p class="has-line-data" data-line-start="519" data-line-end="520">Marius Margowski found an inconsistency in a code example.</p>
 </li>
-<li class="has-line-data" data-line-start="518" data-line-end="521">
-<p class="has-line-data" data-line-start="518" data-line-end="520">Leslie Klein discovered another error in the series expansion of exp(-x²),<br>
+<li class="has-line-data" data-line-start="521" data-line-end="524">
+<p class="has-line-data" data-line-start="521" data-line-end="523">Leslie Klein discovered another error in the series expansion of exp(-x²),<br>
 identified typos in card array figures, and helped clarify several exercises.</p>
 </li>
-<li class="has-line-data" data-line-start="521" data-line-end="523">
-<p class="has-line-data" data-line-start="521" data-line-end="522">Micah Lindstrom reported half a dozen typos and sent corrections.</p>
-</li>
-<li class="has-line-data" data-line-start="523" data-line-end="526">
-<p class="has-line-data" data-line-start="523" data-line-end="525">James Riely ported the textbook source from LaTeX to Sphinx.<br>
-<a href="http://fpl.cs.depaul.edu/jriely/thinkapjava/">http://fpl.cs.depaul.edu/jriely/thinkapjava/</a></p>
+<li class="has-line-data" data-line-start="524" data-line-end="526">
+<p class="has-line-data" data-line-start="524" data-line-end="525">Micah Lindstrom reported half a dozen typos and sent corrections.</p>
 </li>
 <li class="has-line-data" data-line-start="526" data-line-end="529">
-<p class="has-line-data" data-line-start="526" data-line-end="528">Peter Knaggs ported the book to C#.<br>
-<a href="https://www.rigwit.co.uk/think/sharp/">https://www.rigwit.co.uk/think/sharp/</a></p>
+<p class="has-line-data" data-line-start="526" data-line-end="528">James Riely ported the textbook source from LaTeX to Sphinx.<br>
+<a href="http://fpl.cs.depaul.edu/jriely/thinkapjava/">http://fpl.cs.depaul.edu/jriely/thinkapjava/</a></p>
 </li>
 <li class="has-line-data" data-line-start="529" data-line-end="532">
-<p class="has-line-data" data-line-start="529" data-line-end="531">Heidi Gentry-Kolen recorded several video lectures that follow the book.<br>
+<p class="has-line-data" data-line-start="529" data-line-end="531">Peter Knaggs ported the book to C#.<br>
+<a href="https://www.rigwit.co.uk/think/sharp/">https://www.rigwit.co.uk/think/sharp/</a></p>
+</li>
+<li class="has-line-data" data-line-start="532" data-line-end="535">
+<p class="has-line-data" data-line-start="532" data-line-end="534">Heidi Gentry-Kolen recorded several video lectures that follow the book.<br>
 <a href="https://www.youtube.com/user/digipipeline">https://www.youtube.com/user/digipipeline</a></p>
 </li>
-<li class="has-line-data" data-line-start="532" data-line-end="534">
-<p class="has-line-data" data-line-start="532" data-line-end="533">Waldo Ribeiro submitted a pull request that corrected a dozen typos.</p>
-</li>
-<li class="has-line-data" data-line-start="534" data-line-end="537">
-<p class="has-line-data" data-line-start="534" data-line-end="536">Michael Stewart made several suggestions for improving the first half of the<br>
-book.</p>
+<li class="has-line-data" data-line-start="535" data-line-end="537">
+<p class="has-line-data" data-line-start="535" data-line-end="536">Waldo Ribeiro submitted a pull request that corrected a dozen typos.</p>
 </li>
 <li class="has-line-data" data-line-start="537" data-line-end="540">
-<p class="has-line-data" data-line-start="537" data-line-end="539">Steven Richardson adapted the book for an online course and contributed<br>
-many ideas for improving the text.</p>
+<p class="has-line-data" data-line-start="537" data-line-end="539">Michael Stewart made several suggestions for improving the first half of the<br>
+book.</p>
 </li>
 <li class="has-line-data" data-line-start="540" data-line-end="543">
-<p class="has-line-data" data-line-start="540" data-line-end="542">Fazl Rahman provided detailed feedback, chapter by chapter, and offered many<br>
+<p class="has-line-data" data-line-start="540" data-line-end="542">Steven Richardson adapted the book for an online course and contributed<br>
+many ideas for improving the text.</p>
+</li>
+<li class="has-line-data" data-line-start="543" data-line-end="546">
+<p class="has-line-data" data-line-start="543" data-line-end="545">Fazl Rahman provided detailed feedback, chapter by chapter, and offered many<br>
 suggestions for improving the text.</p>
 </li>
 </ul>
-<p class="has-line-data" data-line-start="543" data-line-end="546">We are especially grateful to the technical reviewers of the O’Reilly Media first<br>
+<p class="has-line-data" data-line-start="546" data-line-end="549">We are especially grateful to the technical reviewers of the O’Reilly Media first<br>
 edition: Blythe Samuels, David Wisneski, and Stephen Rose. They found errors, made<br>
 many great suggestions, and helped make the book much better.</p>
-<p class="has-line-data" data-line-start="547" data-line-end="549">Likewise, we thank Marc Loy for his thorough review of the O’Reilly Media second<br>
+<p class="has-line-data" data-line-start="550" data-line-end="552">Likewise, we thank Marc Loy for his thorough review of the O’Reilly Media second<br>
 edition. He contributed many corrections, insights, and clarifications.</p>
-<p class="has-line-data" data-line-start="550" data-line-end="553">Many students have given exceptional feedback, including Ian Staton, Tanner<br>
+<p class="has-line-data" data-line-start="553" data-line-end="556">Many students have given exceptional feedback, including Ian Staton, Tanner<br>
 Wernecke, Jacob Green, Rasha Abuhantash, Nick Duncan, Kylie Davidson, Shirley<br>
 Jiang, Elena Trafton, Jennifer Gregorio, and Azeem Mufti.</p>
-<p class="has-line-data" data-line-start="554" data-line-end="560">Other contributors who found one or more typos: Stijn Debrouwere, Guy Driesen,<br>
+<p class="has-line-data" data-line-start="557" data-line-end="563">Other contributors who found one or more typos: Stijn Debrouwere, Guy Driesen,<br>
 Andai Velican, Chris Kuszmaul, Daniel Kurikesu, Josh Donath, Rens Findhammer,<br>
 Elisa Abedrapo, Yousef BaAfif, Bruce Hill, Matt Underwood, Isaac Sultan, Dan Rice,<br>
 Robert Beard, Daniel Pierce, Michael Giftthaler, Chris Fox, Min Zeng, Markus Geuss,<br>
 Mauricio Gonzalez, Enrico Sartirana, Kasem Satitwiwat, Jason Miller, Kevin Molloy,<br>
 Cory Culbertson, Will Crawford, and Shawn Brenneman.</p>
-<p class="has-line-data" data-line-start="561" data-line-end="563">If you have additional comments or ideas about the text, please send them to:<br>
-<a href="/cdn-cgi/l/email-protection#70161515141211131b30170215151e04151100021503035e131f1d"><span class="__cf_email__" data-cfemail="d2b4b7b7b6b0b3b1b992b5a0b7b7bca6b7b3a2a0b7a1a1fcb1bdbf">[email&#160;protected]</span></a>.</p>
-<p class="has-line-data" data-line-start="564" data-line-end="565">Allen Downey and Chris Mayfield</p>
-<h2 class="code-line" data-line-start=568 data-line-end=569><a id="1_Computer_Programming"></a>1. Computer Programming</h2>
-<p class="has-line-data" data-line-start="570" data-line-end="577">The goal of this book is to teach you to think like a computer scientist. This way of<br>
+<p class="has-line-data" data-line-start="564" data-line-end="566">If you have additional comments or ideas about the text, please send them to:<br>
+<a href="/cdn-cgi/l/email-protection#5d3b3838393f3c3e361d3a2f38383329383c2d2f382e2e733e3230"><span class="__cf_email__" data-cfemail="83e5e6e6e7e1e2e0e8c3e4f1e6e6edf7e6e2f3f1e6f0f0ade0ecee">[email&#160;protected]</span></a>.</p>
+<p class="has-line-data" data-line-start="567" data-line-end="568">Allen Downey and Chris Mayfield</p>
+<h2 class="code-line" data-line-start=571 data-line-end=572><a id="1_Computer_Programming"></a>1. Computer Programming</h2>
+<p class="has-line-data" data-line-start="573" data-line-end="580">The goal of this book is to teach you to think like a computer scientist. This way of<br>
 thinking combines some of the best features of mathematics, engineering, and<br>
 natural science. Like mathematicians, computer scientists use formal languages to<br>
 denote ideas—specifically, computations. Like engineers, they design things,<br>
 assembling components into systems and evaluating trade-offs among alternatives.<br>
 And like scientists, they observe the behavior of complex systems, form hypotheses,<br>
 and test predictions.</p>
-<p class="has-line-data" data-line-start="578" data-line-end="585">An important skill for a computer scientist is <strong>problem solving</strong>. It involves the ability<br>
+<p class="has-line-data" data-line-start="581" data-line-end="588">An important skill for a computer scientist is <strong>problem solving</strong>. It involves the ability<br>
 to formulate problems, think creatively about solutions, and express solutions clearly<br>
 and accurately. As it turns out, the process of learning to program computers is<br>
 an excellent opportunity to develop problem-solving skills. On one level, you will be<br>
 learning to write Java programs, a useful skill by itself. But on another level, you will<br>
 use programming as a means to an end. As we go along, that end will become<br>
 clearer.</p>
-<h3 class="code-line" data-line-start=588 data-line-end=589><a id="11_What_Is_a_Computer"></a>1.1 What Is a Computer?</h3>
-<p class="has-line-data" data-line-start="590" data-line-end="595">When people hear the word <em>computer</em>, they often think of a desktop or a laptop. Not<br>
+<h3 class="code-line" data-line-start=591 data-line-end=592><a id="11_What_Is_a_Computer"></a>1.1 What Is a Computer?</h3>
+<p class="has-line-data" data-line-start="593" data-line-end="598">When people hear the word <em>computer</em>, they often think of a desktop or a laptop. Not<br>
 surprisingly, searching for “computer” on Google Images<br>
 (<a href="https://images.google.com/">https://images.google.com/</a>) displays rows and rows of these types of machines.<br>
 However, in a more general sense, a computer can be any type of device that stores<br>
 and processes data.</p>
-<p class="has-line-data" data-line-start="596" data-line-end="600"><a href="http://Dictionary.com">Dictionary.com</a> defines a computer as “a programmable electronic device designed<br>
+<p class="has-line-data" data-line-start="599" data-line-end="603"><a href="http://Dictionary.com">Dictionary.com</a> defines a computer as “a programmable electronic device designed<br>
 to accept data, perform prescribed mathematical and logical operations at high<br>
 speed, and display the results of these operations. Mainframes, desktop and laptop<br>
 computers, tablets, and smartphones are some of the different types of computers.”</p>
-<p class="has-line-data" data-line-start="601" data-line-end="605">Each type of computer has its own unique design, but internally they all share the<br>
+<p class="has-line-data" data-line-start="604" data-line-end="608">Each type of computer has its own unique design, but internally they all share the<br>
 same type of <strong>hardware</strong>. The two most important hardware components are<br>
 <strong>processors</strong> (or CPUs) that perform simple calculations and <strong>memory</strong> (or RAM) that<br>
 temporarily stores information. Figure 1.1 shows what these components look like.</p>
@@ -622,17 +625,17 @@ temporarily stores information. Figure 1.1 shows what these components look like
 <dt>Figure 1.1: Example processor and memory hardware.</dt>
 <dd><img src="https://greenteapress.com/thinkjava7/html/thinkjava2_001.png" alt="Example processor hardware." title="Processor (CPU)"> <img src="https://greenteapress.com/thinkjava7/html/thinkjava2_002.png" alt="Example memory hardware." title="Memory (RAM)"></dd>
 </dl>
-<p class="has-line-data" data-line-start="609" data-line-end="613">Users generally see and interact with touchscreens, keyboards, and monitors, but it’s<br>
+<p class="has-line-data" data-line-start="612" data-line-end="616">Users generally see and interact with touchscreens, keyboards, and monitors, but it’s<br>
 the processors and memory that perform the actual computation. Nowadays it’s<br>
 fairly standard, even for a smartphone, to have at least eight processors and four<br>
 gigabytes (four billion cells) of memory.</p>
-<h3 class="code-line" data-line-start=616 data-line-end=617><a id="12_What_Is_Programming"></a>1.2 What Is Programming?</h3>
-<p class="has-line-data" data-line-start="618" data-line-end="623">A <strong>program</strong> is a sequence of instructions that specifies how to perform a<br>
+<h3 class="code-line" data-line-start=619 data-line-end=620><a id="12_What_Is_Programming"></a>1.2 What Is Programming?</h3>
+<p class="has-line-data" data-line-start="621" data-line-end="626">A <strong>program</strong> is a sequence of instructions that specifies how to perform a<br>
 computation on computer hardware. The computation might be something<br>
 mathematical, like solving a system of equations or finding the roots of a<br>
 polynomial. It could also be a symbolic computation, like searching and replacing<br>
 text in a document or (strangely enough) compiling a program.</p>
-<p class="has-line-data" data-line-start="624" data-line-end="626">The details look different in different languages, but a few basic instructions appear<br>
+<p class="has-line-data" data-line-start="627" data-line-end="629">The details look different in different languages, but a few basic instructions appear<br>
 in just about every language:</p>
 <dl>
 <dt>input:</dt>
@@ -646,17 +649,17 @@ in just about every language:</p>
 <dt>repetition:</dt>
 <dd>Perform an action repeatedly, usually with some variation.</dd>
 </dl>
-<p class="has-line-data" data-line-start="642" data-line-end="648">Believe it or not, that’s pretty much all there is to it. Every program you’ve ever used,<br>
+<p class="has-line-data" data-line-start="645" data-line-end="651">Believe it or not, that’s pretty much all there is to it. Every program you’ve ever used,<br>
 no matter how complicated, is made up of small instructions that look much like<br>
 these. So you can think of <strong>programming</strong> as the process of breaking down a large,<br>
 complex task into smaller and smaller subtasks. The process continues until the<br>
 subtasks are simple enough to be performed with the electronic circuits provided by<br>
 the hardware.</p>
-<h3 class="code-line" data-line-start=651 data-line-end=652><a id="13_The_Hello_World_Program"></a>1.3 The Hello World Program</h3>
-<p class="has-line-data" data-line-start="653" data-line-end="656">Traditionally, the first program you write when learning a new programming language<br>
+<h3 class="code-line" data-line-start=654 data-line-end=655><a id="13_The_Hello_World_Program"></a>1.3 The Hello World Program</h3>
+<p class="has-line-data" data-line-start="656" data-line-end="659">Traditionally, the first program you write when learning a new programming language<br>
 is called the “Hello World” program. All it does is output the words <strong>Hello, World!</strong> to<br>
 the screen. In Java, it looks like this:</p>
-<pre><code class="has-line-data" data-line-start="658" data-line-end="666" class="language-java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Hello</span> </span>{
+<pre><code class="has-line-data" data-line-start="661" data-line-end="669" class="language-java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Hello</span> </span>{
 
     <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">main</span><span class="hljs-params">(String[] args)</span> </span>{
         <span class="hljs-comment">// generate some simple output</span>
@@ -664,63 +667,63 @@ the screen. In Java, it looks like this:</p>
     }
 }
 </code></pre>
-<p class="has-line-data" data-line-start="667" data-line-end="668">When this program runs, it displays the following:</p>
-<pre><code class="has-line-data" data-line-start="670" data-line-end="672">Hello, World!
+<p class="has-line-data" data-line-start="670" data-line-end="671">When this program runs, it displays the following:</p>
+<pre><code class="has-line-data" data-line-start="673" data-line-end="675">Hello, World!
 </code></pre>
-<p class="has-line-data" data-line-start="673" data-line-end="674">Notice that the output does not include the quotation marks.</p>
-<p class="has-line-data" data-line-start="675" data-line-end="679">Java programs are made up of <em>class</em> and <em>method</em> definitions, and methods are made<br>
+<p class="has-line-data" data-line-start="676" data-line-end="677">Notice that the output does not include the quotation marks.</p>
+<p class="has-line-data" data-line-start="678" data-line-end="682">Java programs are made up of <em>class</em> and <em>method</em> definitions, and methods are made<br>
 up of <em>statements</em>. A <strong>statement</strong> is a line of code that performs a basic action. In the<br>
 Hello World program, this line is a <strong>print statement</strong> that displays a message to the<br>
 user:</p>
-<pre><code class="has-line-data" data-line-start="681" data-line-end="683" class="language-java">System.out.println(<span class="hljs-string">"Hello, World!"</span>);
+<pre><code class="has-line-data" data-line-start="684" data-line-end="686" class="language-java">System.out.println(<span class="hljs-string">"Hello, World!"</span>);
 </code></pre>
-<p class="has-line-data" data-line-start="684" data-line-end="688"><strong>System.out.println</strong> displays results on the screen; the name <strong>println</strong> stands for “print<br>
+<p class="has-line-data" data-line-start="687" data-line-end="691"><strong>System.out.println</strong> displays results on the screen; the name <strong>println</strong> stands for “print<br>
 line”. Confusingly, <em>print</em> can mean both “display on the screen” and “send to the<br>
 printer”. In this book, we’ll try to say “display” when we mean output to the screen.<br>
 Like most statements, the print statement ends with a semicolon (<strong>;</strong>).</p>
-<p class="has-line-data" data-line-start="689" data-line-end="692">Java is “case-sensitive”, which means that uppercase and lowercase are not the<br>
+<p class="has-line-data" data-line-start="692" data-line-end="695">Java is “case-sensitive”, which means that uppercase and lowercase are not the<br>
 same. In the Hello World program, <strong>System</strong> has to begin with an uppercase letter;<br>
 <strong>system</strong> and <strong>SYSTEM</strong> won’t work.</p>
-<p class="has-line-data" data-line-start="693" data-line-end="695">A <strong>method</strong> is a named sequence of statements. This program defines one method<br>
+<p class="has-line-data" data-line-start="696" data-line-end="698">A <strong>method</strong> is a named sequence of statements. This program defines one method<br>
 named <strong>main</strong>:</p>
-<pre><code class="has-line-data" data-line-start="697" data-line-end="699" class="language-java"><span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">main</span><span class="hljs-params">(String[] args)</span>
+<pre><code class="has-line-data" data-line-start="700" data-line-end="702" class="language-java"><span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">main</span><span class="hljs-params">(String[] args)</span>
 </span></code></pre>
-<p class="has-line-data" data-line-start="700" data-line-end="703">The name and format of <strong>main</strong> is special: when the program runs, it starts at the first<br>
+<p class="has-line-data" data-line-start="703" data-line-end="706">The name and format of <strong>main</strong> is special: when the program runs, it starts at the first<br>
 statement in <strong>main</strong> and ends when it finishes the last statement. Later, you will see<br>
 programs that define more than one method.</p>
-<p class="has-line-data" data-line-start="704" data-line-end="708">This program defines a class named <strong>Hello</strong>. For now, a <strong>class</strong> is a collection of<br>
+<p class="has-line-data" data-line-start="707" data-line-end="711">This program defines a class named <strong>Hello</strong>. For now, a <strong>class</strong> is a collection of<br>
 methods; we’ll have more to say about this later. You can give a class any name you<br>
 like, but it is conventional to start with a capital letter. The name of the class has to<br>
 match the name of the file it is in, so this class has to be in a file named <em>Hello.java</em>.</p>
-<p class="has-line-data" data-line-start="709" data-line-end="712">Java uses curly braces (<strong>{</strong> and <strong>}</strong>) to group things together. In <em>Hello.java</em>, the outermost<br>
+<p class="has-line-data" data-line-start="712" data-line-end="715">Java uses curly braces (<strong>{</strong> and <strong>}</strong>) to group things together. In <em>Hello.java</em>, the outermost<br>
 braces contain the class definition, and the inner braces contain the method<br>
 definition.</p>
-<p class="has-line-data" data-line-start="713" data-line-end="718">The line that begins with two slashes (<strong>//</strong>) is a <strong>comment</strong>, which is a bit of English text<br>
+<p class="has-line-data" data-line-start="716" data-line-end="721">The line that begins with two slashes (<strong>//</strong>) is a <strong>comment</strong>, which is a bit of English text<br>
 that explains the code. When Java sees <strong>//</strong>, it ignores everything from there until the<br>
 end of the line. Comments have no effect on the execution of the program, but they<br>
 make it easier for other programmers (and your future self) to understand what you<br>
 meant to do.</p>
-<h3 class="code-line" data-line-start=721 data-line-end=722><a id="14_Compiling_Java_Programs"></a>1.4 Compiling Java Programs</h3>
-<p class="has-line-data" data-line-start="723" data-line-end="726">The programming language you will learn in this book is Java, which is a <strong>high-level</strong><br>
+<h3 class="code-line" data-line-start=724 data-line-end=725><a id="14_Compiling_Java_Programs"></a>1.4 Compiling Java Programs</h3>
+<p class="has-line-data" data-line-start="726" data-line-end="729">The programming language you will learn in this book is Java, which is a <strong>high-level</strong><br>
 <strong>language</strong>. Other high-level languages you may have heard of include Python, C and<br>
 C++, PHP, Ruby, and JavaScript.</p>
-<p class="has-line-data" data-line-start="727" data-line-end="731">Before they can run, programs in high-level languages have to be translated into a<br>
+<p class="has-line-data" data-line-start="730" data-line-end="734">Before they can run, programs in high-level languages have to be translated into a<br>
 <strong>low-level language</strong>, also called “machine language”. This translation takes some<br>
 time, which is a small disadvantage of high-level languages. But high-level languages<br>
 have two major advantages:</p>
 <ul>
-<li class="has-line-data" data-line-start="732" data-line-end="736">
-<p class="has-line-data" data-line-start="732" data-line-end="735">It is <em>much</em> easier to program in a high-level language. Programs take less time<br>
+<li class="has-line-data" data-line-start="735" data-line-end="739">
+<p class="has-line-data" data-line-start="735" data-line-end="738">It is <em>much</em> easier to program in a high-level language. Programs take less time<br>
 to write, they are shorter and easier to read, and they are more likely to be<br>
 correct.</p>
 </li>
-<li class="has-line-data" data-line-start="736" data-line-end="740">
-<p class="has-line-data" data-line-start="736" data-line-end="739">High-level languages are <strong>portable</strong>, meaning they can run on different kinds of<br>
+<li class="has-line-data" data-line-start="739" data-line-end="743">
+<p class="has-line-data" data-line-start="739" data-line-end="742">High-level languages are <strong>portable</strong>, meaning they can run on different kinds of<br>
 computers with few or no modifications. Low-level programs can run on only<br>
 one kind of computer.</p>
 </li>
 </ul>
-<p class="has-line-data" data-line-start="740" data-line-end="745">Two kinds of programs translate high-level languages into low-level languages:<br>
+<p class="has-line-data" data-line-start="743" data-line-end="748">Two kinds of programs translate high-level languages into low-level languages:<br>
 interpreters and compilers. An <strong>interpreter</strong> reads a high-level program and executes<br>
 it, meaning that it does what the program says. It processes the program a little at a<br>
 time, alternately reading lines and performing computations. Figure 1.2 shows the<br>
@@ -729,36 +732,106 @@ structure of an interpreter.</p>
 <dt>Figure 1.2: How interpreted languages are executed.</dt>
 <dd><img src="https://greenteapress.com/thinkjava7/html/thinkjava2_003.png" alt="Interpreter" title="Interpreter"></dd>
 </dl>
-<p class="has-line-data" data-line-start="749" data-line-end="754">In contrast, a <strong>compiler</strong> reads the entire program and translates it completely before<br>
+<p class="has-line-data" data-line-start="752" data-line-end="757">In contrast, a <strong>compiler</strong> reads the entire program and translates it completely before<br>
 the program starts running. The high-level program is called the <strong>source code</strong>. The<br>
 translated program is called the <strong>object code</strong>, or the <strong>executable</strong>. Once a program is<br>
 compiled, you can execute it repeatedly without further translation of the source<br>
 code. As a result, compiled programs often run faster than interpreted programs.</p>
-<p class="has-line-data" data-line-start="755" data-line-end="760">Note that object code, as a low-level language, is not portable. You cannot run an<br>
+<p class="has-line-data" data-line-start="758" data-line-end="763">Note that object code, as a low-level language, is not portable. You cannot run an<br>
 executable compiled for a Windows laptop on an Android phone, for example. To run<br>
 a program on different types of machines, it must be compiled multiple times. It can<br>
 be difficult to write source code that compiles and runs correctly on different types<br>
 of machines.</p>
-<p class="has-line-data" data-line-start="761" data-line-end="766">To address this issue, Java is <em>both</em> compiled and interpreted. Instead of translating<br>
+<p class="has-line-data" data-line-start="764" data-line-end="769">To address this issue, Java is <em>both</em> compiled and interpreted. Instead of translating<br>
 source code directly into an executable, the Java compiler generates code for a<br>
 <strong>virtual machine</strong>. This “imaginary” machine has the functionality common to<br>
 desktops, laptops, tablets, phones, etc. Its language, called Java <strong>byte code</strong>, looks<br>
 like object code and is easy and fast to interpret.</p>
-<p class="has-line-data" data-line-start="767" data-line-end="773">As a result, it’s possible to compile a Java program on one machine, transfer the<br>
+<p class="has-line-data" data-line-start="770" data-line-end="776">As a result, it’s possible to compile a Java program on one machine, transfer the<br>
 byte code to another machine, and run the byte code on that other machine.<br>
 Figure 1.3 shows the steps of the development process. The Java compiler is a<br>
 program named <strong>javac</strong>. It translates <em>.java</em> files into <em>.class</em> files that store the resulting<br>
 byte code. The Java interpreter is another program, named <strong>java</strong>, which is short for<br>
 “Java Virtual Machine” (JVM).</p>
-<p class="has-line-data" data-line-start="774" data-line-end="776"><strong><em>Figure 1.3: The process of compiling and running a Java program.</em></strong><br>
+<p class="has-line-data" data-line-start="777" data-line-end="779"><strong><em>Figure 1.3: The process of compiling and running a Java program.</em></strong><br>
 <img src="https://greenteapress.com/thinkjava7/html/thinkjava2_004.png" alt="Compiling, and Running" title="Compiling, and Running"></p>
-<p class="has-line-data" data-line-start="777" data-line-end="781">The programmer writes source code in the file <em>Hello.java</em> and uses <strong>javac</strong> to compile<br>
+<p class="has-line-data" data-line-start="780" data-line-end="784">The programmer writes source code in the file <em>Hello.java</em> and uses <strong>javac</strong> to compile<br>
 it. If there are no errors, the compiler saves the byte code in the file <em>Hello.class</em>. To<br>
 run the program, the programmer uses <strong>java</strong> to interpret the byte code. The result of<br>
 the program is then displayed on the screen.</p>
-<p class="has-line-data" data-line-start="782" data-line-end="787">Although it might seem complicated, these steps are automated for you in most<br>
+<p class="has-line-data" data-line-start="785" data-line-end="790">Although it might seem complicated, these steps are automated for you in most<br>
 development environments. Usually, you only have to press a button or type a single<br>
 command to compile and interpret your program. On the other hand, it is important<br>
 to know what steps are happening in the background, so if something goes wrong<br>
 you can figure out what it is.</p>
+<h3 class="code-line" data-line-start=793 data-line-end=794><a id="15_Displaying_Two_Messages"></a>1.5 Displaying Two Messages</h3>
+<p class="has-line-data" data-line-start="795" data-line-end="797">You can put as many statements as you like in the <strong>main</strong> method. For example, to<br>
+display more than one line of output:</p>
+<pre><code class="has-line-data" data-line-start="799" data-line-end="808" class="language-java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Hello2</span> </span>{
+
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">main</span><span class="hljs-params">(String[] args)</span> </span>{
+        <span class="hljs-comment">// generate some simple output</span>
+        System.out.println(<span class="hljs-string">"Hello, World!"</span>);  <span class="hljs-comment">// first line</span>
+        System.out.println(<span class="hljs-string">"How are you?"</span>);   <span class="hljs-comment">// another line</span>
+    }
+}
+</code></pre>
+<p class="has-line-data" data-line-start="809" data-line-end="811">As this example also shows, you can put comments at the end of a line as well as on<br>
+lines all by themselves.</p>
+<p class="has-line-data" data-line-start="812" data-line-end="815">Phrases that appear in quotation marks are called <strong>strings</strong>, because they contain a<br>
+sequence of characters strung together in memory. Characters can be letters,<br>
+numbers, punctuation marks, symbols, spaces, tabs, etc.</p>
+<p class="has-line-data" data-line-start="816" data-line-end="819"><strong>System.out.println</strong> appends a special character, called a <strong>newline</strong>, that moves to the<br>
+beginning of the next line. If you don’t want a newline at the end, you can use <strong>print</strong><br>
+instead of <strong>println</strong>:</p>
+<pre><code class="has-line-data" data-line-start="821" data-line-end="829" class="language-java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Goodbye</span> </span>{
+
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">main</span><span class="hljs-params">(String[] args)</span> </span>{
+        System.out.print(<span class="hljs-string">"Goodbye, "</span>);
+        System.out.println(<span class="hljs-string">"cruel company"</span>);
+    }
+}
+</code></pre>
+<p class="has-line-data" data-line-start="830" data-line-end="832">In this example, the first statement does not add a newline, so the output appears on<br>
+a single line:</p>
+<pre><code class="has-line-data" data-line-start="834" data-line-end="836">Goodbye, cruel company
+</code></pre>
+<p class="has-line-data" data-line-start="837" data-line-end="839">Notice that there is a space at the end of the first string, which appears in the output<br>
+just before the word <strong>cruel</strong>.</p>
+<h3 class="code-line" data-line-start=842 data-line-end=843><a id="16_Formatting_Source_Code"></a>1.6 Formatting Source Code</h3>
+<p class="has-line-data" data-line-start="844" data-line-end="846">In Java source code, some spaces are required. For example, you need at least one<br>
+space between words, so this program is not legal:</p>
+<pre><code class="has-line-data" data-line-start="848" data-line-end="856">publicclassGoodbye{
+
+    publicstaticvoidmain(String[] args) {
+        System.out.print(&quot;Goodbye, &quot;);
+        System.out.println(&quot;cruel company&quot;);
+    }
+}
+</code></pre>
+<p class="has-line-data" data-line-start="857" data-line-end="858">But most other spaces are optional. For example, this program <em>is</em> legal:</p>
+<pre><code class="has-line-data" data-line-start="860" data-line-end="867" class="language-java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Goodbye2</span> </span>{
+<span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">main</span><span class="hljs-params">(String[] args)</span> </span>{
+System.out.print(<span class="hljs-string">"Goodbye, "</span>);
+System.out.println(<span class="hljs-string">"cruel company"</span>);
+}
+}
+</code></pre>
+<p class="has-line-data" data-line-start="868" data-line-end="869">The newlines are optional, too. So we could just write this:</p>
+<pre><code class="has-line-data" data-line-start="871" data-line-end="875" class="language-java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Goodbye3</span> </span>{ <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">main</span><span class="hljs-params">(String[] args)</span>
+</span>{ System.out.print(<span class="hljs-string">"Goodbye, "</span>); System.out.println
+(<span class="hljs-string">"cruel company"</span>);}}
+</code></pre>
+<p class="has-line-data" data-line-start="876" data-line-end="879">It still works, but the program is getting harder and harder to read. Newlines and<br>
+spaces are important for visually organizing your program, making it easier to<br>
+understand the program and find errors when they occur.</p>
+<p class="has-line-data" data-line-start="880" data-line-end="883">Many editors will automatically format source code with consistent indenting and<br>
+line breaks. For example, in DrJava (see Appendix <a href="#">A.1</a>) you can indent your code by<br>
+selecting all text (Ctrl+A) and pressing the Tab key.</p>
+<p class="has-line-data" data-line-start="884" data-line-end="887">Organizations that do a lot of software development usually have strict guidelines on<br>
+how to format source code. For example, Google publishes its Java coding standards<br>
+for use in open source projects: <a href="https://google.github.io/styleguide/javaguide.html">https://google.github.io/styleguide/javaguide.html</a>.</p>
+<p class="has-line-data" data-line-start="888" data-line-end="891">You probably won’t understand these guidelines now, because they refer to language<br>
+features you haven’t yet seen. But you might want to refer to them periodically as you<br>
+read this book.</p>
 <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body></html>
