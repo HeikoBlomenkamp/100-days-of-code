@@ -1,9 +1,14 @@
-head	1.12;
+head	1.13;
 access;
 symbols;
 locks; strict;
 comment	@# @;
 
+
+1.13
+date	2021.02.03.03.59.28;	author heiko;	state Exp;
+branches;
+next	1.12;
 
 1.12
 date	2021.01.30.23.57.45;	author heiko;	state Exp;
@@ -71,15 +76,18 @@ desc
 @
 
 
-1.12
+1.13
 log
-@R1D11: Finished subchapter Compiling Java Programs (1.4).
+@R1D14: Finished subchapter Formatting Source Code (1.6).
 @
 text
 @```
-// $Id: thinkjava.md,v 1.11 2021/01/30 00:34:35 heiko Exp heiko $
+// $Id: thinkjava.md,v 1.12 2021/01/30 23:57:45 heiko Exp heiko $
 //
 // $Log: thinkjava.md,v $
+// Revision 1.12  2021/01/30 23:57:45  heiko
+// R1D11: Finished subchapter Compiling Java Programs (1.4).
+//
 // Revision 1.11  2021/01/30 00:34:35  heiko
 // R1D10: Added two missing links pointing to the new subchapters.
 //
@@ -154,8 +162,8 @@ License, which is available at https://creativecommons.org/licenses/by-nc-sa/4.0
     - [What Is Programming?](#12_What_Is_Programming)
     - [The Hello World Program](#13_The_Hello_World_Program)
     - [Compiling Java Programs](#14_Compiling_Java_Programs)
-    - Displaying Two Messages
-    - Formatting Source Code
+    - [Displaying Two Messages](#15_Displaying_Two_Messages)
+    - [Formatting Source Code](#16_Formatting_Source_Code)
     - Using Escape Sequences
     - What Is Computer Science?
     - Debugging Programs
@@ -861,6 +869,124 @@ command to compile and interpret your program. On the other hand, it is importan
 to know what steps are happening in the background, so if something goes wrong
 you can figure out what it is.
 
+
+
+### 1\.5 Displaying Two Messages
+
+You can put as many statements as you like in the **main** method. For example, to
+display more than one line of output:
+
+```java
+public class Hello2 {
+
+    public static void main(String[] args) {
+        // generate some simple output
+        System.out.println("Hello, World!");  // first line
+        System.out.println("How are you?");   // another line
+    }
+}
+```
+
+As this example also shows, you can put comments at the end of a line as well as on
+lines all by themselves.
+
+Phrases that appear in quotation marks are called **strings**, because they contain a
+sequence of characters strung together in memory. Characters can be letters,
+numbers, punctuation marks, symbols, spaces, tabs, etc.
+
+**System.out.println** appends a special character, called a **newline**, that moves to the
+beginning of the next line. If you don't want a newline at the end, you can use **print**
+instead of **println**:
+
+```java
+public class Goodbye {
+
+    public static void main(String[] args) {
+        System.out.print("Goodbye, ");
+        System.out.println("cruel company");
+    }
+}
+```
+
+In this example, the first statement does not add a newline, so the output appears on
+a single line:
+
+```
+Goodbye, cruel company
+```
+
+Notice that there is a space at the end of the first string, which appears in the output
+just before the word **cruel**.
+
+
+
+### 1\.6 Formatting Source Code
+
+In Java source code, some spaces are required. For example, you need at least one
+space between words, so this program is not legal:
+
+```
+publicclassGoodbye{
+
+    publicstaticvoidmain(String[] args) {
+        System.out.print("Goodbye, ");
+        System.out.println("cruel company");
+    }
+}
+```
+
+But most other spaces are optional. For example, this program *is* legal:
+
+```java
+public class Goodbye2 {
+public static void main(String[] args) {
+System.out.print("Goodbye, ");
+System.out.println("cruel company");
+}
+}
+```
+
+The newlines are optional, too. So we could just write this:
+
+```java
+public class Goodbye3 { public static void main(String[] args)
+{ System.out.print("Goodbye, "); System.out.println
+("cruel company");}}
+```
+
+It still works, but the program is getting harder and harder to read. Newlines and
+spaces are important for visually organizing your program, making it easier to
+understand the program and find errors when they occur.
+
+Many editors will automatically format source code with consistent indenting and
+line breaks. For example, in DrJava (see Appendix [A.1](#)) you can indent your code by
+selecting all text (Ctrl+A) and pressing the Tab key.
+
+Organizations that do a lot of software development usually have strict guidelines on
+how to format source code. For example, Google publishes its Java coding standards
+for use in open source projects: https://google.github.io/styleguide/javaguide.html.
+
+You probably won't understand these guidelines now, because they refer to language
+features you haven't yet seen. But you might want to refer to them periodically as you
+read this book.
+
+@
+
+
+1.12
+log
+@R1D11: Finished subchapter Compiling Java Programs (1.4).
+@
+text
+@d2 1
+a2 1
+// $Id: thinkjava.md,v 1.11 2021/01/30 00:34:35 heiko Exp heiko $
+d5 3
+d82 2
+a83 2
+    - Displaying Two Messages
+    - Formatting Source Code
+d788 101
 @
 
 
