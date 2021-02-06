@@ -1,7 +1,10 @@
 ```
-// $Id: thinkjava.md,v 1.13 2021/02/03 03:59:28 heiko Exp $
+// $Id: thinkjava.md,v 1.14 2021/02/06 15:38:47 heiko Exp $
 //
 // $Log: thinkjava.md,v $
+// Revision 1.14  2021/02/06 15:38:47  heiko
+// R1D18: Formatted all image related markdown.
+//
 // Revision 1.13  2021/02/03 03:59:28  heiko
 // R1D14: Finished subchapter Formatting Source Code (1.6).
 //
@@ -607,8 +610,9 @@ same type of **hardware**. The two most important hardware components are
 **processors** (or CPUs) that perform simple calculations and **memory** (or RAM) that
 temporarily stores information. Figure 1.1 shows what these components look like.
 
-Figure 1.1: Example processor and memory hardware.
-: ![Example processor hardware.](https://greenteapress.com/thinkjava7/html/thinkjava2_001.png "Processor (CPU)") ![Example memory hardware.](https://greenteapress.com/thinkjava7/html/thinkjava2_002.png "Memory (RAM)")
+**Figure 1.1**
+: **Example processor and memory hardware.**
+![Example processor hardware.](https://greenteapress.com/thinkjava7/html/thinkjava2_001.png "Processor (CPU)") ![Example memory hardware.](https://greenteapress.com/thinkjava7/html/thinkjava2_002.png "Memory (RAM)")
 
 Users generally see and interact with touchscreens, keyboards, and monitors, but it's
 the processors and memory that perform the actual computation. Nowadays it's
@@ -747,8 +751,9 @@ it, meaning that it does what the program says. It processes the program a littl
 time, alternately reading lines and performing computations. Figure 1.2 shows the
 structure of an interpreter.
 
-Figure 1.2: How interpreted languages are executed.
-: ![Interpreter](https://greenteapress.com/thinkjava7/html/thinkjava2_003.png "Interpreter")
+**Figure 1.2**
+: **How interpreted languages are executed.**
+![Interpreter](https://greenteapress.com/thinkjava7/html/thinkjava2_003.png "Interpreter")
 
 In contrast, a **compiler** reads the entire program and translates it completely before
 the program starts running. The high-level program is called the **source code**. The
@@ -775,7 +780,8 @@ program named **javac**. It translates *.java* files into *.class* files that st
 byte code. The Java interpreter is another program, named **java**, which is short for
 "Java Virtual Machine" (JVM).
 
-***Figure 1.3: The process of compiling and running a Java program.***
+**Figure 1.3**
+: **The process of compiling and running a Java program.**
 ![Compiling, and Running](https://greenteapress.com/thinkjava7/html/thinkjava2_004.png "Compiling, and Running")
 
 The programmer writes source code in the file *Hello.java* and uses **javac** to compile
