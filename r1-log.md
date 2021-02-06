@@ -47,4 +47,15 @@ Did a lot of offline Java studies. Also a lot of refreshing of PHP & HTML. Insta
 thinkjava.md: Finished subchapter Formatting Source Code (1.6). Replaced source code in ThinkJava2 repo with textbook versions.
 
 ### R1D15
- 
+Did a lot of other Java studies. Also a lot of refreshing of HTML. Installed some tools for better learning on my workstation.
+
+### R1D16
+Did a lot of other Java studies. Also a lot of refreshing of HTML. Installed some tools for better learning on my workstation.
+
+### R1D17
+Did a lot of other Java studies. Also a lot of refreshing of HTML. Installed some tools for better learning on my workstation.
+
+### R1D18
+thinkjava.md: Changed the way of embedding images. Some Java studies. Created an Anki file for learning the ThinkJava2 content.
+
+### R1D19
