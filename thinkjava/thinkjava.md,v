@@ -1,9 +1,14 @@
-head	1.13;
+head	1.14;
 access;
 symbols;
 locks; strict;
 comment	@# @;
 
+
+1.14
+date	2021.02.06.15.38.47;	author heiko;	state Exp;
+branches;
+next	1.13;
 
 1.13
 date	2021.02.03.03.59.28;	author heiko;	state Exp;
@@ -76,15 +81,18 @@ desc
 @
 
 
-1.13
+1.14
 log
-@R1D14: Finished subchapter Formatting Source Code (1.6).
+@R1D18: Formatted all image related markdown.
 @
 text
 @```
-// $Id: thinkjava.md,v 1.12 2021/01/30 23:57:45 heiko Exp heiko $
+// $Id: thinkjava.md,v 1.13 2021/02/03 03:59:28 heiko Exp heiko $
 //
 // $Log: thinkjava.md,v $
+// Revision 1.13  2021/02/03 03:59:28  heiko
+// R1D14: Finished subchapter Formatting Source Code (1.6).
+//
 // Revision 1.12  2021/01/30 23:57:45  heiko
 // R1D11: Finished subchapter Compiling Java Programs (1.4).
 //
@@ -687,8 +695,9 @@ same type of **hardware**. The two most important hardware components are
 **processors** (or CPUs) that perform simple calculations and **memory** (or RAM) that
 temporarily stores information. Figure 1.1 shows what these components look like.
 
-Figure 1.1: Example processor and memory hardware.
-: ![Example processor hardware.](https://greenteapress.com/thinkjava7/html/thinkjava2_001.png "Processor (CPU)") ![Example memory hardware.](https://greenteapress.com/thinkjava7/html/thinkjava2_002.png "Memory (RAM)")
+**Figure 1.1**
+: **Example processor and memory hardware.**
+![Example processor hardware.](https://greenteapress.com/thinkjava7/html/thinkjava2_001.png "Processor (CPU)") ![Example memory hardware.](https://greenteapress.com/thinkjava7/html/thinkjava2_002.png "Memory (RAM)")
 
 Users generally see and interact with touchscreens, keyboards, and monitors, but it's
 the processors and memory that perform the actual computation. Nowadays it's
@@ -827,8 +836,9 @@ it, meaning that it does what the program says. It processes the program a littl
 time, alternately reading lines and performing computations. Figure 1.2 shows the
 structure of an interpreter.
 
-Figure 1.2: How interpreted languages are executed.
-: ![Interpreter](https://greenteapress.com/thinkjava7/html/thinkjava2_003.png "Interpreter")
+**Figure 1.2**
+: **How interpreted languages are executed.**
+![Interpreter](https://greenteapress.com/thinkjava7/html/thinkjava2_003.png "Interpreter")
 
 In contrast, a **compiler** reads the entire program and translates it completely before
 the program starts running. The high-level program is called the **source code**. The
@@ -855,7 +865,8 @@ program named **javac**. It translates *.java* files into *.class* files that st
 byte code. The Java interpreter is another program, named **java**, which is short for
 "Java Virtual Machine" (JVM).
 
-***Figure 1.3: The process of compiling and running a Java program.***
+**Figure 1.3**
+: **The process of compiling and running a Java program.**
 ![Compiling, and Running](https://greenteapress.com/thinkjava7/html/thinkjava2_004.png "Compiling, and Running")
 
 The programmer writes source code in the file *Hello.java* and uses **javac** to compile
@@ -970,6 +981,29 @@ You probably won't understand these guidelines now, because they refer to langua
 features you haven't yet seen. But you might want to refer to them periodically as you
 read this book.
 
+@
+
+
+1.13
+log
+@R1D14: Finished subchapter Formatting Source Code (1.6).
+@
+text
+@d2 1
+a2 1
+// $Id: thinkjava.md,v 1.12 2021/01/30 23:57:45 heiko Exp heiko $
+d5 3
+d610 3
+a612 2
+Figure 1.1: Example processor and memory hardware.
+: ![Example processor hardware.](https://greenteapress.com/thinkjava7/html/thinkjava2_001.png "Processor (CPU)") ![Example memory hardware.](https://greenteapress.com/thinkjava7/html/thinkjava2_002.png "Memory (RAM)")
+d751 3
+a753 2
+Figure 1.2: How interpreted languages are executed.
+: ![Interpreter](https://greenteapress.com/thinkjava7/html/thinkjava2_003.png "Interpreter")
+d780 2
+a781 1
+***Figure 1.3: The process of compiling and running a Java program.***
 @
 
 
