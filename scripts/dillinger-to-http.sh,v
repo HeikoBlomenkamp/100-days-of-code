@@ -1,9 +1,14 @@
-head	1.7;
+head	1.8;
 access;
 symbols;
 locks; strict;
 comment	@# @;
 
+
+1.8
+date	2021.02.09.04.27.46;	author heiko;	state Exp;
+branches;
+next	1.7;
 
 1.7
 date	2021.02.03.04.06.52;	author heiko;	state Exp;
@@ -46,16 +51,19 @@ desc
 @
 
 
-1.7
+1.8
 log
-@R1D14: Added two new headings (of TJ Chapter One).
+@R1D21: Added new heading (1.7), of TJ Chapter One.
 @
 text
 @#!/bin/bash
 
-# $Id: dillinger-to-http.sh,v 1.6 2021/01/31 00:07:42 heiko Exp heiko $
+# $Id: dillinger-to-http.sh,v 1.7 2021/02/03 04:06:52 heiko Exp heiko $
 #
 # $Log: dillinger-to-http.sh,v $
+# Revision 1.7  2021/02/03 04:06:52  heiko
+# R1D14: Added two new headings (of TJ Chapter One).
+#
 # Revision 1.6  2021/01/31 00:07:42  heiko
 # R1D11: Added new heading (1.4), of TJ Chapter One.
 #
@@ -96,7 +104,8 @@ HEADINGS=('Preface' \
 '13_The_Hello_World_Program' \
 '14_Compiling_Java_Programs' \
 '15_Displaying_Two_Messages' \
-'16_Formatting_Source_Code')
+'16_Formatting_Source_Code' \
+'17_Using_Escape_Sequences')
 
 # Keep original file
 cp -ua $1 $2
@@ -115,6 +124,21 @@ do
 done
 
 exit 0
+@
+
+
+1.7
+log
+@R1D14: Added two new headings (of TJ Chapter One).
+@
+text
+@d3 1
+a3 1
+# $Id: dillinger-to-http.sh,v 1.6 2021/01/31 00:07:42 heiko Exp heiko $
+d6 3
+d49 2
+a50 1
+'16_Formatting_Source_Code')
 @
 
 
