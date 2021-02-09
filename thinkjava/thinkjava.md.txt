@@ -1,7 +1,10 @@
 ```
-// $Id: thinkjava.md,v 1.14 2021/02/06 15:38:47 heiko Exp $
+// $Id: thinkjava.md,v 1.15 2021/02/09 03:49:59 heiko Exp $
 //
 // $Log: thinkjava.md,v $
+// Revision 1.15  2021/02/09 03:49:59  heiko
+// R1D21: Finished subchapter Using Escape Sequences (1.7).
+//
 // Revision 1.14  2021/02/06 15:38:47  heiko
 // R1D18: Formatted all image related markdown.
 //
@@ -87,7 +90,7 @@ License, which is available at https://creativecommons.org/licenses/by-nc-sa/4.0
     - [Compiling Java Programs](#14_Compiling_Java_Programs)
     - [Displaying Two Messages](#15_Displaying_Two_Messages)
     - [Formatting Source Code](#16_Formatting_Source_Code)
-    - Using Escape Sequences
+    - [Using Escape Sequences](#17_Using_Escape_Sequences)
     - What Is Computer Science?
     - Debugging Programs
     - Vocabulary
@@ -612,7 +615,8 @@ temporarily stores information. Figure 1.1 shows what these components look like
 
 **Figure 1.1**
 : **Example processor and memory hardware.**
-![Example processor hardware.](https://greenteapress.com/thinkjava7/html/thinkjava2_001.png "Processor (CPU)") ![Example memory hardware.](https://greenteapress.com/thinkjava7/html/thinkjava2_002.png "Memory (RAM)")
+
+![Example processor hardware.](https://greenteapress.com/thinkjava7/html/thinkjava2_001.png "Processor (CPU)") &#x00A0; &#x00A0; ![Example memory hardware.](https://greenteapress.com/thinkjava7/html/thinkjava2_002.png "Memory (RAM)")
 
 Users generally see and interact with touchscreens, keyboards, and monitors, but it's
 the processors and memory that perform the actual computation. Nowadays it's
@@ -753,6 +757,7 @@ structure of an interpreter.
 
 **Figure 1.2**
 : **How interpreted languages are executed.**
+
 ![Interpreter](https://greenteapress.com/thinkjava7/html/thinkjava2_003.png "Interpreter")
 
 In contrast, a **compiler** reads the entire program and translates it completely before
@@ -782,6 +787,7 @@ byte code. The Java interpreter is another program, named **java**, which is sho
 
 **Figure 1.3**
 : **The process of compiling and running a Java program.**
+
 ![Compiling, and Running](https://greenteapress.com/thinkjava7/html/thinkjava2_004.png "Compiling, and Running")
 
 The programmer writes source code in the file *Hello.java* and uses **javac** to compile
@@ -895,4 +901,56 @@ for use in open source projects: https://google.github.io/styleguide/javaguide.h
 You probably won't understand these guidelines now, because they refer to language
 features you haven't yet seen. But you might want to refer to them periodically as you
 read this book.
+
+
+
+### 1\.7 Using Escape Sequences
+
+It's possible to display multiple lines of output with only one line of code. You just
+have to tell Java where to put the line breaks:
+
+```java
+public class Hello3 {
+
+    public static void main(String[] args) {
+        System.out.print("Hello!\nHow are you doing?\n");
+    }
+}
+```
+
+The output is two lines, each ending with a newline character:
+
+```
+Hello!
+How are you doing?
+```
+
+Each **\\n** is an **escape sequence**, or two characters of source code that represent a
+single character. (The backslash allows you to *escape* the string to write special
+characters.) Notice there is no space between **\\n** and **How**. If you add a space there,
+there will be a space at the beginning of the second line.
+
+**Table 1.1**
+: **Common escape sequences.**
+
+| Sequence | Character    |
+|:--------:|:------------:|
+| `\n`     | newline      |
+| `\t`     | tab          |
+| `\"`     | double quote |
+| `\\`     | backslash    |
+
+Java has a total of eight escape sequences, and the four most commonly used ones
+are listed in Table [1.1](#). For example, to write quotation marks inside of strings, you
+need to escape them with a backslash:
+
+```java
+System.out.println("She said \"Hello!\" to me.");
+```
+
+The result is as follows:
+
+```
+She said "Hello!" to me.
+```
 
