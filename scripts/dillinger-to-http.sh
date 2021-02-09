@@ -1,8 +1,11 @@
 #!/bin/bash
 
-# $Id: dillinger-to-http.sh,v 1.7 2021/02/03 04:06:52 heiko Exp $
+# $Id: dillinger-to-http.sh,v 1.8 2021/02/09 04:27:46 heiko Exp $
 #
 # $Log: dillinger-to-http.sh,v $
+# Revision 1.8  2021/02/09 04:27:46  heiko
+# R1D21: Added new heading (1.7), of TJ Chapter One.
+#
 # Revision 1.7  2021/02/03 04:06:52  heiko
 # R1D14: Added two new headings (of TJ Chapter One).
 #
@@ -46,7 +49,8 @@ HEADINGS=('Preface' \
 '13_The_Hello_World_Program' \
 '14_Compiling_Java_Programs' \
 '15_Displaying_Two_Messages' \
-'16_Formatting_Source_Code')
+'16_Formatting_Source_Code' \
+'17_Using_Escape_Sequences')
 
 # Keep original file
 cp -ua $1 $2
