@@ -59,3 +59,12 @@ Did a lot of other Java studies. Also a lot of refreshing of HTML. Installed som
 thinkjava.md: Changed the way of embedding images. Some Java studies. Created an Anki file for learning the ThinkJava2 content.
 
 ### R1D19
+Did a lot of other Java studies. Also a lot of refreshing of mathematics. Installed tools for better learning on my workstation.
+
+### R1D20
+Did a lot of other Java studies. Also a lot of refreshing of mathematics. Installed tools for better learning on my workstation.
+
+### R1D21
+thinkjava.md: Finished subchapter Using Escape Sequences (1.7). Learned how to create tables. Added ThinkJava2 Anki flashcard.
+
+### R1D22
