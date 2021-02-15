@@ -1,9 +1,14 @@
-head	1.8;
+head	1.9;
 access;
 symbols;
 locks; strict;
 comment	@# @;
 
+
+1.9
+date	2021.02.15.22.40.22;	author heiko;	state Exp;
+branches;
+next	1.8;
 
 1.8
 date	2021.02.09.04.27.46;	author heiko;	state Exp;
@@ -51,16 +56,19 @@ desc
 @
 
 
-1.8
+1.9
 log
-@R1D21: Added new heading (1.7), of TJ Chapter One.
+@R1D27: Added two new headings (of TJ Chapter One).
 @
 text
 @#!/bin/bash
 
-# $Id: dillinger-to-http.sh,v 1.7 2021/02/03 04:06:52 heiko Exp heiko $
+# $Id: dillinger-to-http.sh,v 1.8 2021/02/09 04:27:46 heiko Exp heiko $
 #
 # $Log: dillinger-to-http.sh,v $
+# Revision 1.8  2021/02/09 04:27:46  heiko
+# R1D21: Added new heading (1.7), of TJ Chapter One.
+#
 # Revision 1.7  2021/02/03 04:06:52  heiko
 # R1D14: Added two new headings (of TJ Chapter One).
 #
@@ -105,7 +113,9 @@ HEADINGS=('Preface' \
 '14_Compiling_Java_Programs' \
 '15_Displaying_Two_Messages' \
 '16_Formatting_Source_Code' \
-'17_Using_Escape_Sequences')
+'17_Using_Escape_Sequences' \
+'18_What_Is_Computer_Science' \
+'19_Debugging_Programs')
 
 # Keep original file
 cp -ua $1 $2
@@ -124,6 +134,21 @@ do
 done
 
 exit 0
+@
+
+
+1.8
+log
+@R1D21: Added new heading (1.7), of TJ Chapter One.
+@
+text
+@d3 1
+a3 1
+# $Id: dillinger-to-http.sh,v 1.7 2021/02/03 04:06:52 heiko Exp heiko $
+d6 3
+d53 3
+a55 1
+'17_Using_Escape_Sequences')
 @
 
 
