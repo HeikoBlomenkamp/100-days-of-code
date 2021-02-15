@@ -68,3 +68,21 @@ Did a lot of other Java studies. Also a lot of refreshing of mathematics. Instal
 thinkjava.md: Finished subchapter Using Escape Sequences (1.7). Learned how to create tables. Added ThinkJava2 Anki flashcard.
 
 ### R1D22
+Did a lot of other Java studies. Installed tools for better learning on my workstation. A lot of debugging, trial and error.
+
+### R1D23
+Did a lot of other Java studies. Installed tools for better learning on my workstation. A lot of debugging, trial and error.
+
+### R1D24
+Did a lot of other Java studies. Installed tools for better learning on my workstation. A lot of debugging, trial and error.
+
+### R1D25
+Did a lot of other Java studies. Installed tools for better learning on my workstation. A lot of debugging, trial and error.
+
+### R1D26
+Did a lot of other Java studies. Installed tools for better learning on my workstation. A lot of debugging, trial and error.
+
+### R1D27
+thinkjava.md: Finished subchapter Debugging Programs (1.9). Java date converter on my workstation. Coded challenge day counter.
+
+### R1D28
