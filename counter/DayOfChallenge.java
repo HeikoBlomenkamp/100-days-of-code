@@ -1,15 +1,15 @@
-// $Id: DayOfChallenge.java,v 1.1 2021/02/15 22:14:55 heiko Exp $
+// $Id: DayOfChallenge.java,v 1.1 2021/02/15 23:58:13 heiko Exp $
 //
 // $Log: DayOfChallenge.java,v $
-// Revision 1.1  2021/02/15 22:14:55  heiko
+// Revision 1.1  2021/02/15 23:58:13  heiko
 // Initial revision
 //
 
 import java.time.LocalDate;
 import static java.time.temporal.ChronoUnit.DAYS;
 
-public class DayOfChallenge {
-
+public class DayOfChallenge
+{
 	public static void main(String[] args)
 	{
 		String helpMsg = "Usage:\tjava DayOfChallenge <startYear> <startMonth> <startDay>" +
