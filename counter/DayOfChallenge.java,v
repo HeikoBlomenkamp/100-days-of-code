@@ -6,13 +6,13 @@ comment	@# @;
 
 
 1.1
-date	2021.02.15.22.14.55;	author heiko;	state Exp;
+date	2021.02.15.23.58.13;	author heiko;	state Exp;
 branches;
 next	;
 
 
 desc
-@R1D27: Day of challenge printer.
+@R1D27: Simple day of challenge counter.
 @
 
 
@@ -28,8 +28,8 @@ text
 import java.time.LocalDate;
 import static java.time.temporal.ChronoUnit.DAYS;
 
-public class DayOfChallenge {
-
+public class DayOfChallenge
+{
 	public static void main(String[] args)
 	{
 		String helpMsg = "Usage:\tjava DayOfChallenge <startYear> <startMonth> <startDay>" +
@@ -56,4 +56,5 @@ public class DayOfChallenge {
 			System.out.println(helpMsg);
 		}
 	}
-}@
+}
+@
