@@ -1,8 +1,11 @@
 #!/bin/bash
 
-# $Id: dillinger-to-http.sh,v 1.9 2021/02/15 22:40:22 heiko Exp $
+# $Id: dillinger-to-http.sh,v 1.10 2021/02/22 00:54:15 heiko Exp $
 #
 # $Log: dillinger-to-http.sh,v $
+# Revision 1.10  2021/02/22 00:54:15  heiko
+# R1D34: Added new heading (1.10), of TJ Chapter One.
+#
 # Revision 1.9  2021/02/15 22:40:22  heiko
 # R1D27: Added two new headings (of TJ Chapter One).
 #
@@ -55,7 +58,8 @@ HEADINGS=('Preface' \
 '16_Formatting_Source_Code' \
 '17_Using_Escape_Sequences' \
 '18_What_Is_Computer_Science' \
-'19_Debugging_Programs')
+'19_Debugging_Programs' \
+'110_Vocabulary')
 
 # Keep original file
 cp -ua $1 $2
