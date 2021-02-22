@@ -86,3 +86,24 @@ Did a lot of other Java studies. Installed tools for better learning on my works
 thinkjava.md: Finished subchapter Debugging Programs (1.9). Java date converter on my workstation. Coded challenge day counter.
 
 ### R1D28
+Did a lot of other Java studies. Installed tools for better learning on my workstation. A lot of debugging, trial and error.
+
+### R1D29
+Did a lot of other Java studies. Installed tools for better learning on my workstation. A lot of debugging, trial and error.
+
+### R1D30
+Did a lot of other Java studies. Installed tools for better learning on my workstation. A lot of debugging, trial and error.
+
+### R1D31
+Did a lot of other Java studies. Installed tools for better learning on my workstation. A lot of debugging, trial and error.
+
+### R1D32
+Did a lot of other Java studies. Installed tools for better learning on my workstation. A lot of debugging, trial and error.
+
+### R1D33
+Did a lot of other Java studies. Repetition of the Think Java textbook (by using Trello and Evernote). Checked Anki flashcards.
+
+### R1D34
+thinkjava.md: Finished subchapter Vocabulary (1.10). Added a lot of new Think Java Anki flashcards to this GitHub repository.
+
+### R1D35
