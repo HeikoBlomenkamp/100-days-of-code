@@ -1,9 +1,14 @@
-head	1.10;
+head	1.11;
 access;
 symbols;
 locks; strict;
 comment	@# @;
 
+
+1.11
+date	2021.02.23.20.20.14;	author heiko;	state Exp;
+branches;
+next	1.10;
 
 1.10
 date	2021.02.22.00.54.15;	author heiko;	state Exp;
@@ -61,16 +66,19 @@ desc
 @
 
 
-1.10
+1.11
 log
-@R1D34: Added new heading (1.10), of TJ Chapter One.
+@R1D35: Added new heading (1.11), of TJ Chapter One.
 @
 text
 @#!/bin/bash
 
-# $Id: dillinger-to-http.sh,v 1.9 2021/02/15 22:40:22 heiko Exp heiko $
+# $Id: dillinger-to-http.sh,v 1.10 2021/02/22 00:54:15 heiko Exp heiko $
 #
 # $Log: dillinger-to-http.sh,v $
+# Revision 1.10  2021/02/22 00:54:15  heiko
+# R1D34: Added new heading (1.10), of TJ Chapter One.
+#
 # Revision 1.9  2021/02/15 22:40:22  heiko
 # R1D27: Added two new headings (of TJ Chapter One).
 #
@@ -124,7 +132,8 @@ HEADINGS=('Preface' \
 '17_Using_Escape_Sequences' \
 '18_What_Is_Computer_Science' \
 '19_Debugging_Programs' \
-'110_Vocabulary')
+'110_Vocabulary' \
+'111_Exercises')
 
 # Keep original file
 cp -ua $1 $2
@@ -143,6 +152,21 @@ do
 done
 
 exit 0
+@
+
+
+1.10
+log
+@R1D34: Added new heading (1.10), of TJ Chapter One.
+@
+text
+@d3 1
+a3 1
+# $Id: dillinger-to-http.sh,v 1.9 2021/02/15 22:40:22 heiko Exp heiko $
+d6 3
+d62 2
+a63 1
+'110_Vocabulary')
 @
 
 
