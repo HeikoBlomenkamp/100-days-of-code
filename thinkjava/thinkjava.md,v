@@ -1,9 +1,14 @@
-head	1.17;
+head	1.18;
 access;
 symbols;
 locks; strict;
 comment	@# @;
 
+
+1.18
+date	2021.02.23.20.09.06;	author heiko;	state Exp;
+branches;
+next	1.17;
 
 1.17
 date	2021.02.22.00.48.37;	author heiko;	state Exp;
@@ -96,15 +101,18 @@ desc
 @
 
 
-1.17
+1.18
 log
-@R1D34: Finished subchapter Vocabulary (1.10).
+@R1D35: Finished Chapter One (Computer Programming).
 @
 text
 @```
-// $Id: thinkjava.md,v 1.16 2021/02/15 22:29:40 heiko Exp heiko $
+// $Id: thinkjava.md,v 1.17 2021/02/22 00:48:37 heiko Exp heiko $
 //
 // $Log: thinkjava.md,v $
+// Revision 1.17  2021/02/22 00:48:37  heiko
+// R1D34: Finished subchapter Vocabulary (1.10).
+//
 // Revision 1.16  2021/02/15 22:29:40  heiko
 // R1D27: Finished subchapter Debugging Programs (1.9).
 //
@@ -200,7 +208,7 @@ License, which is available at https://creativecommons.org/licenses/by-nc-sa/4.0
     - [What Is Computer Science?](#18_What_Is_Computer_Science)
     - [Debugging Programs](#19_Debugging_Programs)
     - [Vocabulary](#110_Vocabulary)
-    - Exercises 
+    - [Exercises](#111_Exercises) 
 - Variables and Operators
     - Declaring Variables
     - Assigning Variables
@@ -1039,12 +1047,12 @@ there will be a space at the beginning of the second line.
 **Table 1.1**
 : **Common escape sequences.**
 
-| Sequence | Character    |
-|:--------:|:------------:|
-| `\n`     | newline      |
-| `\t`     | tab          |
-| `\"`     | double quote |
-| `\\`     | backslash    |
+| Escape Sequence | Character    |
+|:---------------:|:------------:|
+| **\\n**         | newline      |
+| **\\t**         | tab          |
+| **\\"**         | double quote |
+| **\\\\**        | backslash    |
 
 Java has a total of eight escape sequences, and the four most commonly used ones
 are listed in Table [1.1](#). For example, to write quotation marks inside of strings, you
@@ -1244,6 +1252,113 @@ bug:
 debugging:
 : The process of finding and removing errors.
 
+
+
+### 1\.11 Exercises
+
+At the end of each chapter, we include exercises you can do with the things you've
+learned. We encourage you to at least attempt every problem. You can't learn to
+program only by reading about it; you have to practice.
+
+Before you can compile and run Java programs, you might have to download and
+install a few tools. There are many good options, but we recommend DrJava, which
+is an "integrated development environment" (IDE) well suited for beginners.
+Instructions for getting started are in Appendix A.
+
+The code for this chapter is in the *ch01* directory of *ThinkJavaCode2*. See page [#Using_the_Code_Examples)
+for instructions on how to download the repository. Before you start the exercises, we
+recommend that you compile and run the examples.
+
+
+
+##### Exercise 1\.1
+
+Computer scientists have the annoying habit of using common English words to
+mean something other than their common English meanings. For example, in
+English, statements and comments are the same thing, but in programs they are
+different.
+
+1. In computer jargon, what's the difference between a *statement* and a
+*comment?*
+2. What does it mean to say that a program is *portable?*
+3. In common English, what does the word *compile* mean?
+4. What is an *executable?* Why is that word used as a noun? 
+
+The vocabulary section at the end of each chapter is intended to highlight words and
+phrases that have special meanings in computer science. When you see familiar
+words, don't assume that you know what they mean!
+
+
+
+##### Exercise 1\.2  
+
+Before you do anything else, find out how to compile and run a Java program. Some
+environments provide sample programs similar to the example in Section [1.3](#13_The_Hello_World_Program).
+
+1. Type in the Hello World program; then compile and run it.
+2. Add a print statement that displays a second message after the `Hello, World!` .
+Say something witty like, `How are you?` . Compile and run the program again.
+3. Add a comment to the program (anywhere), recompile, and run it again. The
+new comment should not affect the result. 
+
+This exercise may seem trivial, but it is the starting place for many of the programs
+we will work with. To debug with confidence, you will need to have confidence in your
+programming environment.
+
+In some environments, it is easy to lose track of which program is executing. You
+might find yourself trying to debug one program while you are accidentally running
+another. Adding (and changing) print statements is a simple way to be sure that the
+program you are looking at is the program you are running.
+
+
+
+##### Exercise 1\.3  
+
+It is a good idea to commit as many errors as you can think of, so that you see what
+error messages the compiler produces. Sometimes the compiler tells you exactly
+what is wrong, and all you have to do is fix it. But sometimes the error messages are
+misleading. Over time you will develop a sense for when you can trust the compiler
+and when you have to figure things out yourself.
+
+Starting with the Hello World program, try out each of the following errors. After you
+make each change, compile the program, read the error message (if there is one),
+and then fix the error.
+
+1. Remove one of the opening curly braces.
+2. Remove one of the closing curly braces.
+3. Instead of **main**, write **mian**.
+4. Remove the word **static**.
+5. Remove the word **public**.
+6. Remove the word **System**.
+7. Replace **println** with **Println**.
+8. Replace **println** with **print**.
+9. Delete one parenthesis.
+10. Add an extra parenthesis.
+
+@
+
+
+1.17
+log
+@R1D34: Finished subchapter Vocabulary (1.10).
+@
+text
+@d2 1
+a2 1
+// $Id: thinkjava.md,v 1.16 2021/02/15 22:29:40 heiko Exp heiko $
+d5 3
+d103 1
+a103 1
+    - Exercises 
+d942 6
+a947 6
+| Sequence | Character    |
+|:--------:|:------------:|
+| `\n`     | newline      |
+| `\t`     | tab          |
+| `\"`     | double quote |
+| `\\`     | backslash    |
+d1146 83
 @
 
 
