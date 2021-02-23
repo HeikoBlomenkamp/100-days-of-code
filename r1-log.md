@@ -107,3 +107,6 @@ Did a lot of other Java studies. Repetition of the Think Java textbook (by using
 thinkjava.md: Finished subchapter Vocabulary (1.10). Added a lot of new Think Java Anki flashcards to this GitHub repository.
 
 ### R1D35
+Finished markdown version of "Think Java 2e", Chapter One: Computer Programming. Some repetition of that chapter on my workstation.
+
+### R1D36
