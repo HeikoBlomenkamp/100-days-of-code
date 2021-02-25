@@ -1,7 +1,13 @@
 ```
-// $Id: thinkjava.md,v 1.18 2021/02/23 20:09:06 heiko Exp $
+// $Id: thinkjava.md,v 1.20 2021/02/25 22:26:19 heiko Exp $
 //
 // $Log: thinkjava.md,v $
+// Revision 1.20  2021/02/25 22:26:19  heiko
+// R1D37: Added link to exercises (1.11), with my solutions.
+//
+// Revision 1.19  2021/02/25 00:54:51  heiko
+// R1D37: Fixed typo.
+//
 // Revision 1.18  2021/02/23 20:09:06  heiko
 // R1D35: Finished Chapter One (Computer Programming).
 //
@@ -1160,7 +1166,7 @@ install a few tools. There are many good options, but we recommend DrJava, which
 is an "integrated development environment" (IDE) well suited for beginners.
 Instructions for getting started are in Appendix A.
 
-The code for this chapter is in the *ch01* directory of *ThinkJavaCode2*. See page [#Using_the_Code_Examples)
+The code for this chapter is in the *ch01* directory of *ThinkJavaCode2*. See page [xviii](#Using_the_Code_Examples)
 for instructions on how to download the repository. Before you start the exercises, we
 recommend that you compile and run the examples.
 
@@ -1229,4 +1235,6 @@ and then fix the error.
 8. Replace **println** with **print**.
 9. Delete one parenthesis.
 10. Add an extra parenthesis.
+
+[My solutions are available at [exercises_ch01.md.html](./exercises_ch01.md.html). H.B.]
 
