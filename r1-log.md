@@ -110,3 +110,9 @@ thinkjava.md: Finished subchapter Vocabulary (1.10). Added a lot of new Think Ja
 Finished markdown version of "Think Java 2e", Chapter One: Computer Programming. Some repetition of that chapter on my workstation.
 
 ### R1D36
+Downloaded Eclipse IDE to my workstation. Created new directories, etc. Noticed various changes in that version of the Eclipse IDE.
+
+### R1D37
+Copied Eclipse IDE to my openSUSE Tumbleweed laptop. thinkjava.md: Did all the exercises of Chapter 1. Uploaded markdown to server.
+
+### R1D38
