@@ -1,9 +1,19 @@
-head	1.18;
+head	1.20;
 access;
 symbols;
 locks; strict;
 comment	@# @;
 
+
+1.20
+date	2021.02.25.22.26.19;	author heiko;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2021.02.25.00.54.51;	author heiko;	state Exp;
+branches;
+next	1.18;
 
 1.18
 date	2021.02.23.20.09.06;	author heiko;	state Exp;
@@ -101,15 +111,21 @@ desc
 @
 
 
-1.18
+1.20
 log
-@R1D35: Finished Chapter One (Computer Programming).
+@R1D37: Added link to exercises (1.11), with my solutions.
 @
 text
 @```
-// $Id: thinkjava.md,v 1.17 2021/02/22 00:48:37 heiko Exp heiko $
+// $Id: thinkjava.md,v 1.19 2021/02/25 00:54:51 heiko Exp heiko $
 //
 // $Log: thinkjava.md,v $
+// Revision 1.19  2021/02/25 00:54:51  heiko
+// R1D37: Fixed typo.
+//
+// Revision 1.18  2021/02/23 20:09:06  heiko
+// R1D35: Finished Chapter One (Computer Programming).
+//
 // Revision 1.17  2021/02/22 00:48:37  heiko
 // R1D34: Finished subchapter Vocabulary (1.10).
 //
@@ -1265,7 +1281,7 @@ install a few tools. There are many good options, but we recommend DrJava, which
 is an "integrated development environment" (IDE) well suited for beginners.
 Instructions for getting started are in Appendix A.
 
-The code for this chapter is in the *ch01* directory of *ThinkJavaCode2*. See page [#Using_the_Code_Examples)
+The code for this chapter is in the *ch01* directory of *ThinkJavaCode2*. See page [xviii](#Using_the_Code_Examples)
 for instructions on how to download the repository. Before you start the exercises, we
 recommend that you compile and run the examples.
 
@@ -1335,6 +1351,36 @@ and then fix the error.
 9. Delete one parenthesis.
 10. Add an extra parenthesis.
 
+[My solutions are available at [exercises_ch01.md.html](./exercises_ch01.md.html). H.B.]
+
+@
+
+
+1.19
+log
+@R1D37: Fixed typo.
+@
+text
+@d2 1
+a2 1
+// $Id: thinkjava.md,v 1.18 2021/02/23 20:09:06 heiko Exp heiko $
+d5 3
+d1235 2
+@
+
+
+1.18
+log
+@R1D35: Finished Chapter One (Computer Programming).
+@
+text
+@d2 1
+a2 1
+// $Id: thinkjava.md,v 1.17 2021/02/22 00:48:37 heiko Exp heiko $
+d5 3
+d1163 1
+a1163 1
+The code for this chapter is in the *ch01* directory of *ThinkJavaCode2*. See page [#Using_the_Code_Examples)
 @
 
 
