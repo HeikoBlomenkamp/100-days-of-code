@@ -116,3 +116,6 @@ Downloaded Eclipse IDE to my workstation. Created new directories, etc. Noticed 
 Copied Eclipse IDE to my openSUSE Tumbleweed laptop. thinkjava.md: Did all the exercises of Chapter 1. Uploaded markdown to server.
 
 ### R1D38
+thinkjava.md: Finished subchapter 2.1 (Declaring Variables). Checked Preface (markdown version) for inconsistencies, typos, and errors.
+
+### R1D39
