@@ -119,3 +119,6 @@ Copied Eclipse IDE to my openSUSE Tumbleweed laptop. thinkjava.md: Did all the e
 thinkjava.md: Finished subchapter 2.1 (Declaring Variables). Checked Preface (markdown version) for inconsistencies, typos, and errors.
 
 ### R1D39
+Read a lot about set theory. Studied a viral Python video tutorial on YouTube. Added some Think Java (Chapter One) Anki flashcards.
+
+### R1D40
