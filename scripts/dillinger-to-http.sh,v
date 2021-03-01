@@ -1,9 +1,14 @@
-head	1.12;
+head	1.13;
 access;
 symbols;
 locks; strict;
 comment	@# @;
 
+
+1.13
+date	2021.03.01.21.47.28;	author heiko;	state Exp;
+branches;
+next	1.12;
 
 1.12
 date	2021.02.26.23.35.56;	author heiko;	state Exp;
@@ -71,16 +76,19 @@ desc
 @
 
 
-1.12
+1.13
 log
-@R1D38: Added two new headings (of TJ Chapter Two).
+@R1D41: Added new heading (2.2), of TJ Chapter Two.
 @
 text
 @#!/bin/bash
 
-# $Id: dillinger-to-http.sh,v 1.11 2021/02/23 20:20:14 heiko Exp heiko $
+# $Id: dillinger-to-http.sh,v 1.12 2021/02/26 23:35:56 heiko Exp heiko $
 #
 # $Log: dillinger-to-http.sh,v $
+# Revision 1.12  2021/02/26 23:35:56  heiko
+# R1D38: Added two new headings (of TJ Chapter Two).
+#
 # Revision 1.11  2021/02/23 20:20:14  heiko
 # R1D35: Added new heading (1.11), of TJ Chapter One.
 #
@@ -143,7 +151,8 @@ HEADINGS=('Preface' \
 '110_Vocabulary' \
 '111_Exercises' \
 '2_Variables_and_Operators' \
-'21_Declaring_Variables')
+'21_Declaring_Variables' \
+'22_Assigning_Variables')
 
 # Keep original file
 cp -ua $1 $2
@@ -162,6 +171,21 @@ do
 done
 
 exit 0
+@
+
+
+1.12
+log
+@R1D38: Added two new headings (of TJ Chapter Two).
+@
+text
+@d3 1
+a3 1
+# $Id: dillinger-to-http.sh,v 1.11 2021/02/23 20:20:14 heiko Exp heiko $
+d6 3
+d71 2
+a72 1
+'21_Declaring_Variables')
 @
 
 
