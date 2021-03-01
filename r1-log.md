@@ -122,3 +122,9 @@ thinkjava.md: Finished subchapter 2.1 (Declaring Variables). Checked Preface (ma
 Read a lot about set theory. Studied a viral Python video tutorial on YouTube. Added some Think Java (Chapter One) Anki flashcards.
 
 ### R1D40
+Did a lot of other Java studies: Modified some Java source code examples, and tried to reproduce them on different (virtual) machines.
+
+### R1D41
+thinkjava.md: Finished subchapter 2.2 (Assigning Variables). Read also another (very big) Java textbook. Repeated some mathematics.
+
+### R1D42
