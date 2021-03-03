@@ -1,7 +1,10 @@
 ```
-// $Id: thinkjava.md,v 1.23 2021/03/01 21:35:34 heiko Exp $
+// $Id: thinkjava.md,v 1.24 2021/03/02 23:47:35 heiko Exp $
 //
 // $Log: thinkjava.md,v $
+// Revision 1.24  2021/03/02 23:47:35  heiko
+// R1D42: Finished subchapter 2.3 (Memory Diagrams).
+//
 // Revision 1.23  2021/03/01 21:35:34  heiko
 // R1D41: Finished subchapter 2.2 (Assigning Variables).
 //
@@ -122,7 +125,7 @@ License, which is available at https://creativecommons.org/licenses/by-nc-sa/4.0
 - [Variables and Operators](#2_Variables_and_Operators)
     - [Declaring Variables](#21_Declaring_Variables)
     - [Assigning Variables](#22_Assigning_Variables)
-    - Memory Diagrams
+    - [Memory Diagrams](#23_Memory_Diagrams)
     - Printing Variables
     - Arithmetic Operators
     - Floating-Point Numbers
@@ -640,7 +643,7 @@ temporarily stores information. Figure 1.1 shows what these components look like
 **Figure 1.1**
 : **Example processor and memory hardware.**
 
-![Example processor hardware.](https://greenteapress.com/thinkjava7/html/thinkjava2_001.png "Processor (CPU)") &#x00A0; &#x00A0; ![Example memory hardware.](https://greenteapress.com/thinkjava7/html/thinkjava2_002.png "Memory (RAM)")
+&#x00A0; &#x00A0; &#x00A0; &#x00A0; &#x00A0; &#x00A0;![Example processor hardware.](https://greenteapress.com/thinkjava7/html/thinkjava2_001.png "Processor (CPU)") &#x00A0; &#x00A0; ![Example memory hardware.](https://greenteapress.com/thinkjava7/html/thinkjava2_002.png "Memory (RAM)")
 
 Users generally see and interact with touchscreens, keyboards, and monitors, but it's
 the processors and memory that perform the actual computation. Nowadays it's
@@ -782,7 +785,7 @@ structure of an interpreter.
 **Figure 1.2**
 : **How interpreted languages are executed.**
 
-![Interpreter](https://greenteapress.com/thinkjava7/html/thinkjava2_003.png "Interpreter")
+&#x00A0; &#x00A0; &#x00A0; &#x00A0; &#x00A0; &#x00A0;![Interpreter](https://greenteapress.com/thinkjava7/html/thinkjava2_003.png "Interpreter")
 
 In contrast, a **compiler** reads the entire program and translates it completely before
 the program starts running. The high-level program is called the **source code**. The
@@ -812,7 +815,7 @@ byte code. The Java interpreter is another program, named **java**, which is sho
 **Figure 1.3**
 : **The process of compiling and running a Java program.**
 
-![Compiling, and Running](https://greenteapress.com/thinkjava7/html/thinkjava2_004.png "Compiling, and Running")
+&#x00A0; ![Compiling, and Running](https://greenteapress.com/thinkjava7/html/thinkjava2_004.png "Compiling, and Running")
 
 The programmer writes source code in the file *Hello.java* and uses **javac** to compile
 it. If there are no errors, the compiler saves the byte code in the file *Hello.class*. To
@@ -1357,4 +1360,51 @@ String message = "Hello!";
 int hour = 11;
 int minute = 59;
 ```
+
+
+
+### 2\.3 Memory Diagrams
+
+Because Java uses the `=` symbol for assignment, it is tempting to interpret the
+statement `a = b` as a statement of equality. It is not!
+
+Equality is commutative, and assignment is not. For example, in mathematics if *a* =
+7, then 7 = *a*. In Java `a = 7;` is a legal assignment statement, but `7 = a;` is not. The
+left side of an assignment statement has to be a variable name (storage location).
+
+Also, in mathematics, a statement of equality is true for all time. If *a* = *b* now, *a* is
+always equal to *b*. In Java, an assignment statement can make two variables equal,
+but they don't have to stay that way:
+
+```java
+int a = 5;
+int b = a;     // a and b are now equal
+a = 3;         // a and b are no longer equal
+```
+
+The third line changes the value of `a` , but it does not change the value of `b` , so they
+are no longer equal.
+
+Taken together, the variables in a program and their current values make up the
+program's **state**. Figure 2.1 shows the state of the program after these assignment
+statements run.
+
+**Figure 2.1**
+: **Memory diagram of the variables** `a` **and** `b` **.**
+
+&#x00A0; &#x00A0; &#x00A0; &#x00A0; &#x00A0; &#x00A0;![Variables a and b](https://greenteapress.com/thinkjava7/html/thinkjava2_005.png "Variables a and b")
+
+Diagrams like this one that show the state of the program are called **memory
+diagrams**. Each variable is represented with a box showing the name of the variable
+on the outside and its current value inside.
+
+As the program runs, the state of memory changes, so memory diagrams show only
+a particular point in time. For example, if we added the line `int c = 0;` to the previous
+example, the memory diagram would look like Figure 2.2.
+
+**Figure 2.2**
+: **Memory diagram of the variables** `a` **,** `b` **and** `c` **.**
+
+&#x00A0; &#x00A0; &#x00A0; &#x00A0; &#x00A0; &#x00A0;![Variables a, c and c](https://greenteapress.com/thinkjava7/html/thinkjava2_006.png "Variables a, b and c")
+
 
