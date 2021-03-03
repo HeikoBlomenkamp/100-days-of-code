@@ -128,3 +128,6 @@ Did a lot of other Java studies: Modified some Java source code examples, and tr
 thinkjava.md: Finished subchapter 2.2 (Assigning Variables). Read also another (very big) Java textbook. Repeated some mathematics.
 
 ### R1D42
+thinkjava.md: Finished subchapter 2.3 (Memory Diagrams). Read also that other Java textbook, which includes some basic mathematics.
+
+### R1D43
