@@ -131,3 +131,9 @@ thinkjava.md: Finished subchapter 2.2 (Assigning Variables). Read also another (
 thinkjava.md: Finished subchapter 2.3 (Memory Diagrams). Read also that other Java textbook, which includes some basic mathematics.
 
 ### R1D43
+Started to read The C Programming Language (ANSI C), by Kernighan & Ritchie. Installed C libraries on my working station (into a vm).
+
+### R1D44
+thinkjava.md: Finished subchapter 2.4 (Printing Variables). Checked the Preface for typos, and errors. Repetition of Anki flashcards.
+
+### R1D45
