@@ -1,9 +1,14 @@
-head	1.24;
+head	1.25;
 access;
 symbols;
 locks; strict;
 comment	@# @;
 
+
+1.25
+date	2021.03.04.23.24.59;	author heiko;	state Exp;
+branches;
+next	1.24;
 
 1.24
 date	2021.03.02.23.47.35;	author heiko;	state Exp;
@@ -131,15 +136,18 @@ desc
 @
 
 
-1.24
+1.25
 log
-@R1D42: Finished subchapter 2.3 (Memory Diagrams).
+@R1D44: Finished subchapter 2.4 (Printing Variables).
 @
 text
 @```
-// $Id: thinkjava.md,v 1.23 2021/03/01 21:35:34 heiko Exp heiko $
+// $Id: thinkjava.md,v 1.24 2021/03/02 23:47:35 heiko Exp heiko $
 //
 // $Log: thinkjava.md,v $
+// Revision 1.24  2021/03/02 23:47:35  heiko
+// R1D42: Finished subchapter 2.3 (Memory Diagrams).
+//
 // Revision 1.23  2021/03/01 21:35:34  heiko
 // R1D41: Finished subchapter 2.2 (Assigning Variables).
 //
@@ -261,7 +269,7 @@ License, which is available at https://creativecommons.org/licenses/by-nc-sa/4.0
     - [Declaring Variables](#21_Declaring_Variables)
     - [Assigning Variables](#22_Assigning_Variables)
     - [Memory Diagrams](#23_Memory_Diagrams)
-    - Printing Variables
+    - [Printing Variables](#24_Printing_Variables)
     - Arithmetic Operators
     - Floating-Point Numbers
     - Rounding Errors
@@ -1525,7 +1533,7 @@ program's **state**. Figure 2.1 shows the state of the program after these assig
 statements run.
 
 **Figure 2.1**
-: **Memory diagram of the variables** `a` **and** `b` **.**
+: **Memory diagram of the variables a and b.**
 
 &#x00A0; &#x00A0; &#x00A0; &#x00A0; &#x00A0; &#x00A0;![Variables a and b](https://greenteapress.com/thinkjava7/html/thinkjava2_005.png "Variables a and b")
 
@@ -1538,11 +1546,85 @@ a particular point in time. For example, if we added the line `int c = 0;` to th
 example, the memory diagram would look like Figure 2.2.
 
 **Figure 2.2**
-: **Memory diagram of the variables** `a` **,** `b` **and** `c` **.**
+: **Memory diagram of the variables a, b and c.**
 
 &#x00A0; &#x00A0; &#x00A0; &#x00A0; &#x00A0; &#x00A0;![Variables a, c and c](https://greenteapress.com/thinkjava7/html/thinkjava2_006.png "Variables a, b and c")
 
 
+
+### 2\.4 Printing Variables
+
+You can display the current value of a variable by using **print** or **println**. The
+following statements declare a variable named `firstLine` , assign it the value
+`"Hello, again!"` , and display that value:
+
+```java
+String firstLine = "Hello, again!";
+System.out.println(firstLine);
+```
+
+When we talk about displaying a variable, we generally mean the *value* of the
+variable. To display the *name* of a variable, you have to put it in quotes:
+
+```java
+System.out.print("The value of firstLine is ");
+System.out.println(firstLine);
+```
+
+For this example, the output is as follows:
+
+```
+The value of firstLine is Hello, again!
+```
+
+Conveniently, the code for displaying a variable is the same regardless of its type.
+For example:
+
+```java
+int hour = 11;
+int minute = 59;
+System.out.print("The current time is ");
+System.out.print(hour);
+System.out.print(":");
+System.out.print(minute);
+System.out.println(".");
+```
+
+The output of this program is shown here:
+
+```
+The current time is 11:59.
+```
+
+To output multiple values on the same line, it's common to use several **print**
+statements followed by **println** at the end. But don't forget the **println**! On many
+computers, the output from **print** is stored without being displayed until **println** is
+run; then the entire line is displayed at once. If you omit the **println**, the program
+might display the stored output at unexpected times or even terminate without
+displaying anything.
+
+@
+
+
+1.24
+log
+@R1D42: Finished subchapter 2.3 (Memory Diagrams).
+@
+text
+@d2 1
+a2 1
+// $Id: thinkjava.md,v 1.23 2021/03/01 21:35:34 heiko Exp heiko $
+d5 3
+d129 1
+a129 1
+    - Printing Variables
+d1393 1
+a1393 1
+: **Memory diagram of the variables** `a` **and** `b` **.**
+d1406 1
+a1406 1
+: **Memory diagram of the variables** `a` **,** `b` **and** `c` **.**
+d1410 52
 @
 
 
