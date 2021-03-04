@@ -1,8 +1,11 @@
 #!/bin/bash
 
-# $Id: dillinger-to-http.sh,v 1.14 2021/03/03 00:02:17 heiko Exp $
+# $Id: dillinger-to-http.sh,v 1.15 2021/03/04 23:30:42 heiko Exp $
 #
 # $Log: dillinger-to-http.sh,v $
+# Revision 1.15  2021/03/04 23:30:42  heiko
+# R1D44: Added new heading (2.4), of TJ Chapter Two.
+#
 # Revision 1.14  2021/03/03 00:02:17  heiko
 # R1D42: Added new heading (2.3), of TJ Chapter Two.
 #
@@ -76,7 +79,8 @@ HEADINGS=('Preface' \
 '2_Variables_and_Operators' \
 '21_Declaring_Variables' \
 '22_Assigning_Variables' \
-'23_Memory_Diagrams')
+'23_Memory_Diagrams' \
+'24_Printing_Variables')
 
 # Keep original file
 cp -ua $1 $2
