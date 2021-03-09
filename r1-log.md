@@ -137,3 +137,18 @@ Started to read The C Programming Language (ANSI C), by Kernighan & Ritchie. Ins
 thinkjava.md: Finished subchapter 2.4 (Printing Variables). Checked the Preface for typos, and errors. Repetition of Anki flashcards.
 
 ### R1D45
+Did a lot of other Java studies. Installed tools for better learning on my workstation. A lot of debugging, a lot of trials and errors.
+
+### R1D46
+Did a lot of other Java studies. Installed tools for better learning on my workstation. A lot of debugging, a lot of trials and errors.
+
+### R1D47
+Did a lot of other Java studies. Installed tools for better learning on my workstation. A lot of debugging, a lot of trials and errors.
+
+### R1D48
+Did a lot of other Java studies. Installed tools for better learning on my workstation. A lot of debugging, a lot of trials and errors.
+
+### R1D49
+thinkjava.md: Checked three Java code snippets of my markdown file. Uploaded the related source code to my ThinkJavaCode2 repository.
+
+### R1D50
