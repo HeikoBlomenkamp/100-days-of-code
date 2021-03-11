@@ -152,3 +152,6 @@ Did a lot of other Java studies. Installed tools for better learning on my works
 thinkjava.md: Checked three Java code snippets of my markdown file. Uploaded the related source code to my ThinkJavaCode2 repository.
 
 ### R1D50
+sololearn.com: Pushed all available "reset progress" buttons. Started to repeat HTML. Answered some questions in the comment section.
+
+### R1D51
