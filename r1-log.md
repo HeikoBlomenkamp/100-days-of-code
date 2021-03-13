@@ -158,3 +158,9 @@ sololearn.com: Pushed all available "reset progress" buttons. Started to repeat 
 sololearn.com: Created my own markup practice page. "Each time you learn something new, add it to your practice page." (Tiffany Shearon).
 
 ### R1D52
+thinkjava.md: Checked one Java code snippet of my markdown file. Did some other Java studies (from a big Java textbook). Linux updates.
+
+### R1D53
+thinkjava.md: Checked two Java code snippets of my markdown file. SoloLearn: Repeated some HTML material. Answered some user questions.
+
+### R1D54
