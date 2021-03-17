@@ -164,3 +164,12 @@ thinkjava.md: Checked one Java code snippet of my markdown file. Did some other 
 thinkjava.md: Checked two Java code snippets of my markdown file. SoloLearn: Repeated some HTML material. Answered some user questions.
 
 ### R1D54
+Did a lot of other Java studies. Installed a lot of updates etc. on my virtual machines. A lot of debugging, a lot of trials and errors.
+
+### R1D55
+sololearn.com: Updated my markup practice page. Some progress in the repetition of HTML. Answered some questions in the comment section.
+
+### R1D56
+thinkjava.md: Checked four Java code snippets of my markdown file. SoloLearn: Repeated some HTML material. Answered some user questions.
+
+### R1D57
