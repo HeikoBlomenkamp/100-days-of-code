@@ -1,9 +1,14 @@
-head	1.25;
+head	1.26;
 access;
 symbols;
 locks; strict;
 comment	@# @;
 
+
+1.26
+date	2021.03.19.22.06.25;	author heiko;	state Exp;
+branches;
+next	1.25;
 
 1.25
 date	2021.03.04.23.24.59;	author heiko;	state Exp;
@@ -136,15 +141,18 @@ desc
 @
 
 
-1.25
+1.26
 log
-@R1D44: Finished subchapter 2.4 (Printing Variables).
+@R1D59: Finished subchapter 2.5 (Arithmetic Operators).
 @
 text
 @```
-// $Id: thinkjava.md,v 1.24 2021/03/02 23:47:35 heiko Exp heiko $
+// $Id: thinkjava.md,v 1.25 2021/03/04 23:24:59 heiko Exp heiko $
 //
 // $Log: thinkjava.md,v $
+// Revision 1.25  2021/03/04 23:24:59  heiko
+// R1D44: Finished subchapter 2.4 (Printing Variables).
+//
 // Revision 1.24  2021/03/02 23:47:35  heiko
 // R1D42: Finished subchapter 2.3 (Memory Diagrams).
 //
@@ -270,7 +278,7 @@ License, which is available at https://creativecommons.org/licenses/by-nc-sa/4.0
     - [Assigning Variables](#22_Assigning_Variables)
     - [Memory Diagrams](#23_Memory_Diagrams)
     - [Printing Variables](#24_Printing_Variables)
-    - Arithmetic Operators
+    - [Arithmetic Operators](#25_Arithmetic_Operators)
     - Floating-Point Numbers
     - Rounding Errors
     - Operators for Strings
@@ -1603,6 +1611,93 @@ run; then the entire line is displayed at once. If you omit the **println**, the
 might display the stored output at unexpected times or even terminate without
 displaying anything.
 
+
+
+### 2\.5 Arithmetic Operators
+
+**Operators** are symbols that represent simple computations. For example, the
+addition operator is **+** , subtraction is **--** , multiplication is **\*** , and division is **/** .
+
+The following program converts a time of day to minutes:
+
+```java
+int hour = 11;
+int minute = 59;
+System.out.print("Number of minutes since midnight: ");
+System.out.println(hour * 60 + minute);
+```
+
+The output is as follows:
+
+```
+Number of minutes since midnight: 719
+```
+
+In this program, `hour * 60 + minute` is an **expression**, which represents a single value
+to be computed: `719` . When the program runs, each variable is replaced by its
+current value, and then the operators are applied. The values that operators work
+with are called **operands**.
+
+Expressions are generally a combination of numbers, variables, and operators. When
+compiled and executed, they become a single value. For example, the expression
+`1 + 1` has the value `2` . In the expression `hour - 1` , Java replaces the variable with its
+value, yielding `11 - 1` , which has the value `10` .
+
+In the expression `hour * 60 + minute` , both variables get replaced, yielding
+`11 * 60 + 59` . The multiplication happens first, yielding `660 + 59` . Then the addition
+yields `719` .
+
+Addition, subtraction, and multiplication all do what you expect, but you might be
+surprised by division. For example, the following fragment tries to compute the
+fraction of an hour that has elapsed:
+
+```java
+System.out.print("Fraction of the hour that has passed: ");
+System.out.println(minute / 60);
+```
+
+The output is as follows:
+
+```
+Fraction of the hour that has passed: 0
+```
+
+This result often confuses people. The value of `minute` is `59` , and 59 divided by 60
+should be 0.98333, not 0. The problem is that Java performs *integer division* when
+the operands are integers. By design, integer division always rounds toward zero,
+even in cases like this one where the next integer is close.
+
+As an alternative, we can calculate a percentage rather than a fraction:
+
+```java
+System.out.print("Percent of the hour that has passed: ");
+System.out.println(minute * 100 / 60);
+```
+
+The new output is as follows:
+
+```
+Percent of the hour that has passed: 98
+```
+
+Again the result is rounded down, but at least now it's approximately correct. 
+
+@
+
+
+1.25
+log
+@R1D44: Finished subchapter 2.4 (Printing Variables).
+@
+text
+@d2 1
+a2 1
+// $Id: thinkjava.md,v 1.24 2021/03/02 23:47:35 heiko Exp heiko $
+d5 3
+d133 1
+a133 1
+    - Arithmetic Operators
+d1465 71
 @
 
 
