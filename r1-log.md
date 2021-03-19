@@ -173,3 +173,12 @@ sololearn.com: Updated my markup practice page. Some progress in the repetition 
 thinkjava.md: Checked four Java code snippets of my markdown file. SoloLearn: Repeated some HTML material. Answered some user questions.
 
 ### R1D57
+Did a lot of other Java studies. A lot of debugging, a lot of trials and errors. Installed a lot of updates etc. on my Linux machines.
+
+### R1D58
+Did a lot of other Java studies. A lot of debugging, a lot of trials and errors. Installed a lot of updates etc. on my Linux machines.
+
+### R1D59
+thinkjava.md: Finished subchapter 2.5 (Arithmetic Operators). Some other Java studies, using Eclipse, and Vim. Some basic arithmetics.
+
+### R1D60
