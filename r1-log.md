@@ -182,3 +182,18 @@ Did a lot of other Java studies. A lot of debugging, a lot of trials and errors.
 thinkjava.md: Finished subchapter 2.5 (Arithmetic Operators). Some other Java studies, using Eclipse, and Vim. Some basic arithmetics.
 
 ### R1D60
+Did a lot of other Java studies. A lot of debugging, a lot of trials and errors. Tested several different Eclipse project configurations.
+
+### R1D61
+Did a lot of other Java studies. A lot of debugging, a lot of trials and errors. Tested several different Eclipse project configurations.
+
+### R1D62
+Deleted all virtual machines on my workstation. Installed an openSUSE Linux virtual machine for PHP tasks. Repetition of PHP programming.
+
+### R1D63
+Studied The C Programming Language (ANSI C Version), by Kernighan & Ritchie. Repetition of the Markdown language, and of PHP programming.
+
+### R1D64
+Checked three Java code snippets of my ThinkJava2 markdown file. Updated this log file. Uploaded the code snippets to my GitHub repo.
+
+### R1D65
