@@ -197,3 +197,12 @@ Studied The C Programming Language (ANSI C Version), by Kernighan & Ritchie. Rep
 Checked three Java code snippets of my ThinkJava2 markdown file. Updated this log file. Uploaded the code snippets to my GitHub repo.
 
 ### R1D65
+Started to repeat the Wolfram Language, https://www.open.wolframcloud.com/view/newNotebook?funnel=FastIntroSandbox#sidebar=sandbox-links
+
+### R1D66
+Studied The C Programming Language (ANSI C Version), by Kernighan & Ritchie. Repetition of Wolfram Language, and of Java (big textbook).
+
+### R1D67
+Studied The C Programming Language (ANSI C Version), by Kernighan & Ritchie. Repetition of Anki flashcards, Java (big textbook), and PHP.
+
+### R1D68
