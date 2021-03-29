@@ -206,3 +206,9 @@ Studied The C Programming Language (ANSI C Version), by Kernighan & Ritchie. Rep
 Studied The C Programming Language (ANSI C Version), by Kernighan & Ritchie. Repetition of Anki flashcards, Java (big textbook), and PHP.
 
 ### R1D68
+news.opensuse.org: "Entire Rebuild of Tumbleweed Brings Enormous Update"; updated two openSUSE laptops. Checked some other configurations.
+
+### R1D69
+thinkjava.md: Finished subchapter 2.6 (Floating-Point Numbers). Studied The C Programming Language (ANSI C Version), and Wolfram Language.
+
+### R1D70
