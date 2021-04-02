@@ -212,3 +212,15 @@ news.opensuse.org: "Entire Rebuild of Tumbleweed Brings Enormous Update"; update
 thinkjava.md: Finished subchapter 2.6 (Floating-Point Numbers). Studied The C Programming Language (ANSI C Version), and Wolfram Language.
 
 ### R1D70
+Studied Think Java 2e, subchapter 2.8 (Operators for Strings), and the Wolfram Language (expressions, global and user-defined symbols).
+
+### R1D71
+Downloaded Talend Data Integration, and Talend Data Quality applications. Installed LAMPP. Studied The C Programming Language (ANSI C).
+
+### R1D72
+Some basic configurations and tests (e.g. Talend Data Integration, LAMPP). Studied Think Java 2e, and the Wolfram Language (evaluation).
+
+### R1D73
+thinkjava.md: Finished subchapter 2.7 (Rounding Errors). Repetition of JavaScript (MVC). Started to learn ReactJS from a video tutorial.
+
+### R1D74
