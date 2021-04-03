@@ -224,3 +224,6 @@ Some basic configurations and tests (e.g. Talend Data Integration, LAMPP). Studi
 thinkjava.md: Finished subchapter 2.7 (Rounding Errors). Repetition of JavaScript (MVC). Started to learn ReactJS from a video tutorial.
 
 ### R1D74
+sololearn.com: Repetition of JavaScript. Repetition of Java (big textbook), and PHP (big textbook). Started a ReactJS Practice Page.
+
+### R1D75
