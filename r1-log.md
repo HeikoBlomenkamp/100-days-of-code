@@ -227,3 +227,9 @@ thinkjava.md: Finished subchapter 2.7 (Rounding Errors). Repetition of JavaScrip
 sololearn.com: Repetition of JavaScript. Repetition of Java (big textbook), and PHP (big textbook). Started a ReactJS Practice Page.
 
 ### R1D75
+sololearn.com: Repetition of JavaScript, and of ECMAScript2015 (JavaScript ES6). Repetition of Java (big textbook), by using OpenJDK 15.
+
+### R1D76
+thinkjava.md: Checked six Java code snippets of my markdown file. Upgraded my Linux workstation. Repetition of Java (the big textbook).
+
+### R1D77
