@@ -1,4 +1,4 @@
-/* index.js */
+/* reactjs-practice-page.js */
 
 (function() {
 	/* ----- VanillaJS ----- */
