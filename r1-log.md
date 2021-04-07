@@ -233,3 +233,9 @@ sololearn.com: Repetition of JavaScript, and of ECMAScript2015 (JavaScript ES6).
 thinkjava.md: Checked six Java code snippets of my markdown file. Upgraded my Linux workstation. Repetition of Java (the big textbook).
 
 ### R1D77
+Studied The C Programming Language (ANSI C Version), by Kernighan & Ritchie. Repetition of Java (textbook). Installed virtual machine.
+
+### R1D78
+sololearn.com: Created a VanillaJS Practice Page. Studied The C Programming Language, and Java (textbook). Installed a virtual machine.
+
+### R1D79
