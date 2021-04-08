@@ -239,3 +239,6 @@ Studied The C Programming Language (ANSI C Version), by Kernighan & Ritchie. Rep
 sololearn.com: Created a VanillaJS Practice Page. Studied The C Programming Language, and Java (textbook). Installed a virtual machine.
 
 ### R1D79
+sololearn.com: Added chapter about declaring and assigning vars, and modified some style; repetition of PHP. Read in a book about SEO.
+
+### R1D80
