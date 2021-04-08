@@ -4,11 +4,28 @@
 		<meta charset="utf-8">
 		<link rel="icon" href="favicon.ico">
 		<title>VanillaJS Practice Page</title>
+		<style>
+			html, body {
+				margin-left: 1em;
+			}
+			hr {
+				margin-left: 0rem;
+				width: 44rem;
+			}
+			pre {
+				background-color: rgb(224, 224, 224);
+				padding: 1rem;
+				width: 42rem;
+			}
+		</style>
 	</head>
 	<body>
 		<h1>VanillaJS Practice Page</h1>
 		<div>
 			<ul>
+				<li>
+					<b>VanillaJS Version: 5 </b>(no ECMA 6).
+				</li>
 				<li>
 					<b>Similar to: </b><a href="https://www.sololearn.com/learning/1024">www.sololearn.com/learning/1024</a> (Website by <a href="https://twitter.com/SoloLearn">@SoloLearn</a>).
 				</li>
@@ -32,12 +49,10 @@
 		</p>
 		<h3>0.2 document.write()</h3>
 		<h4>0.2.1 Some Text</h4>
-		<hr>
 		<pre>&lt;script&gt;
 	document.write("Hello, World!");
 &lt;/script&gt;
 		</pre>
-		<hr>
 		<p>
 			Output:
 		</p>
@@ -49,12 +64,10 @@
 		</code>
 		<hr>
 		<h4>0.2.2 Some HTML</h4>
-		<hr>
 		<pre>&lt;script&gt;
 	document.write("&lt;em&gt;Hello, World!&lt;/em&gt;");
 &lt;/script&gt;
 		</pre>
-		<hr>
 		<p>
 			Output:
 		</p>
@@ -65,6 +78,83 @@
 			</script>
 		</code>
 		<hr>
+		<h2>1. Working with Variables</h2>
+		<h3>1.1 Declaring a Variable</h3>
+		<p>
+			Use the keyword
+			<code>
+				var
+			</code>
+			:
+		</p>
+		<pre>&lt;script&gt;
+	var answer;
+	document.write(answer);
+&lt;/script&gt;
+		</pre>
+		<p>
+			Output:
+		</p>
+		<hr>
+		<code>
+			<script>
+				var answer;
+				document.write(answer);
+			</script>
+		</code>
+		<hr>
+		<h3>1.2 Assignment</h3>
+		<p>
+			Assign the value
+			<code>
+				42
+			</code>
+			:
+		</p>
+		<pre>&lt;script&gt;
+	var answer;
+	answer = 42;
+	document.write(answer);
+&lt;/script&gt;
+		</pre>
+		<p>
+			Output:
+		</p>
+		<hr>
+		<code>
+			<script>
+				var answer;
+				answer = 42;
+				document.write(answer);
+			</script>
+		</code>
+		<hr>
+		<h4>1.2.1 Change the Assignment</h4>
+		<p>
+			Replace <b>int </b> with <b>string </b>:
+		</p>
+		<pre>&lt;script&gt;
+	var answer;
+	answer = 42;
+	answer = "Answer to the Ultimate Question of Life.";
+	document.write(answer);
+&lt;/script&gt;
+		</pre>
+		<p>
+			Output:
+		</p>
+		<hr>
+		<code>
+			<script>
+				var answer;
+				answer = 42;
+				answer = "Answer to the Ultimate Question of Life.";
+				document.write(answer);
+			</script>
+		</code>
+		<hr>
+		<!-- Include -->
 		<script src="vanillajs-practice-page.js"></script>
+		<!-- /Include -->
 	</body>
 </html>
