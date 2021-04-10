@@ -242,3 +242,9 @@ sololearn.com: Created a VanillaJS Practice Page. Studied The C Programming Lang
 sololearn.com: Added chapter about declaring and assigning vars, and modified some style; repetition of PHP. Read in a book about SEO.
 
 ### R1D80
+Studied The C Programming Language (ANSI C Version), by Kernighan & Ritchie. Repetition of Java (textbook). Read in a book about Python.
+
+### R1D81
+Deleted all old Anki flashcards. Created new Anki flashcards (only ThinkJava.apkg). Converted apkg file to sqlite3. Created CSV tables.
+
+### R1D82
