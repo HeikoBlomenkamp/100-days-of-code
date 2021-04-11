@@ -248,3 +248,6 @@ Studied The C Programming Language (ANSI C Version), by Kernighan & Ritchie. Rep
 Deleted all old Anki flashcards. Created new Anki flashcards (only ThinkJava.apkg). Converted apkg file to sqlite3. Created CSV tables.
 
 ### R1D82
+thinkjava.md: Finished subchapter 2.8 (Operators for Strings). Studied The C Programming Language. Repetition of Java (textbook), and PHP.
+
+### R1D83
