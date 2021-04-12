@@ -251,3 +251,6 @@ Deleted all old Anki flashcards. Created new Anki flashcards (only ThinkJava.apk
 thinkjava.md: Finished subchapter 2.8 (Operators for Strings). Studied The C Programming Language. Repetition of Java (textbook), and PHP.
 
 ### R1D83
+sololearn.com: Added chapter about markup style tags (b, i, strong, em; etc); repetition of PHP; some challenges. Read in book about SEO.
+
+### R1D84
