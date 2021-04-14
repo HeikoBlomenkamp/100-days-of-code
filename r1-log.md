@@ -254,3 +254,9 @@ thinkjava.md: Finished subchapter 2.8 (Operators for Strings). Studied The C Pro
 sololearn.com: Added chapter about markup style tags (b, i, strong, em; etc); repetition of PHP; some challenges. Read in book about SEO.
 
 ### R1D84
+Studied The C Programming Language (ANSI C Version). Repetition of Java (textbook). Installed and updated a Debian 10 virtual machine.
+
+### R1D85
+sololearn.com: Repetition of PHP; won a code challenge in JavaScript. Repetition of Java JEE (servlets). Created Tomcat 9 Practice Page.
+
+### R1D86
