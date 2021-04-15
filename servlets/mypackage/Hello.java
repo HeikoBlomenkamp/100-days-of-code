@@ -8,6 +8,7 @@ public class Hello extends HttpServlet
 {
 	public void service(ServletRequest req, ServletResponse res) throws ServletException, IOException
 	{
+		//res.setContentType("text/html");
 		StringBuffer sb = new StringBuffer("<!DOCTYPE html>\n");
 
 		// head
@@ -24,7 +25,7 @@ public class Hello extends HttpServlet
 		sb.append("\t\t<p>\n");
 		sb.append("\t\t\t(Java-Version: ");
 
-		// Java-Version
+		// 0. Java-Version
 		sb.append(System.getProperty("java.version"));
 
 		sb.append(")\n");
@@ -38,8 +39,24 @@ public class Hello extends HttpServlet
 		sb.append("\t\t\tSpecification-Vendor: Sun Microsystems, Inc.<br>\n");
 		sb.append("\t\t\tSpecification-Version: 4.0<br>\n");
 		sb.append("\t\t</p>\n");
+		sb.append("\t\t<h2>1. Adding Integers</h2>\n");
+		sb.append("\t\t<p>\n");
+		sb.append("\t\t\t");
+
+		// 1. Request: Adding Integers
+		int x = (req.getParameter("int_x").equals(""))? 0 : Integer.parseInt(req.getParameter("int_x"));
+		int y = (req.getParameter("int_y").equals(""))? 0 : Integer.parseInt(req.getParameter("int_y"));
+		sb.append(add(x, y));
+
+		sb.append("\n");
+		sb.append("\t\t</p>\n");
 		sb.append("\t</body>\n");
 		sb.append("</html>");
 		res.getWriter().println(sb);
+	}
+
+	private static int add(int x, int y)
+	{
+		return x + y;
 	}
 }
