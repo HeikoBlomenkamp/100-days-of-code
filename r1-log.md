@@ -260,3 +260,6 @@ Studied The C Programming Language (ANSI C Version). Repetition of Java (textboo
 sololearn.com: Repetition of PHP; won a code challenge in JavaScript. Repetition of Java JEE (servlets). Created Tomcat 9 Practice Page.
 
 ### R1D86
+Added a simple method to the Tomcat practice page. The index.html file contains two input fields, and a submit button; servlet adds ints.
+
+### R1D87
