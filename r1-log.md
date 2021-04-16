@@ -263,3 +263,6 @@ sololearn.com: Repetition of PHP; won a code challenge in JavaScript. Repetition
 Added a simple method to the Tomcat practice page. The index.html file contains two input fields, and a submit button; servlet adds ints.
 
 ### R1D87
+thinkjava.md: Finished subchapter 2.9 (Compiler Error Messages). Studied The C Programming Language. Repetition of Java (big textbook).
+
+### R1D88
