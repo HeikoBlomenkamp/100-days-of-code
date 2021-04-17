@@ -41,12 +41,22 @@ public class Hello extends HttpServlet
 		sb.append("\t\t</p>\n");
 		sb.append("\t\t<h2>1. Adding Integers</h2>\n");
 		sb.append("\t\t<p>\n");
-		sb.append("\t\t\t");
 
 		// 1. Request: Adding Integers
-		int x = (req.getParameter("int_x").equals(""))? 0 : Integer.parseInt(req.getParameter("int_x"));
-		int y = (req.getParameter("int_y").equals(""))? 0 : Integer.parseInt(req.getParameter("int_y"));
+		int x = ("".equals(req.getParameter("int_x")) || req.getParameter("int_x") == null)? 0 : Integer.parseInt(req.getParameter("int_x"));
+		int y = ("".equals(req.getParameter("int_y")) || req.getParameter("int_y") == null)? 0 : Integer.parseInt(req.getParameter("int_y"));
+		sb.append("\t\t\t");
+		sb.append("GET method as default: ");
+		sb.append(x + " + " + y + " = ");
 		sb.append(add(x, y));
+		sb.append("<br>\n");
+
+		int x1 = ("".equals(req.getParameter("int_x1")) || req.getParameter("int_x1") == null)? 0 : Integer.parseInt(req.getParameter("int_x1"));
+		int y1 = ("".equals(req.getParameter("int_y1")) || req.getParameter("int_y1") == null)? 0 : Integer.parseInt(req.getParameter("int_y1"));
+		sb.append("\t\t\t");
+		sb.append("POST method: ");
+		sb.append(x1 + " + " + y1 + " = ");
+		sb.append(add(x1, y1));
 
 		sb.append("\n");
 		sb.append("\t\t</p>\n");
