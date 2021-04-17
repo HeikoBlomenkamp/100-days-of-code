@@ -266,3 +266,6 @@ Added a simple method to the Tomcat practice page. The index.html file contains 
 thinkjava.md: Finished subchapter 2.9 (Compiler Error Messages). Studied The C Programming Language. Repetition of Java (big textbook).
 
 ### R1D88
+Added POST request to the Tomcat practice page (servlet, index.html). Studied The C Programming Language. Repetition of Java (textbook).
+
+### R1D89
