@@ -10,13 +10,32 @@
 		<p>
 			Hello, World!
 		</p>
-		<h2>1. Add Two Integers</h2>
-		<form action="hello">
-			<p>
+		<h2>1. Add Two Integers (GET, POST)</h2>
+		<p>
+			GET method as default:
+			<code>&lt;form action="hello"&gt;</code>
+		</p>
+		<form action="hello" style="border: 1px dotted #666; padding: 1em;">
+			<div>
 				Enter an integer: <input type="text" name="int_x"><br>
-				Enter an integer: <input type="text" name="int_y"><br>
-				<input type="submit">
-			</p>
+				Enter an integer: <input type="text" name="int_y">
+				<div style="margin: 1em;">
+					<input type="submit">
+				</div>
+			</div>
+		</form>
+		<p>
+			POST method:
+			<code>&lt;form action="hello" method="post"&gt;</code>
+		</p>
+		<form action="hello" method="post" style="border: 1px dotted #666; padding: 1em;">
+			<div>
+				Enter an integer: <input type="text" name="int_x1"><br>
+				Enter an integer: <input type="text" name="int_y1">
+				<div style="margin: 1em;">
+					<input type="submit">
+				</div>
+			</div>
 		</form>
 	</body>
 </html>
