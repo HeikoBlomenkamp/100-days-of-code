@@ -269,3 +269,9 @@ thinkjava.md: Finished subchapter 2.9 (Compiler Error Messages). Studied The C P
 Added POST request to the Tomcat practice page (servlet, index.html). Studied The C Programming Language. Repetition of Java (textbook).
 
 ### R1D89
+Studied The C Programming Language (ANSI C Version). Repetition of Java (the big textbook). Installed the third virtual machine (Ubuntu).
+
+### R1D90
+thinkjava.md: Finished subchapter 2.10 (Other Types of Errors). Repetition of Java (book), and of PHP. SoloLearn challenges (JS, HTML).
+
+### R1D91
