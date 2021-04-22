@@ -1,9 +1,14 @@
-head	1.21;
+head	1.22;
 access;
 symbols;
 locks; strict;
 comment	@# @;
 
+
+1.22
+date	2021.04.22.20.17.59;	author heiko;	state Exp;
+branches;
+next	1.21;
 
 1.21
 date	2021.04.19.23.10.06;	author heiko;	state Exp;
@@ -116,16 +121,19 @@ desc
 @
 
 
-1.21
+1.22
 log
-@R1D90: Added new heading (2.10), of TJ Chapter Two.
+@R1D93: Added new heading (2.11), of TJ Chapter Two.
 @
 text
 @#!/bin/bash
 
-# $Id: dillinger-to-http.sh,v 1.20 2021/04/16 22:33:54 heiko Exp heiko $
+# $Id: dillinger-to-http.sh,v 1.21 2021/04/19 23:10:06 heiko Exp heiko $
 #
 # $Log: dillinger-to-http.sh,v $
+# Revision 1.21  2021/04/19 23:10:06  heiko
+# R1D90: Added new heading (2.10), of TJ Chapter Two.
+#
 # Revision 1.20  2021/04/16 22:33:54  heiko
 # R1D87: Added new heading (2.9), of TJ Chapter Two.
 #
@@ -224,7 +232,8 @@ HEADINGS=('Preface' \
 '27_Rounding_Errors' \
 '28_Operators_for_Strings' \
 '29_Compiler_Error_Messages' \
-'210_Other_Types_of_Errors')
+'210_Other_Types_of_Errors' \
+'211_Vocabulary')
 
 # Keep original file
 cp -ua $1 $2
@@ -243,6 +252,21 @@ do
 done
 
 exit 0
+@
+
+
+1.21
+log
+@R1D90: Added new heading (2.10), of TJ Chapter Two.
+@
+text
+@d3 1
+a3 1
+# $Id: dillinger-to-http.sh,v 1.20 2021/04/16 22:33:54 heiko Exp heiko $
+d6 3
+d107 2
+a108 1
+'210_Other_Types_of_Errors')
 @
 
 
