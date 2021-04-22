@@ -275,3 +275,12 @@ Studied The C Programming Language (ANSI C Version). Repetition of Java (the big
 thinkjava.md: Finished subchapter 2.10 (Other Types of Errors). Repetition of Java (book), and of PHP. SoloLearn challenges (JS, HTML).
 
 ### R1D91
+sololearn.com: Repetition of PHP; won code challenge in PHP, had a draw in HTML. (Servlets: https://www.youtube.com/watch?v=OuBUUkQfBYM).
+
+### R1D92
+Studied The C Programming Language (ANSI C Version). Repetition of Java (the big textbook). Repetition of some parts of the servlet video.
+
+### R1D93
+thinkjava.md: Finished subchapter 2.11 (Vocabulary). Repetition of Java (small textbook). Huge update of two openSUSE Tumbleweed machines.
+
+### R1D94
