@@ -284,3 +284,6 @@ Studied The C Programming Language (ANSI C Version). Repetition of Java (the big
 thinkjava.md: Finished subchapter 2.11 (Vocabulary). Repetition of Java (small textbook). Huge update of two openSUSE Tumbleweed machines.
 
 ### R1D94
+Added vocabulary of Think Java Chapter Two to Anki. Created a sqlite3 file, which contains relevant data of the apkg file, and csv files.
+
+### R1D95
