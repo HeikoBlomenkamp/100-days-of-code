@@ -287,3 +287,9 @@ thinkjava.md: Finished subchapter 2.11 (Vocabulary). Repetition of Java (small t
 Added vocabulary of Think Java Chapter Two to Anki. Created a sqlite3 file, which contains relevant data of the apkg file, and csv files.
 
 ### R1D95
+Got a new Android mobile phone (Xiaomi Mi 10T Pro). Watched videos about creating apps with Android Studio. Decided to wait with coding.
+
+### R1D96
+thinkjava.md: Checked three Java code snippets of my markdown file. Studied The C Programming Language. Other Java studies (big textbook).
+
+### R1D97
