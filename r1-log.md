@@ -293,3 +293,6 @@ Got a new Android mobile phone (Xiaomi Mi 10T Pro). Watched videos about creatin
 thinkjava.md: Checked three Java code snippets of my markdown file. Studied The C Programming Language. Other Java studies (big textbook).
 
 ### R1D97
+Finished markdown version of Think Java 2e, Chapter Two: Variables and Operators. Started repetition of Foundations of Geometry (Hilbert).
+
+### R1D98
