@@ -1,8 +1,11 @@
 #!/bin/bash
 
-# $Id: dillinger-to-http.sh,v 1.22 2021/04/22 20:17:59 heiko Exp $
+# $Id: dillinger-to-http.sh,v 1.23 2021/04/26 23:28:25 heiko Exp $
 #
 # $Log: dillinger-to-http.sh,v $
+# Revision 1.23  2021/04/26 23:28:25  heiko
+# R1D97: Added new heading (2.12), of TJ Chapter Two.
+#
 # Revision 1.22  2021/04/22 20:17:59  heiko
 # R1D93: Added new heading (2.11), of TJ Chapter Two.
 #
@@ -108,7 +111,8 @@ HEADINGS=('Preface' \
 '28_Operators_for_Strings' \
 '29_Compiler_Error_Messages' \
 '210_Other_Types_of_Errors' \
-'211_Vocabulary')
+'211_Vocabulary' \
+'212_Exercises')
 
 # Keep original file
 cp -ua $1 $2
