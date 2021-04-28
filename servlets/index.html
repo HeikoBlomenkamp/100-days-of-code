@@ -6,32 +6,47 @@
 	</head>
 	<body>
 		<h1>Tomcat 9 Form Page</h1>
-		<h2>0. No Form</h2>
-		<p>
-			Hello, World!
-		</p>
-		<h2>1. Add Two Integers (GET, POST)</h2>
+		<h2>0. Sources</h2>
+		<ul>
+			<li>Based on Apache Tomcat's <a href="https://tomcat.apache.org/tomcat-9.0-doc/appdev/sample/">Sample Application</a></li>
+			<li>Therefore, licensed under the <a href="http://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0</a>
+				(with content exception)</li>
+			<li>Changes: index.html, WEB-INF/web.xml, WEB-INF/classes/mypackage/Hello.class</li>
+			<li>Similar to: <a href="https://www.youtube.com/watch?v=OuBUUkQfBYM">Servlet & JSP Tutorial | Full Course</a>
+				(YouTube video by <a href="https://twitter.com/navinreddy20">@navinreddy20</a>).</li>
+		</ul>
+		<h2>1. Add Two Integers (GET)</h2>
 		<p>
 			GET method as default:
 			<code>&lt;form action="hello"&gt;</code>
 		</p>
 		<form action="hello" style="border: 1px dotted #666; padding: 1em;">
 			<div>
-				Enter an integer: <input type="text" name="int_x"><br>
-				Enter an integer: <input type="text" name="int_y">
+				Enter an integer: <input type="text" placeholder="0" name="int_x"><br>
+				Enter an integer: <input type="text" placeholder="0" name="int_y">
 				<div style="margin: 1em;">
 					<input type="submit">
 				</div>
 			</div>
 		</form>
+		<h2>2. Repetition of Think Java (POST)</h2>
 		<p>
 			POST method:
-			<code>&lt;form action="hello" method="post"&gt;</code>
+			<code>&lt;form action="hello" method="post"&gt;</code><br>
 		</p>
+		<ul>
+			<li>No input validation.</li>
+		</ul>
 		<form action="hello" method="post" style="border: 1px dotted #666; padding: 1em;">
 			<div>
-				Enter an integer: <input type="text" name="int_x1"><br>
-				Enter an integer: <input type="text" name="int_y1">
+				<code>public class </code><input type="text" placeholder="Hello" name="str_a"><code> {</code><br><br>
+				<code>&#x00a0;&#x00a0;&#x00a0;&#x00a0;public static void main(String[] args) {</code><br>
+				<code>&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;// generate some simple output</code><br>
+				<code>&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;System.out.println("</code>
+				<input type="text" placeholder="Hello, World!" name="str_b">
+				<code>");</code><br>
+				<code>&#x00a0;&#x00a0;&#x00a0;&#x00a0;}</code><br>
+				<code>}</code>
 				<div style="margin: 1em;">
 					<input type="submit">
 				</div>
