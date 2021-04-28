@@ -302,4 +302,4 @@ Repetition of Foundations of Geometry (Hilbert), and the Wolfram Language. Insta
 Repetition of Foundations of Geometry, and the Wolfram Language. Added new post request to Hello servlet. Added Apache sample to repo.
 
 ### R1D100
- 
+
