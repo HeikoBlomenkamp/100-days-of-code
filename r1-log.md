@@ -296,3 +296,10 @@ thinkjava.md: Checked three Java code snippets of my markdown file. Studied The 
 Finished markdown version of Think Java 2e, Chapter Two: Variables and Operators. Started repetition of Foundations of Geometry (Hilbert).
 
 ### R1D98
+Repetition of Foundations of Geometry (Hilbert), and the Wolfram Language. Installed Anki app on Xiaomi Mi 10T Pro. Studied flashcards.
+
+### R1D99
+Repetition of Foundations of Geometry, and the Wolfram Language. Added new post request to Hello servlet. Added Apache sample to repo.
+
+### R1D100
+ 
