@@ -302,4 +302,5 @@ Repetition of Foundations of Geometry (Hilbert), and the Wolfram Language. Insta
 Repetition of Foundations of Geometry, and the Wolfram Language. Added new post request to Hello servlet. Added Apache sample to repo.
 
 ### R1D100
+Repetition of Anki flashcards, and of Java tutorial: Drawing a Shape, https://youtu.be/ITOgTeudi1s. Added related source code to my repo.
 
