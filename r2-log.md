@@ -8,4 +8,7 @@ The log of my [#100DaysOfCode](https://twitter.com/hashtag/100daysofcode) challe
 Repetition of Anki flashcards, and PHP. Did Java tutorial: Variables, https://youtu.be/TVSj_N2Rmfo; added related source code to my repo.
 
 ### R2D2
+Repetition of Anki flashcards, and PHP. Studied Java tutorial: Data Types, https://youtu.be/BRtlEMYW0FU; added related source code to repo.
+
+### R2D3
 
