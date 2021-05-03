@@ -14,4 +14,5 @@ Repetition of Anki flashcards, and PHP. Studied Java tutorial: Data Types, https
 Repetition of Anki flashcards, and PHP. Did Java tutorial: Working With Strings, https://youtu.be/yebwyol5M7k; added related code to repo.
 
 ### R2D4
+Repetition of flashcards, and PHP. Watched Java tutorial: Working With Math & Numbers, https://youtu.be/C3aWV0cTfpY; added related code.
 
