@@ -16,3 +16,8 @@ Repetition of Anki flashcards, and PHP. Did Java tutorial: Working With Strings,
 ### R2D4
 Repetition of flashcards, and PHP. Watched Java tutorial: Working With Math & Numbers, https://youtu.be/C3aWV0cTfpY; added related code.
 
+### R2D5
+thinkjava.md: Finished subchapter 3.1 (The System Class); cleared RCS log; upgraded to RCS major version 2. Repetition of Anki cards & PHP.
+
+### R2D6
+
