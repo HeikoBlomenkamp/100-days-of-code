@@ -1,105 +1,9 @@
 ```
-// $Id: thinkjava.md,v 1.33 2021/04/26 23:01:12 heiko Exp $
+// $Id: thinkjava.md,v 2.1 2021/05/04 23:45:20 heiko Exp heiko $
 //
 // $Log: thinkjava.md,v $
-// Revision 1.33  2021/04/26 23:01:12  heiko
-// R1D97: Finished Chapter Two (Variables and Operators).
-//
-// Revision 1.32  2021/04/22 20:07:43  heiko
-// R1D93: Finished subchapter 2.11 (Vocabulary).
-//
-// Revision 1.31  2021/04/19 22:50:38  heiko
-// R1D90: Finished subchapter 2.10 (Other Types of Errors).
-//
-// Revision 1.30  2021/04/16 22:19:38  heiko
-// R1D87: Finished subchapter 2.9 (Compiler Error Messages).
-//
-// Revision 1.29  2021/04/11 19:38:16  heiko
-// R1D82: Finished subchapter 2.8 (Operators for Strings).
-//
-// Revision 1.28  2021/04/02 20:25:44  heiko
-// R1D73: Finished subchapter 2.7 (Rounding Errors).
-//
-// Revision 1.27  2021/03/29 21:00:06  heiko
-// R1D69: Finished subchapter 2.6 (Floating-Point Numbers).
-//
-// Revision 1.26  2021/03/19 22:06:25  heiko
-// R1D59: Finished subchapter 2.5 (Arithmetic Operators).
-//
-// Revision 1.25  2021/03/04 23:24:59  heiko
-// R1D44: Finished subchapter 2.4 (Printing Variables).
-//
-// Revision 1.24  2021/03/02 23:47:35  heiko
-// R1D42: Finished subchapter 2.3 (Memory Diagrams).
-//
-// Revision 1.23  2021/03/01 21:35:34  heiko
-// R1D41: Finished subchapter 2.2 (Assigning Variables).
-//
-// Revision 1.22  2021/02/26 23:30:48  heiko
-// R1D38: Added two missing links pointing to the new chapters.
-//
-// Revision 1.21  2021/02/26 23:17:50  heiko
-// R1D38: Finished subchapter 2.1 (Declaring Variables).
-//
-// Revision 1.20  2021/02/25 22:26:19  heiko
-// R1D37: Added link to exercises (1.11), with my solutions.
-//
-// Revision 1.19  2021/02/25 00:54:51  heiko
-// R1D37: Fixed typo.
-//
-// Revision 1.18  2021/02/23 20:09:06  heiko
-// R1D35: Finished Chapter One (Computer Programming).
-//
-// Revision 1.17  2021/02/22 00:48:37  heiko
-// R1D34: Finished subchapter Vocabulary (1.10).
-//
-// Revision 1.16  2021/02/15 22:29:40  heiko
-// R1D27: Finished subchapter Debugging Programs (1.9).
-//
-// Revision 1.15  2021/02/09 03:49:59  heiko
-// R1D21: Finished subchapter Using Escape Sequences (1.7).
-//
-// Revision 1.14  2021/02/06 15:38:47  heiko
-// R1D18: Formatted all image related markdown.
-//
-// Revision 1.13  2021/02/03 03:59:28  heiko
-// R1D14: Finished subchapter Formatting Source Code (1.6).
-//
-// Revision 1.12  2021/01/30 23:57:45  heiko
-// R1D11: Finished subchapter Compiling Java Programs (1.4).
-//
-// Revision 1.11  2021/01/30 00:34:35  heiko
-// R1D10: Added two missing links pointing to the new subchapters.
-//
-// Revision 1.10  2021/01/30 00:26:08  heiko
-// R1D10: Finished subchapter The Hello World Program (1.3).
-//
-// Revision 1.9  2021/01/26 23:02:22  heiko
-// R1D7: Finished What Is a Computer? (1.1), with two images.
-//
-// Revision 1.8  2021/01/25 20:02:56  heiko
-// R1D6: Added two missing links pointing to the new subchapters.
-//
-// Revision 1.7  2021/01/25 19:52:53  heiko
-// R1D6: Added the two remaining subchapters of the Preface.
-//
-// Revision 1.6  2021/01/24 22:47:46  heiko
-// R1D5: Inserted three missing links to the new subchapters.
-//
-// Revision 1.5  2021/01/24 22:23:46  heiko
-// R1D5: Added three new subchapters of the Preface.
-//
-// Revision 1.4  2021/01/24 05:20:33  heiko
-// R1D5: Modified several heading levels of whole file.
-//
-// Revision 1.3  2021/01/23 23:52:19  heiko
-// R1D4: Added The Philosophy Behind the Book, of Preface.
-//
-// Revision 1.2  2021/01/21 23:25:52  heiko
-// R1D2: Added the TOC, and two paragraphs of the Preface.
-//
-// Revision 1.1  2021/01/20 05:08:54  heiko
-// Initial revision
+// Revision 2.1  2021/05/04 23:45:20  heiko
+// R2D5: Finished subchapter 3.1 (The System Class).
 //
 ```
 
@@ -162,8 +66,8 @@ License, which is available at https://creativecommons.org/licenses/by-nc-sa/4.0
     - [Other Types of Errors](#210_Other_Types_of_Errors)
     - [Vocabulary](#211_Vocabulary)
     - [Exercises](#212_Exercises) 
-- Input and Output
-    - The System Class
+- [Input and Output](#3_Input_and_Output)
+    - [The System Class](#31_The_System_Class)
     - The Scanner Class
     - Language Elements
     - Literals and Constants
@@ -2016,4 +1920,54 @@ exercise.
 **Hint.** You might want to use additional variables to hold values during the
 computation. Variables that are used in a computation but never displayed are
 sometimes called "intermediate" or "temporary" variables.
+
+
+
+## 3\. Input and Output
+
+The programs you've looked at so far simply display messages, which doesn't really
+involve that much computation. This chapter shows you how to read input from the
+keyboard, use that input to calculate a result, and then format that result for output.
+
+
+
+### 3\.1 The System Class
+
+We have been using **System.out.println** for a while, but you might not have thought
+about what it means. **System** is a class that provides methods related to the "system",
+or environment, where programs run. It also provides **System.out**, which is a special
+value that has additional methods (like **println**) for displaying output.
+
+In fact, we can use **System.out.println** to display the value of **System.out**:
+
+```java
+System.out.println(System.out);
+```
+
+The result is shown here (ignore the space):
+
+```
+java.io.PrintStream @685d72cd
+```
+
+This output indicates that **System.out** is a `PrintStream` , which is defined in a package
+called `java.io` . A **package** is a collection of related classes; `java.io` contains classes
+for I/O which stands for "input and output".
+
+The numbers and letters after the `@` sign are the **address** of `System.out` , represented
+as a hexadecimal (base 16) number. The address of a value is its location in the
+computer's memory, which might be different on different computers. In this
+example, the address is `685d72cd` , but if you run the same code, you will likely get
+something else. 
+
+As shown in Figure 3.1, `System` is defined in a file called *System.java*, and `PrintStream`
+is defined in *PrintStream.java*. These files are part of the Java **library**, which is an
+extensive collection of classes that you can use in your programs. The source code
+for these classes is usually included with the compiler (see Section [10.6](#)).
+
+**Figure 3.1**
+: **"System.out.println" refers to the *out* variable of the *System*
+class, which is a *PrintStream* that provides a method called *println*.**
+
+&#x00A0; &#x00A0; &#x00A0; &#x00A0; &#x00A0; &#x00A0;![System.out.println](https://greenteapress.com/thinkjava7/html/thinkjava2_007.png "System.out.println")
 
