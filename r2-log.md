@@ -20,4 +20,7 @@ Repetition of flashcards, and PHP. Watched Java tutorial: Working With Math & Nu
 thinkjava.md: Finished subchapter 3.1 (The System Class); cleared RCS log; upgraded to RCS major version 2. Repetition of Anki cards & PHP.
 
 ### R2D6
+Repetition of Anki cards, and PHP. Studied HTML tutorial: Creating an HTML file, https://youtu.be/zKRHZ092ICM; added related code to repo.
+
+### R2D7
 
