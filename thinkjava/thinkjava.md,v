@@ -1,10 +1,14 @@
-head	2.1;
+head	2.2;
 access;
 symbols;
-locks
-	heiko:2.1; strict;
+locks; strict;
 comment	@# @;
 
+
+2.2
+date	2021.05.05.01.12.38;	author heiko;	state Exp;
+branches;
+next	2.1;
 
 2.1
 date	2021.05.04.23.45.20;	author heiko;	state Exp;
@@ -17,15 +21,18 @@ desc
 @
 
 
-2.1
+2.2
 log
-@R2D5: Finished subchapter 3.1 (The System Class).
+@R2D6: Modified the explanation of the after @@ number (hash code).
 @
 text
 @```
-// $Id$
+// $Id: thinkjava.md,v 2.1 2021/05/04 23:45:20 heiko Exp heiko $
 //
-// $Log$
+// $Log: thinkjava.md,v $
+// Revision 2.1  2021/05/04 23:45:20  heiko
+// R2D5: Finished subchapter 3.1 (The System Class).
+//
 ```
 
 
@@ -1975,10 +1982,8 @@ This output indicates that **System.out** is a `PrintStream` , which is defined 
 called `java.io` . A **package** is a collection of related classes; `java.io` contains classes
 for I/O which stands for "input and output".
 
-The numbers and letters after the `@@` sign are the **address** of `System.out` , represented
-as a hexadecimal (base 16) number. The address of a value is its location in the
-computer's memory, which might be different on different computers. In this
-example, the address is `685d72cd` , but if you run the same code, you will likely get
+The numbers and letters after the `@@` sign are a **hash code** of `System.out` , represented
+as a hexadecimal (base 16) number. But if you run the same code, you will likely get
 something else. 
 
 As shown in Figure 3.1, `System` is defined in a file called *System.java*, and `PrintStream`
@@ -1992,4 +1997,23 @@ class, which is a *PrintStream* that provides a method called *println*.**
 
 &#x00A0; &#x00A0; &#x00A0; &#x00A0; &#x00A0; &#x00A0;![System.out.println](https://greenteapress.com/thinkjava7/html/thinkjava2_007.png "System.out.println")
 
+@
+
+
+2.1
+log
+@R2D5: Finished subchapter 3.1 (The System Class).
+@
+text
+@d2 5
+a6 1
+// $Id$
+a7 1
+// $Log$
+d1957 2
+a1958 4
+The numbers and letters after the `@@` sign are the **address** of `System.out` , represented
+as a hexadecimal (base 16) number. The address of a value is its location in the
+computer's memory, which might be different on different computers. In this
+example, the address is `685d72cd` , but if you run the same code, you will likely get
 @
