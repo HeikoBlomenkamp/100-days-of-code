@@ -32,4 +32,7 @@ Repetition of Anki cards, and PHP. Added more software (and wallpapers) to openS
 Repetition of Anki cards, and PHP. Watched HTML tutorial: Basic Tags, https://youtu.be/YTxrjJS6rpE; added related source code to my repo.
 
 ### R2D10
+Repetition of Anki cards, and PHP. Studied HTML tutorial: Comments, https://youtu.be/OGkEwGNI9O8; added some modified source code to repo.
+
+### R2D11
 
