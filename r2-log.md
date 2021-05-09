@@ -23,4 +23,13 @@ thinkjava.md: Finished subchapter 3.1 (The System Class); cleared RCS log; upgra
 Repetition of Anki cards, and PHP. Studied HTML tutorial: Creating an HTML file, https://youtu.be/zKRHZ092ICM; added related code to repo.
 
 ### R2D7
+Repetition of Anki cards, and PHP. Installed openSUSE Tumbleweed on SurfBook W2 laptop. Added some software, and did configuration stuff.
+
+### R2D8
+Repetition of Anki cards, and PHP. Added more software (and wallpapers) to openSUSE Tumbleweed installation, and did configuration stuff.
+
+### R2D9
+Repetition of Anki cards, and PHP. Watched HTML tutorial: Basic Tags, https://youtu.be/YTxrjJS6rpE; added related source code to my repo.
+
+### R2D10
 
