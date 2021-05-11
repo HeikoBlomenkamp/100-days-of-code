@@ -38,3 +38,4 @@ Repetition of Anki cards, and PHP. Studied HTML tutorial: Comments, https://yout
 Repetition of Anki cards, and PHP. Did PHP tutorial: Hello World & Setup, https://youtu.be/7TC0K7aRmFs; added some source code to my repo.
 
 ### R2D12
+Repetition of Anki cards, and PHP. Watched HTML tutorial: Style & Color, https://youtu.be/eN72Ft-CCg4; added modified source code to repo.
