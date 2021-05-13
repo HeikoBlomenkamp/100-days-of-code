@@ -1,9 +1,14 @@
-head	2.1;
+head	2.2;
 access;
 symbols;
 locks; strict;
 comment	@# @;
 
+
+2.2
+date	2021.05.13.04.16.11;	author heiko;	state Exp;
+branches;
+next	2.1;
 
 2.1
 date	2021.05.05.00.00.31;	author heiko;	state Exp;
@@ -131,16 +136,19 @@ desc
 @
 
 
-2.1
+2.2
 log
-@R1D5: Added two new headings (of TJ Chapter Three).
+@R2D14: Added new heading (3.2), of TJ Chapter Three.
 @
 text
 @#!/bin/bash
 
-# $Id: dillinger-to-http.sh,v 1.23 2021/04/26 23:28:25 heiko Exp heiko $
+# $Id: dillinger-to-http.sh,v 2.1 2021/05/05 00:00:31 heiko Exp heiko $
 #
 # $Log: dillinger-to-http.sh,v $
+# Revision 2.1  2021/05/05 00:00:31  heiko
+# R1D5: Added two new headings (of TJ Chapter Three).
+#
 # Revision 1.23  2021/04/26 23:28:25  heiko
 # R1D97: Added new heading (2.12), of TJ Chapter Two.
 #
@@ -252,7 +260,8 @@ HEADINGS=('Preface' \
 '211_Vocabulary' \
 '212_Exercises' \
 '3_Input_and_Output' \
-'31_The_System_Class')
+'31_The_System_Class' \
+'32_The_Scanner_Class')
 
 # Keep original file
 cp -ua $1 $2
@@ -271,6 +280,21 @@ do
 done
 
 exit 0
+@
+
+
+2.1
+log
+@R1D5: Added two new headings (of TJ Chapter Three).
+@
+text
+@d3 1
+a3 1
+# $Id: dillinger-to-http.sh,v 1.23 2021/04/26 23:28:25 heiko Exp heiko $
+d6 3
+d120 2
+a121 1
+'31_The_System_Class')
 @
 
 
