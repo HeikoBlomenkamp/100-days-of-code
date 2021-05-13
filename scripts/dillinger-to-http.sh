@@ -1,8 +1,11 @@
 #!/bin/bash
 
-# $Id: dillinger-to-http.sh,v 2.1 2021/05/05 00:00:31 heiko Exp $
+# $Id: dillinger-to-http.sh,v 2.2 2021/05/13 04:16:11 heiko Exp $
 #
 # $Log: dillinger-to-http.sh,v $
+# Revision 2.2  2021/05/13 04:16:11  heiko
+# R2D14: Added new heading (3.2), of TJ Chapter Three.
+#
 # Revision 2.1  2021/05/05 00:00:31  heiko
 # R1D5: Added two new headings (of TJ Chapter Three).
 #
@@ -117,7 +120,8 @@ HEADINGS=('Preface' \
 '211_Vocabulary' \
 '212_Exercises' \
 '3_Input_and_Output' \
-'31_The_System_Class')
+'31_The_System_Class' \
+'32_The_Scanner_Class')
 
 # Keep original file
 cp -ua $1 $2
