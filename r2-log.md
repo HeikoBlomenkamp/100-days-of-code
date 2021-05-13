@@ -39,3 +39,12 @@ Repetition of Anki cards, and PHP. Did PHP tutorial: Hello World & Setup, https:
 
 ### R2D12
 Repetition of Anki cards, and PHP. Watched HTML tutorial: Style & Color, https://youtu.be/eN72Ft-CCg4; added modified source code to repo.
+
+### R2D13
+sololearn.com: Started repetition of SQL. Tested window manager WindowMaker (GNUstep, openSUSE Tumbleweed) on SurfBook W2 for daily tasks.
+
+### R2D14
+thinkjava.md: Finished subchapter 3.2 (The Scanner Class). Repetition of Anki flashcards, and SQL. Upload of some important files to repo.
+
+### R2D15
+
