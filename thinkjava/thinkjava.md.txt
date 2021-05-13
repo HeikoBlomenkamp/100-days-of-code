@@ -1,7 +1,10 @@
 ```
-// $Id: thinkjava.md,v 2.2 2021/05/05 01:12:38 heiko Exp $
+// $Id: thinkjava.md,v 2.3 2021/05/13 04:02:02 heiko Exp $
 //
 // $Log: thinkjava.md,v $
+// Revision 2.3  2021/05/13 04:02:02  heiko
+// R2D14: Finished subchapter 3.2 (The Scanner Class).
+//
 // Revision 2.2  2021/05/05 01:12:38  heiko
 // R2D6: Modified the explanation of the after @ number (hash code).
 //
@@ -71,7 +74,7 @@ License, which is available at https://creativecommons.org/licenses/by-nc-sa/4.0
     - [Exercises](#212_Exercises) 
 - [Input and Output](#3_Input_and_Output)
     - [The System Class](#31_The_System_Class)
-    - The Scanner Class
+    - [The Scanner Class](#32_The_Scanner_Class)
     - Language Elements
     - Literals and Constants
     - Formatting Output
@@ -1971,4 +1974,66 @@ for these classes is usually included with the compiler (see Section [10.6](#)).
 class, which is a *PrintStream* that provides a method called *println*.**
 
 &#x00A0; &#x00A0; &#x00A0; &#x00A0; &#x00A0; &#x00A0;![System.out.println](https://greenteapress.com/thinkjava7/html/thinkjava2_007.png "System.out.println")
+
+
+
+### 3\.2 The Scanner Class
+
+The `System` class also provides the special value `System.in` , which is an `InputStream`
+that has methods for reading input from the keyboard. These methods are not
+convenient to use, but fortunately Java provides other classes that make it easy to
+handle common input tasks.
+
+For example, `Scanner` is a class that provides methods for inputting words, numbers,
+and other data. `Scanner` is provided by `java.util` , which is a package that contains
+various "utility classes". Before you can use `Scanner` , you have to import it like this:
+
+```java
+import java.util.Scanner;
+```
+
+This **import statement** tells the compiler that when you refer to `Scanner` , you mean
+the one defined in `java.util` . Using an import statement is necessary because there
+might be another class named Scanner in another package.
+
+Next you have to initialize the `Scanner` . This line declares a `Scanner` variable named `in`
+and creates a `Scanner` that reads input from `System.in` :
+
+```java
+Scanner in = new Scanner(System.in);
+```
+
+The `Scanner` class provides a method called `nextLine` that reads a line of input from
+the keyboard and returns a `String` . Here's a complete example that reads two lines
+and repeats them back to the user:
+
+```java
+import java.util.Scanner;
+
+public class Echo {
+
+    public static void main(String[] args) {
+        String line;
+        Scanner in = new Scanner(System.in);
+
+        System.out.print("Type something: ");
+        line = in.nextLine();
+        System.out.println("You said: " + line);
+
+        System.out.print("Type something else: ");
+        line = in.nextLine();
+        System.out.println("You also said: " + line);
+    }
+}
+```
+
+Import statements can't be inside a class definition. By convention, they are usually
+at the beginning of the file. If you omit the import statement, you get a compiler error
+like "cannot find symbol". That means the compiler doesn't know where to find the
+definition for `Scanner` .
+
+You might wonder why we can use the `System` class without importing it. `System`
+belongs to the `java.lang` package, which is imported automatically. According to the
+documentation, `java.lang` "provides classes that are fundamental to the design of
+the Java programming language." The `String` class is also part of `java.lang` .
 
