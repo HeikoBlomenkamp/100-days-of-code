@@ -47,4 +47,7 @@ sololearn.com: Started repetition of SQL. Tested window manager WindowMaker (GNU
 thinkjava.md: Finished subchapter 3.2 (The Scanner Class). Repetition of Anki flashcards, and SQL. Upload of some important files to repo.
 
 ### R2D15
+Repetition of Anki flashcards, and SQL. Studied HTML tutorial: Formatting a Page, https://youtu.be/dVvifZurBcY; added related code to repo.
+
+### R2D16
 
