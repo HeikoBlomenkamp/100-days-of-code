@@ -50,4 +50,9 @@ thinkjava.md: Finished subchapter 3.2 (The Scanner Class). Repetition of Anki fl
 Repetition of Anki flashcards, and SQL. Studied HTML tutorial: Formatting a Page, https://youtu.be/dVvifZurBcY; added related code to repo.
 
 ### R2D16
+Repetition of Linux Professional Institute Learning Materials, https://learning.lpi.org/en/learning-materials/101-500/101/101.1/101.1_01/
 
+### R2D17
+Repetition of Anki flashcards, and SQL. Studied HTML tutorial: Links, https://youtu.be/pTpkvZhoZM4; added some important files to my repo.
+
+### R2D18
