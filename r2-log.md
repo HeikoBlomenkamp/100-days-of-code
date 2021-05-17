@@ -56,3 +56,4 @@ Repetition of Linux Professional Institute Learning Materials, https://learning.
 Repetition of Anki flashcards, and SQL. Studied HTML tutorial: Links, https://youtu.be/pTpkvZhoZM4; added some important files to my repo.
 
 ### R2D18
+Watched HTML tutorial: Images, https://youtu.be/u2BtHQwxq7E; and PHP tutorial: Writing HTML, https://youtu.be/bTzzA0K6Qh4; added my files.
