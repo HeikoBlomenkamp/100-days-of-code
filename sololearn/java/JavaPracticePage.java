@@ -37,7 +37,7 @@ public class JavaPracticePage {
     
     // Variable name:  answer.
     // Variable type:  String.
-    // Variable value: " 42".
+    // Variable value: " String answer: 42".
     
     // Variables: Some other types
     
