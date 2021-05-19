@@ -2,7 +2,8 @@ public class JavaPracticePage {
   
   public static void main(String[] args) {
     
-    
+    /*
+       
     // [0]
     // Tiffany Shearon:
     // I highly recommend all new coders start a running Practice page.
@@ -29,16 +30,16 @@ public class JavaPracticePage {
     // A Java statement ends with a semicolon.
     
     // [4]
-    // Variables: Declaration and Assignment
+    // Variables: Declaration and assignment
     
     String answer = " String answer: 42";
     System.out.println(answer);
     
     // Variable name:  answer.
     // Variable type:  String.
-    // Variable value: " String answer: 42".
+    // Variable value: " 42".
     
-    // Variables: Other Types
+    // Variables: Some other types
     
     int intAnswer = 41;
     double doubleAnswer = 40.0;
@@ -61,6 +62,43 @@ public class JavaPracticePage {
     System.out.println(x);
     System.out.print(" y = ");
     System.out.println(y);
+    
+    */
+    
+    
+    // [5]
+    // Scan input data from the console
+    //
+    // Class:   java.util.Scanner
+    // Methods: nextByte()
+    //          nextShort()
+    //          ...
+    //          next()     -- Get one word only
+    //          nextLine() -- Get all words of a line
+    
+    java.util.Scanner in = new java.util.Scanner(System.in);
+    System.out.print("\nEnter some text: ");
+    System.out.println("--> You entered: " + in.nextLine());
+    
+    
+    // [6]
+    // Operators: +, -, *, /, %
+    // Operands:  x, and y
+    // Example:   double x601 = 42.0 + 9.0;
+    
+    System.out.print("Enter an integer (x = ): ");
+    long x602 = in.nextLong();
+    
+    System.out.print("Enter an integer (y = ): ");
+    long x603 = in.nextLong();
+    
+    System.out.println(x602 + " + " + x603 + " = " + (x602 + x603));
+    System.out.println(x602 + " - " + x603 + " = " + (x602 - x603));
+    System.out.println(x602 + " * " + x603 + " = " + (x602 * x603));
+    System.out.println(x602 + " / " + x603 + " = " + (x602 / x603));
+    System.out.println(x602 + " % " + x603 + " = " + (x602 % x603));
+    
+    
     
     /* ~~~~end of main()~~~~ */
   }
