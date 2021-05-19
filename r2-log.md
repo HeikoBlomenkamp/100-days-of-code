@@ -57,3 +57,9 @@ Repetition of Anki flashcards, and SQL. Studied HTML tutorial: Links, https://yo
 
 ### R2D18
 Watched HTML tutorial: Images, https://youtu.be/u2BtHQwxq7E; and PHP tutorial: Writing HTML, https://youtu.be/bTzzA0K6Qh4; added my files.
+
+### R2D19
+Repetition of Anki flashcards, and SQL. Studied HTML tutorial: Videos & Youtube iFrames, https://youtu.be/M_vEI64hbso; added my index.html.
+
+### R2D20
+
