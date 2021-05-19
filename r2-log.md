@@ -62,4 +62,6 @@ Watched HTML tutorial: Images, https://youtu.be/u2BtHQwxq7E; and PHP tutorial: W
 Repetition of Anki flashcards, and SQL. Studied HTML tutorial: Videos & Youtube iFrames, https://youtu.be/M_vEI64hbso; added my index.html.
 
 ### R2D20
+Repetition of Anki flashcards, and SQL. Watched PHP tutorial: Variables, https://youtu.be/-1iErfiYpBU; added some important files to repo.
 
+### R2D21
