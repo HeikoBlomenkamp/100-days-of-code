@@ -65,3 +65,7 @@ Repetition of Anki flashcards, and SQL. Studied HTML tutorial: Videos & Youtube 
 Repetition of Anki flashcards, and SQL. Watched PHP tutorial: Variables, https://youtu.be/-1iErfiYpBU; added some important files to repo.
 
 ### R2D21
+Repetition of Anki flashcards, and SQL. Studied HTML tutorial: Lists, https://youtu.be/uGY59pKh3rU; added related index.html file to repo.
+
+### R2D22
+
