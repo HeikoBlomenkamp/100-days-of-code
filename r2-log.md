@@ -68,4 +68,6 @@ Repetition of Anki flashcards, and SQL. Watched PHP tutorial: Variables, https:/
 Repetition of Anki flashcards, and SQL. Studied HTML tutorial: Lists, https://youtu.be/uGY59pKh3rU; added related index.html file to repo.
 
 ### R2D22
+Watched HTML tutorial Tables, https://youtu.be/6RE5vCsPOS4; and PHP tutorial Data Types, https://youtu.be/3kWAba3hZbg; added related files.
 
+### R2D23
