@@ -37,7 +37,7 @@ public class JavaPracticePage {
     
     // Variable name:  answer.
     // Variable type:  String.
-    // Variable value: " String answer: 42".
+    // Variable value: " 42".
     
     // Variables: Some other types
     
@@ -63,7 +63,6 @@ public class JavaPracticePage {
     System.out.print(" y = ");
     System.out.println(y);
     
-    */
     
     
     // [5]
@@ -98,6 +97,81 @@ public class JavaPracticePage {
     System.out.println(x602 + " / " + x603 + " = " + (x602 / x603));
     System.out.println(x602 + " % " + x603 + " = " + (x602 % x603));
     
+    */
+    
+    
+    // [7]
+    // Increment and Decrement
+    // WARNING: BETTER NOT USE IT!
+    
+    
+    // increment (in general)
+    
+    int x701 = 42;
+    System.out.print("Value:\t\t\t ");
+    System.out.println(x701);
+    
+    ++x701;
+    
+    System.out.print("Increment:\t\t ");
+    System.out.println(x701);
+    
+    
+    // decrement (in general)
+    
+    int x702 = -42;
+    System.out.print("Value:\t\t\t");
+    System.out.println(x702);
+    
+    --x702;
+    
+    System.out.print("Decrement:\t\t");
+    System.out.println(x702);
+    
+
+    // pre-increment
+    
+    int x711 = 24;
+    int y711 = ++x711;
+    
+    System.out.print("Value y1 (:= ++24):\t ");
+    System.out.println(y711);
+    
+    System.out.print("Value x1:\t\t ");
+    System.out.println(x711);
+
+    
+    // post-increment
+    
+    int x712 = 24;
+    int y712 = x712++;
+    
+    System.out.print("Value y2 (:= 24++):\t ");
+    System.out.println(y712);
+    System.out.print("Value x2:\t\t ");
+    System.out.println(x712);
+    
+    
+    // pre-decrement
+    
+    int x713 = 24;
+    int y713 = --x713;
+    
+    System.out.print("Value y3 (:= --24):\t ");
+    System.out.println(y713);
+    System.out.print("Value x3:\t\t ");
+    System.out.println(x713);
+
+    
+    // post-decrement
+    
+    int x714 = 24;
+    int y714 = x714--;
+    
+    System.out.print("Value y4 (:= 24--):\t ");
+    System.out.println(y714);
+    System.out.print("Value x4:\t\t ");
+    System.out.println(x714);
     
     
     /* ~~~~end of main()~~~~ */
