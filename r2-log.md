@@ -71,3 +71,7 @@ Repetition of Anki flashcards, and SQL. Studied HTML tutorial: Lists, https://yo
 Watched HTML tutorial Tables, https://youtu.be/6RE5vCsPOS4; and PHP tutorial Data Types, https://youtu.be/3kWAba3hZbg; added related files.
 
 ### R2D23
+Repetition of Anki cards, and SQL. Watched HTML tutorial: Divs & Spans, https://youtu.be/lyVwVgiRNIU; added my related index.html to repo.
+
+### R2D24
+
