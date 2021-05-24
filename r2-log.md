@@ -74,4 +74,9 @@ Watched HTML tutorial Tables, https://youtu.be/6RE5vCsPOS4; and PHP tutorial Dat
 Repetition of Anki cards, and SQL. Watched HTML tutorial: Divs & Spans, https://youtu.be/lyVwVgiRNIU; added my related index.html to repo.
 
 ### R2D24
+Repetition of Anki flashcards, and SQL. Studied PHP tutorial: Working With Strings, https://youtu.be/lRUljf_chOE; added site.php to repo.
 
+### R2D25
+thinkruby.md: Finished Section 1.1 (The Ruby programming language); added some files, e.g. patch to restore thinkpython2.md from this file.
+
+### R2D26
