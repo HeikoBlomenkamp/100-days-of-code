@@ -80,3 +80,6 @@ Repetition of Anki flashcards, and SQL. Studied PHP tutorial: Working With Strin
 thinkruby.md: Finished Section 1.1 (The Ruby programming language); added some files, e.g. patch to restore thinkpython2.md from this file.
 
 ### R2D26
+Repetition of Anki flashcards, and SQL. Watched PHP tutorial: Working With Numbers, https://youtu.be/FofSBlAm6Lg; added my site.php to repo.
+
+### R2D27
