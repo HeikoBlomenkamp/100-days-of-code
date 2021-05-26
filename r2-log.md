@@ -83,3 +83,6 @@ thinkruby.md: Finished Section 1.1 (The Ruby programming language); added some f
 Repetition of Anki flashcards, and SQL. Watched PHP tutorial: Working With Numbers, https://youtu.be/FofSBlAm6Lg; added my site.php to repo.
 
 ### R2D27
+Repetition of Anki cards, and SQL. Watched HTML tutorial: iFrames, https://youtu.be/-25g1wgJwfY. Renamed my Think Java 2e Dillinger scripts. 
+
+### R2D28
