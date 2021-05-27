@@ -1,9 +1,14 @@
-head	2.1;
+head	2.2;
 access;
 symbols;
 locks; strict;
 comment	@# @;
 
+
+2.2
+date	2021.05.27.13.39.43;	author heiko;	state Exp;
+branches;
+next	2.1;
 
 2.1
 date	2021.05.24.10.44.19;	author heiko;	state Exp;
@@ -16,16 +21,19 @@ desc
 @
 
 
-2.1
+2.2
 log
-@R2D25: Initial revision
+@R2D28: Added Section 1.2 (What is a program?).
 @
 text
 @#!/bin/bash
 
-# $Id$
+# $Id: dillinger-to-http.sh,v 2.1 2021/05/24 10:44:19 heiko Exp heiko $
 #
-# $Log$
+# $Log: dillinger-to-http.sh,v $
+# Revision 2.1  2021/05/24 10:44:19  heiko
+# R2D25: Initial revision
+#
 
 # Print short help message
 if [ -z $2 ]
@@ -37,7 +45,8 @@ fi
 # Array of all headings
 HEADINGS=('Preface' \
 '1_The_way_of_the_program' \
-'11_The_Ruby_programming_language')
+'11_The_Ruby_programming_language' \
+'12_What_is_a_program')
 
 # Keep original file
 cp -ua $1 $2
@@ -56,4 +65,20 @@ do
 done
 
 exit 0
+@
+
+
+2.1
+log
+@R2D25: Initial revision
+@
+text
+@d3 5
+a7 1
+# $Id$
+a8 1
+# $Log$
+d20 2
+a21 1
+'11_The_Ruby_programming_language')
 @
