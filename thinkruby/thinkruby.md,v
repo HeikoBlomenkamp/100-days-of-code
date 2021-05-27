@@ -1,9 +1,14 @@
-head	2.1;
+head	2.2;
 access;
 symbols;
 locks; strict;
 comment	@# @;
 
+
+2.2
+date	2021.05.27.13.26.47;	author heiko;	state Exp;
+branches;
+next	2.1;
 
 2.1
 date	2021.05.24.10.20.49;	author heiko;	state Exp;
@@ -16,15 +21,18 @@ desc
 @
 
 
-2.1
+2.2
 log
-@R2D25: Finished Section 1.1 (The Ruby programming language).
+@R2D28: Finished Section 1.2 (What is a program?).
 @
 text
 @```
-// $Id$
+// $Id: thinkruby.md,v 2.1 2021/05/24 10:20:49 heiko Exp heiko $
 //
-// $Log$
+// $Log: thinkruby.md,v $
+// Revision 2.1  2021/05/24 10:20:49  heiko
+// R2D25: Finished Section 1.1 (The Ruby programming language).
+//
 ```
 
 
@@ -59,12 +67,14 @@ available at http://creativecommons.org/licenses/by-nc/3.0/.
 - [Preface](#Preface)
 - [The way of the program](#1_The_way_of_the_program)
     - [The Ruby programming language](#11_The_Ruby_programming_language)
+    - [What is a program?](#12_What_is_a_program)
 
 
 
 ## Preface
 
 [postponed]
+[interactive mode: irb --simple-prompt]
 
 
 
@@ -163,4 +173,57 @@ Working in interactive mode is convenient for testing small pieces of code becau
 you can type and execute them immediately. But for anything more than a few lines,
 you should save your code as a script so you can modify and execute it in the future.
 
+
+
+### 1\.2 What is a program?
+
+A **program** is a sequence of instructions that specifies how to perform a
+computation. The computation might be something mathematical, such as solving a
+system of equations or finding the roots of a polynomial, but it can also be a
+symbolic computation, such as searching and replacing text in a document or
+(strangely enough) compiling a program.
+
+The details look different in different languages, but a few basic instructions appear
+in just about every language:
+
+input:
+: Get data from the keyboard, a file, or some other device.
+
+output:
+: Display data on the screen or send data to a file or other device.
+
+math:
+: Perform basic mathematical operations like addition and multiplication.
+
+conditional execution:
+: Check for certain conditions and execute the appropriate code.
+
+repetition:
+: Perform some action repeatedly, usually with some variation.
+
+Believe it or not, that's pretty much all there is to it. Every program you've ever used,
+no matter how complicated, is made up of instructions that look pretty much like
+these. So you can think of programming as the process of breaking a large, complex
+task into smaller and smaller subtasks until the subtasks are simple enough to be
+performed with one of these basic instructions.
+
+That may be a little vague, but we will come back to this topic when we talk about
+**algorithms**.
+
+@
+
+
+2.1
+log
+@R2D25: Finished Section 1.1 (The Ruby programming language).
+@
+text
+@d2 5
+a6 1
+// $Id$
+a7 1
+// $Log$
+d42 1
+d49 1
+d147 37
 @
