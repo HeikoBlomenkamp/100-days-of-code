@@ -86,3 +86,6 @@ Repetition of Anki flashcards, and SQL. Watched PHP tutorial: Working With Numbe
 Repetition of Anki cards, and SQL. Watched HTML tutorial: iFrames, https://youtu.be/-25g1wgJwfY. Renamed my Think Java 2e Dillinger scripts. 
 
 ### R2D28
+Watched (last) HTML tutorial: Meta Tags, https://youtu.be/Luo_wCcWAaw; and CSS tutorial: Basic Inline Styling, https://youtu.be/jH_WY-sQ8Lg.
+
+### R2D29
