@@ -1,8 +1,11 @@
 #!/bin/bash
 
-# $Id: dillinger-to-http.sh,v 2.2 2021/05/27 13:39:43 heiko Exp $
+# $Id: dillinger-to-http.sh,v 2.3 2021/05/29 05:51:35 heiko Exp $
 #
 # $Log: dillinger-to-http.sh,v $
+# Revision 2.3  2021/05/29 05:51:35  heiko
+# R2D30: Added Section 1.3 (What is debugging?).
+#
 # Revision 2.2  2021/05/27 13:39:43  heiko
 # R2D28: Added Section 1.2 (What is a program?).
 #
@@ -21,7 +24,8 @@ fi
 HEADINGS=('Preface' \
 '1_The_way_of_the_program' \
 '11_The_Ruby_programming_language' \
-'12_What_is_a_program')
+'12_What_is_a_program' \
+'13_What_is_debugging')
 
 # Keep original file
 cp -ua $1 $2
