@@ -89,3 +89,6 @@ Repetition of Anki cards, and SQL. Watched HTML tutorial: iFrames, https://youtu
 Watched (last) HTML tutorial: Meta Tags, https://youtu.be/Luo_wCcWAaw; and CSS tutorial: Basic Inline Styling, https://youtu.be/jH_WY-sQ8Lg.
 
 ### R2D29
+Repetition of Anki flashcards, and SQL. Studied PHP tutorial: Getting User Input, https://youtu.be/XZeFP-CXQj4; added my site.php to repo.
+
+### R2D30
