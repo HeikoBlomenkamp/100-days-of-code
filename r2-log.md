@@ -92,3 +92,6 @@ Watched (last) HTML tutorial: Meta Tags, https://youtu.be/Luo_wCcWAaw; and CSS t
 Repetition of Anki flashcards, and SQL. Studied PHP tutorial: Getting User Input, https://youtu.be/XZeFP-CXQj4; added my site.php to repo.
 
 ### R2D30
+thinkruby.md: Finished Section 1.3.1 (Syntax errors); uploaded some (related) files to repo; website: http://blomenk.bplaced.net/thinkruby/
+
+### R2D31
