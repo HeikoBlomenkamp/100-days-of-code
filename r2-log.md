@@ -95,3 +95,6 @@ Repetition of Anki flashcards, and SQL. Studied PHP tutorial: Getting User Input
 thinkruby.md: Finished Section 1.3.1 (Syntax errors); uploaded some (related) files to repo; website: http://blomenk.bplaced.net/thinkruby/
 
 ### R2D31
+Repetition of Anki flashcards, and SQL. Watched CSS tutorial: Colors, https://youtu.be/jUFjErKxIPo; added related index.html to this repo.
+
+### R2D32
