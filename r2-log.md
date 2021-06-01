@@ -98,3 +98,6 @@ thinkruby.md: Finished Section 1.3.1 (Syntax errors); uploaded some (related) fi
 Repetition of Anki flashcards, and SQL. Watched CSS tutorial: Colors, https://youtu.be/jUFjErKxIPo; added related index.html to this repo.
 
 ### R2D32
+thinkruby.md: Finished Section 1.3 (What is debugging?); added also related files, e.g. the patch to restore thinkpython2.md from this file.
+
+### R2D33
