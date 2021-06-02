@@ -101,3 +101,9 @@ Repetition of Anki flashcards, and SQL. Watched CSS tutorial: Colors, https://yo
 thinkruby.md: Finished Section 1.3 (What is debugging?); added also related files, e.g. the patch to restore thinkpython2.md from this file.
 
 ### R2D33
+Studied Ruby tutorial: Data Types, https://youtu.be/rjLB_bD3SLU; and CSS tutorial: Margins & Padding, https://youtu.be/k4xA_Olo_Uo; loaded.
+
+### R2D34
+thinkruby.md: Modified the alt attributes of two images; changed UNIX to *NIX; changed markdown style of the word "prompt"; did the uploads.
+
+### R2D35
