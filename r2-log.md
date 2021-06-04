@@ -107,3 +107,9 @@ Studied Ruby tutorial: Data Types, https://youtu.be/rjLB_bD3SLU; and CSS tutoria
 thinkruby.md: Modified the alt attributes of two images; changed UNIX to *NIX; changed markdown style of the word "prompt"; did the uploads.
 
 ### R2D35
+Repetition of Anki flashcards, and SQL. Repetition of textbooks about Java, and PHP. Stored source files by using virtual machines and SSH.
+
+### R2D36
+thinkruby.md: Modified the structure of Section 1.3.1 (Syntax errors). Uploaded the index.html file to http://blomenk.bplaced.net/thinkruby/
+
+### R2D37
