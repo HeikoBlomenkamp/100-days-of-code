@@ -1,14 +1,19 @@
---- thinkruby.md	2021-06-05 00:58:57.271611155 +0200
-+++ ../python2/thinkpython2.md	2021-06-05 00:01:28.634877297 +0200
-@@ -1,49 +1,53 @@
+--- thinkruby.md	2021-06-06 23:51:19.513973637 +0200
++++ ../python2/thinkpython2.md	2021-06-05 19:59:35.404930411 +0200
+@@ -1,52 +1,56 @@
  ```
--// $Id: thinkruby.md,v 2.6 2021/06/04 22:57:30 heiko Exp $
-+// $Id: thinkpython2.md,v 1.8 2021/06/04 21:59:09 heiko Exp $
+-// $Id: thinkruby.md,v 2.7 2021/06/06 21:50:03 heiko Exp $
++// $Id: thinkpython2.md,v 1.9 2021/06/05 17:58:14 heiko Exp $
  //
 -// $Log: thinkruby.md,v $
+-// Revision 2.7  2021/06/06 21:50:03  heiko
+-// R2D38: Added Section 1.3.2 (Runtime errors).
++// $Log: thinkpython2.md,v $
++// Revision 1.9  2021/06/05 17:58:14  heiko
++// R1D14: Added Section 1.3.2 (Runtime errors).
+ //
 -// Revision 2.6  2021/06/04 22:57:30  heiko
 -// R2D36: Modified the structure of Section 1.3.1 (Syntax errors).
-+// $Log: thinkpython2.md,v $
 +// Revision 1.8  2021/06/04 21:59:09  heiko
 +// R1D13: Modified the structure of Section 1.3.1 (Syntax errors).
  //
@@ -77,7 +82,7 @@
  
  Permission is granted to copy, distribute, and/or modify this work under the terms of
  the Creative Commons Attribution-NonCommercial 3.0 Unported License, which is
-@@ -53,17 +57,16 @@
+@@ -56,17 +60,16 @@
  
  - [Preface](#Preface)
  - [The way of the program](#1_The_way_of_the_program)
@@ -98,7 +103,7 @@
  
  
  ## 1\. The way of the program
-@@ -88,10 +91,10 @@
+@@ -91,10 +94,10 @@
  
  
  
@@ -112,7 +117,7 @@
  and Java.
  
  There are also **low-level languages**, sometimes referred to as "machine languages"
-@@ -134,28 +137,28 @@
+@@ -137,28 +140,28 @@
  
  &#x00A0; ![From: Source Code to: Compiler to: Object Code to: Executor to: Output.](https://greenteapress.com/thinkpython/html/thinkpython002.png "Figure 1.2")
  
@@ -156,7 +161,7 @@
  
  Working in interactive mode is convenient for testing small pieces of code because
  you can type and execute them immediately. But for anything more than a few lines,
-@@ -213,14 +216,14 @@
+@@ -216,14 +219,14 @@
  
  #### 1\.3\.1 Syntax errors
  
