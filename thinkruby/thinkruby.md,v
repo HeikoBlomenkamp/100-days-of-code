@@ -1,9 +1,14 @@
-head	2.6;
+head	2.7;
 access;
 symbols;
 locks; strict;
 comment	@# @;
 
+
+2.7
+date	2021.06.06.21.50.03;	author heiko;	state Exp;
+branches;
+next	2.6;
 
 2.6
 date	2021.06.04.22.57.30;	author heiko;	state Exp;
@@ -41,15 +46,18 @@ desc
 @
 
 
-2.6
+2.7
 log
-@R2D36: Modified the structure of Section 1.3.1 (Syntax errors).
+@R2D38: Added Section 1.3.2 (Runtime errors).
 @
 text
 @```
-// $Id: thinkruby.md,v 2.5 2021/06/02 21:59:55 heiko Exp heiko $
+// $Id: thinkruby.md,v 2.6 2021/06/04 22:57:30 heiko Exp heiko $
 //
 // $Log: thinkruby.md,v $
+// Revision 2.6  2021/06/04 22:57:30  heiko
+// R2D36: Modified the structure of Section 1.3.1 (Syntax errors).
+//
 // Revision 2.5  2021/06/02 21:59:55  heiko
 // R2D34: Modified the alt attributes of two images.
 //
@@ -271,6 +279,31 @@ weeks of your programming career, you will probably spend a lot of time tracking
 down syntax errors. As you gain experience, you will make fewer errors and find
 them faster.
 
+
+
+#### 1\.3\.2 Runtime errors
+
+The second type of error is a **runtime error**, so called because the error does not
+appear until after the program has started running. These errors are also called
+**exceptions** because they usually indicate that something exceptional (and bad) has
+happened. 
+
+Runtime errors are rare in the simple programs you will see in the first few chapters,
+so it might be a while before you encounter one.
+
+@
+
+
+2.6
+log
+@R2D36: Modified the structure of Section 1.3.1 (Syntax errors).
+@
+text
+@d2 1
+a2 1
+// $Id: thinkruby.md,v 2.5 2021/06/02 21:59:55 heiko Exp heiko $
+d5 3
+d228 12
 @
 
 
