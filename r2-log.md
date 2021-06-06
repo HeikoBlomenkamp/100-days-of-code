@@ -113,3 +113,6 @@ Repetition of Anki flashcards, and SQL. Repetition of textbooks about Java, and 
 thinkruby.md: Modified the structure of Section 1.3.1 (Syntax errors). Uploaded the index.html file to http://blomenk.bplaced.net/thinkruby/
 
 ### R2D37
+Repetition of Anki cards, and SQL. Studied Ruby tutorial: Working With Strings, https://youtu.be/9HB4iIAxuh0; uploaded my modified .rb file.
+
+### R2D38
