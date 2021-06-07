@@ -119,3 +119,6 @@ Repetition of Anki cards, and SQL. Studied Ruby tutorial: Working With Strings, 
 Repetition of Java, and PHP. thinkruby: Added Section 1.3.2 (Runtime errors); uploaded index.html to http://blomenk.bplaced.net/thinkruby/
 
 ### R2D39
+Repetition of Java, and PHP. Watched Ruby tutorial: Math & Numbers, https://youtu.be/qDLYmBm4NF8; uploaded modified .rb file to this repo.
+
+### R2D40
