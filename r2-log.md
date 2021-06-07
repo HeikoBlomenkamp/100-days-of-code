@@ -116,3 +116,6 @@ thinkruby.md: Modified the structure of Section 1.3.1 (Syntax errors). Uploaded 
 Repetition of Anki cards, and SQL. Studied Ruby tutorial: Working With Strings, https://youtu.be/9HB4iIAxuh0; uploaded my modified .rb file.
 
 ### R2D38
+Repetition of Java, and PHP. thinkruby: Added Section 1.3.2 (Runtime errors); uploaded index.html to http://blomenk.bplaced.net/thinkruby/
+
+### R2D39
