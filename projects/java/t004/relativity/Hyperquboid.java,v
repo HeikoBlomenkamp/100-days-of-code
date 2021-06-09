@@ -1,0 +1,86 @@
+head	1.1;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.1
+date	2021.06.09.12.30.25;	author heiko;	state Exp;
+branches;
+next	;
+
+
+desc
+@Program «Hyperquboid» with data type «int».
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@// $Id$
+//
+// $Log$
+
+package relativity;
+
+import java.math.BigInteger;
+
+public class Hyperquboid
+{
+	private BigInteger length;
+	private BigInteger width;
+	private BigInteger height;
+	private BigInteger time;
+
+	public Hyperquboid()
+	{
+		this.length = BigInteger.valueOf(1);
+		this.width  = BigInteger.valueOf(1);
+		this.height = BigInteger.valueOf(1);
+		this.time   = BigInteger.valueOf(Integer.MAX_VALUE);
+	}
+
+	private int getInteriorDiagonal()
+	{
+		return 	this.length.multiply(this.length).add
+			(
+				this.width.multiply(this.width).add
+				(
+					this.height.multiply(this.height).add
+					(
+						this.time.multiply(this.time)
+					)
+				)
+			).sqrt().intValueExact();
+	}
+
+	private int getInteriorVolume()
+	{
+		return  this.length.multiply
+			(
+				this.width.multiply
+				(
+					this.height.multiply
+					(
+						this.time
+					)
+				)
+			).intValueExact();
+	}
+
+
+	public static void main(String[] args)
+	{
+		Hyperquboid hq = new Hyperquboid();
+
+		System.out.printf("Interior diagonal:\t≈ %d\n",
+			hq.getInteriorDiagonal());
+		System.out.printf("Interior volume:\t= %d\n",
+			hq.getInteriorVolume());
+	}
+}
+@
