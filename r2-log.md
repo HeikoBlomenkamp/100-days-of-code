@@ -122,3 +122,6 @@ Repetition of Java, and PHP. thinkruby: Added Section 1.3.2 (Runtime errors); up
 Repetition of Java, and PHP. Watched Ruby tutorial: Math & Numbers, https://youtu.be/qDLYmBm4NF8; uploaded modified .rb file to this repo.
 
 ### R2D40
+Repetition of Java. Watched random YouTube videos about working as developer, about preparing for jobs, about work-life balance, and so on.
+
+### R2D41
