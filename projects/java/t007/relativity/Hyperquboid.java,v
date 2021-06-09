@@ -1,0 +1,87 @@
+head	1.1;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.1
+date	2021.06.09.13.23.38;	author heiko;	state Exp;
+branches;
+next	;
+
+
+desc
+@Program «Hyperquboid» with data type «double».
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@// $Id$
+//
+// $Log$
+
+package relativity;
+
+import java.math.BigDecimal;
+import java.math.MathContext;
+
+public class Hyperquboid
+{
+	private BigDecimal length;
+	private BigDecimal width;
+	private BigDecimal height;
+	private BigDecimal time;
+
+	public Hyperquboid()
+	{
+		this.length = BigDecimal.valueOf(1.0);
+		this.width  = BigDecimal.valueOf(1.0);
+		this.height = BigDecimal.valueOf(1.0);
+		this.time   = BigDecimal.valueOf(Double.MAX_VALUE);
+	}
+
+	private double getInteriorDiagonal()
+	{
+		return 	this.length.multiply(this.length).add
+			(
+				this.width.multiply(this.width).add
+				(
+					this.height.multiply(this.height).add
+					(
+						this.time.multiply(this.time)
+					)
+				)
+			).sqrt(MathContext.DECIMAL128).doubleValue();
+	}
+
+	private double getInteriorVolume()
+	{
+		return  this.length.multiply
+			(
+				this.width.multiply
+				(
+					this.height.multiply
+					(
+						this.time
+					)
+				)
+			).doubleValue();
+	}
+
+
+	public static void main(String[] args)
+	{
+		Hyperquboid hq = new Hyperquboid();
+
+		System.out.printf("Interior diagonal:\t≈ %e\n",
+			hq.getInteriorDiagonal());
+		System.out.printf("Interior volume:\t= %e\n",
+			hq.getInteriorVolume());
+	}
+}
+@
