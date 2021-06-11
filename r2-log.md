@@ -128,3 +128,6 @@ Repetition of Java. Watched random YouTube videos about working as developer, ab
 Repetition of Java (folder: projects). Studied Ruby tutorial: Getting User Input, https://youtu.be/GnuCA8eedNs; uploaded .rb file to repo.
 
 ### R2D42
+Repetition of PHP (folder: projects). Watched Ruby tutorial: Building a Calculator, https://youtu.be/u2ezYnbVGoM; uploaded .rb file to repo.
+
+### R2D43
