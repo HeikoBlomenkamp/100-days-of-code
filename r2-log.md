@@ -131,3 +131,9 @@ Repetition of Java (folder: projects). Studied Ruby tutorial: Getting User Input
 Repetition of PHP (folder: projects). Watched Ruby tutorial: Building a Calculator, https://youtu.be/u2ezYnbVGoM; uploaded .rb file to repo.
 
 ### R2D43
+Repetition of Java (folder: projects). Watched video "Web Development In 2021 - A Practical Guide" on YouTube, https://youtu.be/VfGW0Qiy2I0
+
+### R2D44
+Repetition of Anki flashcards, and SQL. Studied C tutorial: Variables, https://youtu.be/17DnxMHEtMU; uploaded main.c file etc. to this repo.
+
+### R2D45
