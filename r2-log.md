@@ -137,3 +137,6 @@ Repetition of Java (folder: projects). Watched video "Web Development In 2021 - 
 Repetition of Anki flashcards, and SQL. Studied C tutorial: Variables, https://youtu.be/17DnxMHEtMU; uploaded main.c file etc. to this repo.
 
 ### R2D45
+Repetition of Anki flashcards, and SQL. Watched Ruby tutorial: Building a Mad Libs Game, https://youtu.be/Y2UwkvxIdJ8; uploaded .rb file.
+
+### R2D46
