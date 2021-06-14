@@ -140,3 +140,6 @@ Repetition of Anki flashcards, and SQL. Studied C tutorial: Variables, https://y
 Repetition of Anki flashcards, and SQL. Watched Ruby tutorial: Building a Mad Libs Game, https://youtu.be/Y2UwkvxIdJ8; uploaded .rb file.
 
 ### R2D46
+Repetition of Anki flashcards, and SQL. Studied C tutorial: Data Types, https://youtu.be/9kMr0EsltqU; uploaded my main.c file to this repo.
+
+### R2D47
