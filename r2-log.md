@@ -104,7 +104,7 @@ thinkruby.md: Finished Section 1.3 (What is debugging?); added also related file
 Studied Ruby tutorial: Data Types, https://youtu.be/rjLB_bD3SLU; and CSS tutorial: Margins & Padding, https://youtu.be/k4xA_Olo_Uo; loaded.
 
 ### R2D34
-thinkruby.md: Modified the alt attributes of two images; changed UNIX to \*NIX; changed markdown style of the word "prompt"; did the uploads.
+thinkruby: Modified the alt attributes of two images; changed UNIX to \*NIX; changed markdown style of the word "prompt"; did the uploads.
 
 ### R2D35
 Repetition of Anki flashcards, and SQL. Repetition of textbooks about Java, and PHP. Stored source files by using virtual machines and SSH.
