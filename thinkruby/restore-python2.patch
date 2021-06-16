@@ -1,44 +1,52 @@
---- thinkruby.md	2021-06-06 23:51:19.513973637 +0200
-+++ ../python2/thinkpython2.md	2021-06-05 19:59:35.404930411 +0200
-@@ -1,52 +1,56 @@
+--- thinkruby.md	2021-06-17 00:36:53.669415649 +0200
++++ ../python2/thinkpython2.md	2021-06-15 03:08:31.107310958 +0200
+@@ -1,55 +1,62 @@
  ```
--// $Id: thinkruby.md,v 2.7 2021/06/06 21:50:03 heiko Exp $
-+// $Id: thinkpython2.md,v 1.9 2021/06/05 17:58:14 heiko Exp $
+-// $Id: thinkruby.md,v 2.8 2021/06/16 22:35:35 heiko Exp $
++// $Id: thinkpython2.md,v 1.11 2021/06/15 01:06:13 heiko Exp $
  //
 -// $Log: thinkruby.md,v $
+-// Revision 2.8  2021/06/16 22:35:35  heiko
+-// R2D48: Added Section 1.3.3 (Semantic errors).
++// $Log: thinkpython2.md,v $
++// Revision 1.11  2021/06/15 01:06:13  heiko
++// R1D23: Added Section 1.3.4 (Experimental debugging).
+ //
 -// Revision 2.7  2021/06/06 21:50:03  heiko
 -// R2D38: Added Section 1.3.2 (Runtime errors).
-+// $Log: thinkpython2.md,v $
-+// Revision 1.9  2021/06/05 17:58:14  heiko
-+// R1D14: Added Section 1.3.2 (Runtime errors).
++// Revision 1.10  2021/06/09 17:52:37  heiko
++// R1D18: Added Section 1.3.3 (Semantic errors).
  //
 -// Revision 2.6  2021/06/04 22:57:30  heiko
 -// R2D36: Modified the structure of Section 1.3.1 (Syntax errors).
-+// Revision 1.8  2021/06/04 21:59:09  heiko
-+// R1D13: Modified the structure of Section 1.3.1 (Syntax errors).
++// Revision 1.9  2021/06/05 17:58:14  heiko
++// R1D14: Added Section 1.3.2 (Runtime errors).
  //
 -// Revision 2.5  2021/06/02 21:59:55  heiko
 -// R2D34: Modified the alt attributes of two images.
-+// Revision 1.7  2021/06/02 20:22:52  heiko
-+// R1D11: Modified the alt attributes of two images.
++// Revision 1.8  2021/06/04 21:59:09  heiko
++// R1D13: Modified the structure of Section 1.3.1 (Syntax errors).
  //
 -// Revision 2.4  2021/05/31 12:29:06  heiko
 -// R2D32: Finished Section 1.3 (What is debugging?).
-+// Revision 1.6  2021/06/01 06:54:26  heiko
-+// R1D10: Finished Section 1.4 (Formal and natural languages).
++// Revision 1.7  2021/06/02 20:22:52  heiko
++// R1D11: Modified the alt attributes of two images.
  //
 -// Revision 2.3  2021/05/29 05:41:16  heiko
 -// R2D30: Added Section 1.3.1 (Syntax errors).
-+// Revision 1.5  2021/05/30 14:04:29  heiko
-+// R1D8: Finished Section 1.3 (What is debugging?).
++// Revision 1.6  2021/06/01 06:54:26  heiko
++// R1D10: Finished Section 1.4 (Formal and natural languages).
  //
 -// Revision 2.2  2021/05/27 13:26:47  heiko
 -// R2D28: Finished Section 1.2 (What is a program?).
-+// Revision 1.4  2021/05/28 12:07:58  heiko
-+// R1D6: Added Section 1.3.1 (Syntax errors).
++// Revision 1.5  2021/05/30 14:04:29  heiko
++// R1D8: Finished Section 1.3 (What is debugging?).
  //
 -// Revision 2.1  2021/05/24 10:20:49  heiko
 -// R2D25: Finished Section 1.1 (The Ruby programming language).
++// Revision 1.4  2021/05/28 12:07:58  heiko
++// R1D6: Added Section 1.3.1 (Syntax errors).
++//
 +// Revision 1.3  2021/05/26 18:12:08  heiko
 +// R1D4: Finished Section 1.2 (What is a program?).
 +//
@@ -82,7 +90,7 @@
  
  Permission is granted to copy, distribute, and/or modify this work under the terms of
  the Creative Commons Attribution-NonCommercial 3.0 Unported License, which is
-@@ -56,17 +60,16 @@
+@@ -59,17 +66,16 @@
  
  - [Preface](#Preface)
  - [The way of the program](#1_The_way_of_the_program)
@@ -103,7 +111,7 @@
  
  
  ## 1\. The way of the program
-@@ -91,10 +94,10 @@
+@@ -94,10 +100,10 @@
  
  
  
@@ -117,7 +125,7 @@
  and Java.
  
  There are also **low-level languages**, sometimes referred to as "machine languages"
-@@ -137,28 +140,28 @@
+@@ -140,28 +146,28 @@
  
  &#x00A0; ![From: Source Code to: Compiler to: Object Code to: Executor to: Output.](https://greenteapress.com/thinkpython/html/thinkpython002.png "Figure 1.2")
  
@@ -161,7 +169,7 @@
  
  Working in interactive mode is convenient for testing small pieces of code because
  you can type and execute them immediately. But for anything more than a few lines,
-@@ -216,14 +219,14 @@
+@@ -219,14 +225,14 @@
  
  #### 1\.3\.1 Syntax errors
  
@@ -179,3 +187,46 @@
  message and quit, and you will not be able to run your program. During the first few
  weeks of your programming career, you will probably spend a lot of time tracking
  down syntax errors. As you gain experience, you will make fewer errors and find
+@@ -258,3 +264,42 @@
+ can be tricky because it requires you to work backward by looking at the output of
+ the program and trying to figure out what it is doing.
+ 
++
++
++#### 1\.3\.4 Experimental debugging
++
++One of the most important skills you will acquire is debugging. Although it can be
++frustrating, debugging is one of the most intellectually rich, challenging, and
++interesting parts of programming.
++
++In some ways, debugging is like detective work. You are confronted with clues, and
++you have to infer the processes and events that led to the results you see.
++
++Debugging is also like an experimental science. Once you have an idea about what is
++going wrong, you modify your program and try again. If your hypothesis was correct,
++then you can predict the result of the modification, and you take a step closer to a
++working program. If your hypothesis was wrong, you have to come up with a new
++one. As Sherlock Holmes pointed out,
++
++> "When you have eliminated the impossible, whatever
++> remains, however improbable, must be the truth."
++> ---A. Conan Doyle, The Sign of Four
++
++For some people, programming and debugging are the same thing. That is,
++programming is the process of gradually debugging a program until it does what you
++want. The idea is that you should start with a program that does *something* and
++make small modifications, debugging them as you go, so that you always have a
++working program.
++
++For example, Linux is an operating system that contains thousands of lines of code,
++but it started out as a simple program Linus Torvalds used to explore the Intel 80386
++chip. According to Larry Greenfield,
++
++> "One of Linus's earlier projects was a program that would
++> switch between printing AAAA and BBBB. This later evolved
++> to Linux."
++> ---The Linux Users' Guide, Beta Version 1
++
++Later chapters will make more suggestions about debugging and other
++programming practices.
++
