@@ -143,3 +143,6 @@ Repetition of Anki flashcards, and SQL. Watched Ruby tutorial: Building a Mad Li
 Repetition of Anki flashcards, and SQL. Studied C tutorial: Data Types, https://youtu.be/9kMr0EsltqU; uploaded my main.c file to this repo.
 
 ### R2D47
+Repetition of Anki flashcards, and SQL; finished all the SoloLearn SQL lessons. Watched Ruby tutorial: Arrays, https://youtu.be/SP3Vf2KcYeU
+
+### R2D48
