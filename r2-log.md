@@ -149,3 +149,6 @@ Repetition of Anki flashcards, and SQL; finished all the SoloLearn SQL lessons. 
 Repetition of Anki flashcards. thinkruby.md: Added Section 1.3.4 (Experimental debugging); upload to http://blomenk.bplaced.net/thinkruby/
 
 ### R2D49
+Repetition of Anki flashcards, studied Swift 4. Watched Ruby tutorial: Hashes, https://youtu.be/BtHKhsDUPwQ; uploaded .rb file to this repo.
+
+### R2D50
