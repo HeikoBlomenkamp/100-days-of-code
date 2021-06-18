@@ -152,3 +152,6 @@ Repetition of Anki flashcards. thinkruby.md: Added Section 1.3.4 (Experimental d
 Repetition of Anki flashcards, studied Swift 4. Watched Ruby tutorial: Hashes, https://youtu.be/BtHKhsDUPwQ; uploaded .rb file to this repo.
 
 ### R2D50
+Repetition of Anki flashcards, studied Swift 4. Created a MySQL Practice Page; added the practice page to the sololearn folder of this repo.
+
+### R2D51
