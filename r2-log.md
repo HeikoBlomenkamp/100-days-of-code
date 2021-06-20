@@ -146,7 +146,7 @@ Repetition of Anki flashcards, and SQL. Studied C tutorial: Data Types, https://
 Repetition of Anki flashcards, and SQL; finished all the SoloLearn SQL lessons. Watched Ruby tutorial: Arrays, https://youtu.be/SP3Vf2KcYeU
 
 ### R2D48
-Repetition of Anki flashcards. thinkruby.md: Added Section 1.3.4 (Experimental debugging); upload to http://blomenk.bplaced.net/thinkruby/
+Repetition of Anki flashcards. thinkruby.md: Added Section 1.3.3 (Semantic errors); uploaded .html to http://blomenk.bplaced.net/thinkruby/
 
 ### R2D49
 Repetition of Anki flashcards, studied Swift 4. Watched Ruby tutorial: Hashes, https://youtu.be/BtHKhsDUPwQ; uploaded .rb file to this repo.
@@ -155,3 +155,9 @@ Repetition of Anki flashcards, studied Swift 4. Watched Ruby tutorial: Hashes, h
 Repetition of Anki flashcards, studied Swift 4. Created a MySQL Practice Page; added the practice page to the sololearn folder of this repo.
 
 ### R2D51
+Repetition of Fortran 90. Decided to postpone that repetition of Fortran 90. Reset of all environment changes; deleted VM for Fortran 90.
+
+### R2D52
+Repetition of Anki flashcards, studied Swift 4. thinkruby.md: Added Section 1.3.4 (Experimental debugging); upload to blomenk.bplaced.net.
+
+### R2D53
