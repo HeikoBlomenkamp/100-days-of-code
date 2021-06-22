@@ -161,3 +161,6 @@ Repetition of Fortran 90. Decided to postpone that repetition of Fortran 90. Res
 Repetition of Anki flashcards, studied Swift 4. thinkruby.md: Added Section 1.3.4 (Experimental debugging); upload to blomenk.bplaced.net.
 
 ### R2D53
+Studied Ruby video tutorial: Methods, https://youtu.be/e1EpXUgSfN8; also uploaded my (modified) giraffe.rb file to this GitHub repository.
+
+### R2D54
