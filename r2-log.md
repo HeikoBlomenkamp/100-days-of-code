@@ -164,3 +164,6 @@ Repetition of Anki flashcards, studied Swift 4. thinkruby.md: Added Section 1.3.
 Studied Ruby video tutorial: Methods, https://youtu.be/e1EpXUgSfN8; also uploaded my (modified) giraffe.rb file to this GitHub repository.
 
 ### R2D54
+Repetition of Anki flashcards, studied Swift 4. Watched Ruby tutorial: Return Statement, https://youtu.be/eG14yPuy0vk; upload to the repo.
+
+### R2D55
