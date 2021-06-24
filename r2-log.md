@@ -167,3 +167,6 @@ Studied Ruby video tutorial: Methods, https://youtu.be/e1EpXUgSfN8; also uploade
 Repetition of Anki flashcards, studied Swift 4. Watched Ruby tutorial: Return Statement, https://youtu.be/eG14yPuy0vk; upload to the repo.
 
 ### R2D55
+Studied Ruby video tutorial: If Statements, https://youtu.be/Ss-IHmrSTow; uploaded my (modified) giraffe.rb file to this GitHub repository.
+
+### R2D56
