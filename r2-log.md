@@ -170,3 +170,6 @@ Repetition of Anki flashcards, studied Swift 4. Watched Ruby tutorial: Return St
 Studied Ruby video tutorial: If Statements, https://youtu.be/Ss-IHmrSTow; uploaded my (modified) giraffe.rb file to this GitHub repository.
 
 ### R2D56
+SoloLearn: Modified MySQL practice page; added similar PostgreSQL practice page; added similar SQLite practice page; uploaded \*.sql files.
+
+### R2D57
