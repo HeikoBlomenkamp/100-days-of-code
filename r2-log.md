@@ -173,3 +173,6 @@ Studied Ruby video tutorial: If Statements, https://youtu.be/Ss-IHmrSTow; upload
 SoloLearn: Modified MySQL practice page; added similar PostgreSQL practice page; added similar SQLite practice page; uploaded \*.sql files.
 
 ### R2D57
+thinkruby.md: Added first part of Section 1.4 (Formal and natural languages); upload to HTTP server, not to GitHub repo (will do it later).
+
+### R2D58
