@@ -176,3 +176,9 @@ SoloLearn: Modified MySQL practice page; added similar PostgreSQL practice page;
 thinkruby.md: Added first part of Section 1.4 (Formal and natural languages); upload to HTTP server, not to GitHub repo (will do it later).
 
 ### R2D58
+SoloLearn: Added SHOW TABLES command to the MySQL practice page; added also similar commands to the Postgres and the SQLite practice page.
+
+### R2D59
+Studied Ruby video tutorial: If Statements (con't), https://youtu.be/VhI3a1yGNrU; uploaded my modified giraffe.rb file to this repository.
+
+### R2D60
